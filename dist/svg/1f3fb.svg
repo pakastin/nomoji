@@ -1,1 +1,8 @@
-<svg enable-background="new 0 0 128 128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" x1="64" x2="64" y1="4.5" y2="123.82" gradientUnits="userSpaceOnUse"><stop stop-color="#F9DDBD" offset="0"/><stop stop-color="#FADCBA" offset=".3705"/><stop stop-color="#FCD8AF" offset=".6842"/><stop stop-color="#FFD39E" offset=".9763"/><stop stop-color="#FFD29C" offset="1"/></linearGradient><rect x="4" y="4" width="120" height="120" fill="url(#a)"/></svg>
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="color">
+    <path fill="#fadcbc" d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z"/>
+  </g>
+  <g id="line">
+    <path fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2" d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z"/>
+  </g>
+</svg>

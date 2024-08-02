@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
-<path style="fill:#546E7A;" d="M104.83,8.35l-67.47,9.81c-1.58,0.23-2.76,1.59-2.76,3.19v68.19c-5.33-0.63-11.21,2.79-14.63,6.38
-	c-6.43,6.75-7.55,16.14-2.48,20.97c5.06,4.83,14.39,3.26,20.82-3.49c2.75-2.89,5.31-7.72,5.71-12.34h0.07V41.65l54.28-7.89v48.02
-	c-5.37-0.73-11.34,2.72-14.8,6.36c-6.43,6.75-7.54,16.14-2.48,20.97c5.07,4.83,14.39,3.26,20.82-3.49c2.84-2.98,5.49-8.04,5.76-12.8
-	h0.02v-82C107.69,9.29,106.34,8.13,104.83,8.35z"/>
+<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <g id="color">
+    <polygon fill="#3F3F3F" stroke="none" points="26.324,22.8117 51.6188,17.5516 51.5493,12.875 26.105,18.5407"/>
+    <circle cx="20.7561" cy="51.59" r="5.7867" fill="#3F3F3F" stroke="none"/>
+    <circle cx="46.2061" cy="46.0127" r="5.787" fill="#3F3F3F" stroke="none"/>
+  </g>
+  <g id="hair"/>
+  <g id="skin"/>
+  <g id="skin-shadow"/>
+  <g id="line">
+    <polygon fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="51.6188,17.5516 26.1735,23.2225 26.105,18.5407 51.5493,12.875"/>
+    <circle cx="20.7563" cy="51.5901" r="5.7868" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="26.105" x2="26.5431" y1="18.5407" y2="51.5901" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="46.2063" cy="46.0129" r="5.7868" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line x1="51.555" x2="51.9931" y1="12.9635" y2="46.0129" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
 </svg>

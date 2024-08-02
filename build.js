@@ -24,7 +24,8 @@ function nomoji(txt, prefix, noSanitation) {
   const chars = [];
 
   for (const char of txt) {
-    chars.push([char, char.codePointAt(0).toString(16)]);
+    const codePoint = char.codePointAt(0).toString(16);
+    chars.push([char, codePoint]);
   }
 
   for (let i = 0; i < chars.length; i++) {
