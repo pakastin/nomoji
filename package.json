@@ -4,9 +4,15 @@
   "main": "nomoji.js",
   "type": "module",
   "scripts": {
+    "build": "node build && babel dist/nomoji.js --out-dir dist --presets=@babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3"
+  }
 }

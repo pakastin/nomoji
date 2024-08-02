@@ -54,7 +54,8 @@ const codeES = `const emojis = ${JSON.stringify(results)};
 
 export default ${nomoji.toString()}
 `;
-const codeJS = `(function (self) {
+
+const codeJS = `((self) => {
   const emojis = ${JSON.stringify(results)};
 
   self.nomoji = ${nomoji.toString()}
