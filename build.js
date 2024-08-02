@@ -33,7 +33,7 @@ function nomoji(txt, prefix, noSanitation) {
 
     const result = [];
 
-    while (emoji[chars[i][1]]) {
+    while (emoji[chars[i]?.[1]]) {
       const [char, codePoint] = chars[i++];
       result.push(codePoint);
       emoji = emoji[codePoint];
