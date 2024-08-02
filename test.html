@@ -8,10 +8,9 @@
   }
 </style>
 <p>Hello 🧑🏻‍🎄!</p>
-<script type="module">
-  import nomoji from './dist/nomoji.js';
-
+<script src="dist/nomoji.js"></script>
+<script>
   const $p = document.querySelector('p');
- 
+
   $p.innerHTML = nomoji($p.textContent, 'dist/');
 </script>
