@@ -1,6 +1,6 @@
 {
   "name": "nomoji",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/nomoji.js",
   "exports": {
     "import": "./nomoji.js",
