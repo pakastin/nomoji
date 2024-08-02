@@ -60,13 +60,15 @@ const codeJS = `((self) => {
 
   ${nomoji.toString()}
 
-  if (self.module) {
-    self.module.exports = nomoji;
-  } else {
-    self.nomoji = nomoji;
-  }
+  self.nomoji = nomoji;
 })(window || globalThis);
 `;
 
+const codeCJS = `const emojis = ${JSON.stringify(results)};
+
+module.exports = ${nomoji.toString()}
+`;
+
 writeFile("nomoji.js", codeES, "utf8");
+writeFile("nomoji.cjs", codeCJS, "utf8");
 writeFile("dist/nomoji.js", codeJS, "utf8");
