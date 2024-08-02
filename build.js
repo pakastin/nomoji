@@ -43,7 +43,7 @@ function nomoji(txt, prefix, noSanitation) {
       results += `<img draggable="false" class="emoji" src="${prefix}svg/${result.join("_").toLowerCase()}.svg">`;
       i--;
     } else {
-      if (noSanitation) {
+      if (noSanitation || char === "\n") {
         results += char;
       } else {
         results += `&#${char.charCodeAt(0)};`;
