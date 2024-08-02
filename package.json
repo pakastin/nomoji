@@ -1,7 +1,11 @@
 {
   "name": "nomoji",
   "version": "1.0.2",
-  "main": "nomoji.js",
+  "main": "./dist/nomoji.js",
+  "exports": {
+    "import": "./nomoji.js",
+    "require": "./dist/nomoji.js"
+  },
   "type": "module",
   "scripts": {
     "build": "node build && babel dist/nomoji.js --out-dir dist --presets=@babel/preset-env",

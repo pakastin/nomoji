@@ -58,7 +58,13 @@ export default ${nomoji.toString()}
 const codeJS = `((self) => {
   const emojis = ${JSON.stringify(results)};
 
-  self.nomoji = ${nomoji.toString()}
+  ${nomoji.toString()}
+
+  if (self.module) {
+    self.module.exports = nomoji;
+  } else {
+    self.nomoji = nomoji;
+  }
 })(window || globalThis);
 `;
 
