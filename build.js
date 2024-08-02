@@ -11,6 +11,7 @@ for (const line of lines) {
   }
   if (!line.trim()) {
     continue;
+  }
   const codes = line.split(";")[0].trim().split(" ");
 
   let traverse = results;
@@ -22,7 +23,7 @@ for (const line of lines) {
 }
 
 writeFile(
-  "nomoji.js",
+  "dist/nomoji.js",
   `const emojis = ${JSON.stringify(results)};
 
 export default function nomoji (txt) {

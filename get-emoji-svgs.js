@@ -26,7 +26,7 @@ for (const line of lines) {
       })
       .then((res) => res.text());
 
-    await writeFile(`./svg/${emoji}.svg`, svg, "utf8");
+    await writeFile(`./dist/svg/${emoji}.svg`, svg, "utf8");
   } catch (err) {
     console.error(err);
   }
