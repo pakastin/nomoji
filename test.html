@@ -7,10 +7,10 @@
     vertical-align: middle;
   }
 </style>
-<p>Hello 🧑🏻‍🎄!</p>
+<p></p>
 <script src="dist/nomoji.js"></script>
 <script>
   const $p = document.querySelector('p');
-
-  $p.innerHTML = nomoji($p.textContent, 'dist/');
+  const text = 'Hello <strong>test</strong> 🧑🏻‍🎄!';
+  $p.innerHTML = nomoji(text, 'dist/');
 </script>

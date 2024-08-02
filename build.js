@@ -18,7 +18,7 @@ for (const file of files) {
   }
 }
 
-function nomoji(txt, prefix) {
+function nomoji(txt, prefix, noSanitation) {
   let results = "";
 
   const chars = [];
@@ -43,7 +43,11 @@ function nomoji(txt, prefix) {
       results += `<img draggable="false" class="emoji" src="${prefix}svg/${result.join("_").toLowerCase()}.svg">`;
       i--;
     } else {
-      results += char;
+      if (noSanitation) {
+        results += char;
+      } else {
+        results += `&#${char.charCodeAt(0)};`;
+      }
     }
   }
 
