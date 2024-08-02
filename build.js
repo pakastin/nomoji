@@ -18,12 +18,8 @@ for (const file of files) {
   }
 }
 
-writeFile(
-  "dist/nomoji.js",
-  `const emojis = ${JSON.stringify(results)};
-
-export default function nomoji (txt, prefix) {
-  let results = '';
+function nomoji(txt, prefix) {
+  let results = "";
 
   const chars = [];
 
@@ -44,8 +40,8 @@ export default function nomoji (txt, prefix) {
     }
 
     if (result.length) {
+      results += `<img draggable="false" class="emoji" src="${prefix}svg/${result.join("_").toLowerCase()}.svg">`;
       i--;
-      results += '<img draggable="false" class="emoji" src="' + prefix + 'svg/' + result.join('_').toLowerCase() + '.svg">';
     } else {
       results += char;
     }
@@ -53,6 +49,17 @@ export default function nomoji (txt, prefix) {
 
   return results;
 }
-`,
-  "utf8"
-);
+
+const codeES = `const emojis = ${JSON.stringify(results)};
+
+export default ${nomoji.toString()}
+`;
+const codeJS = `(function (self) {
+  const emojis = ${JSON.stringify(results)};
+
+  self.nomoji = ${nomoji.toString()}
+})(window || globalThis);
+`;
+
+writeFile("nomoji.js", codeES, "utf8");
+writeFile("dist/nomoji.js", codeJS, "utf8");
