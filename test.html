@@ -1,14 +1,17 @@
 <style>
+  body {
+    font-family: sans-serif;
+  }
   .emoji {
     height: 1em;
     vertical-align: middle;
   }
 </style>
-<p>Hello Hello 😮‍💨!</p>
+<p>Hello 🧑🏻‍🎄!</p>
 <script type="module">
-  import nomoji from './nomoji.js';
+  import nomoji from './dist/nomoji.js';
 
   const $p = document.querySelector('p');
  
-  $p.innerHTML = nomoji($p.textContent);
+  $p.innerHTML = nomoji($p.textContent, 'dist/');
 </script>

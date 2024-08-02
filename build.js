@@ -1,18 +1,14 @@
-import { readFile, writeFile } from "fs/promises";
-
-const txt = await readFile("./emojis.txt", "utf8");
+import { readdir, readFile, writeFile } from "fs/promises";
 
 const results = {};
-const lines = txt.split("\n");
 
-for (const line of lines) {
-  if (line[0] === "#") {
+const files = await readdir("dist/svg");
+
+for (const file of files) {
+  if (!file.includes(".svg")) {
     continue;
   }
-  if (!line.trim()) {
-    continue;
-  }
-  const codes = line.split(";")[0].trim().split(" ");
+  const codes = file.split(".")[0].split("_");
 
   let traverse = results;
 
@@ -26,13 +22,13 @@ writeFile(
   "dist/nomoji.js",
   `const emojis = ${JSON.stringify(results)};
 
-export default function nomoji (txt) {
+export default function nomoji (txt, prefix) {
   let results = '';
 
   const chars = [];
 
   for (const char of txt) {
-    chars.push([char, char.codePointAt(0).toString(16).toUpperCase()]);
+    chars.push([char, char.codePointAt(0).toString(16)]);
   }
 
   for (let i = 0; i < chars.length; i++) {
@@ -49,7 +45,7 @@ export default function nomoji (txt) {
 
     if (result.length) {
       i--;
-      results += '<img draggable="false" class="emoji" src="svg/' + result.join('_').toLowerCase() + '.svg">';
+      results += '<img draggable="false" class="emoji" src="' + prefix + 'svg/' + result.join('_').toLowerCase() + '.svg">';
     } else {
       results += char;
     }
