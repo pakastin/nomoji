@@ -7,7 +7,7 @@ npm i nomoji
 ```
 
 ## usage
-`nomoji(text, [prefix], [disableSanitation])
+`nomoji(text, [prefix], [disableSanitation])`
 ```js
 nomoji('Hello from 🇫🇮')
 ```
