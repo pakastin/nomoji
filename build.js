@@ -21,6 +21,14 @@ for (const file of files) {
 function nomoji(txt, prefix, noSanitation) {
   let results = "";
 
+  const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
+    (lookup, char) => {
+      lookup[char] = true;
+      return lookup;
+    },
+    {}
+  );
+
   const chars = [];
 
   for (const char of txt) {
@@ -44,10 +52,10 @@ function nomoji(txt, prefix, noSanitation) {
       results += `<img draggable="false" class="emoji" src="${prefix}svg/${result.join("_").toLowerCase()}.svg">`;
       i--;
     } else {
-      if (noSanitation || char === "\n") {
-        results += char;
-      } else {
+      if (!noSanitation && replaceChars[char]) {
         results += `&#${char.charCodeAt(0)};`;
+      } else {
+        results += char;
       }
     }
   }

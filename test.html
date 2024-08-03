@@ -11,6 +11,8 @@
 <script src="dist/nomoji.js"></script>
 <script>
   const $p = document.querySelector('p');
-  const text = 'Hello with emojis 🎅🏻🇫🇮';
-  $p.innerHTML = nomoji(text, 'dist/');
+  const text = 'Hello <b>HTML</b> 🤩!';
+  const parsedText = nomoji(text, 'dist/', true);
+  console.log(parsedText);
+  $p.innerHTML = parsedText;
 </script>
