@@ -1,5 +1,5 @@
 # nomoji
-Replace emojis in text with SVG images
+Replace emojis in text with SVG images (https://openmoji.org)
 
 ## installation
 ```bash
