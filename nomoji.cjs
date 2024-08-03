@@ -3,13 +3,7 @@ const emojis = {"2049":{},"2122":{},"2139":{},"2194":{},"2195":{},"2196":{},"219
 module.exports = function nomoji(txt, prefix, noSanitation) {
   let results = "";
 
-  const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
-    (lookup, char) => {
-      lookup[char] = true;
-      return lookup;
-    },
-    {}
-  );
+  const replaceChars = {"<": 1, ">": 1, "?": 1, "&": 1, "=": 1, ";": 1, ":": 1, '"': 1, "'": 1};
 
   const chars = [];
 

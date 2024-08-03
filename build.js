@@ -21,13 +21,7 @@ for (const file of files) {
 function nomoji(txt, prefix, noSanitation) {
   let results = "";
 
-  const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
-    (lookup, char) => {
-      lookup[char] = true;
-      return lookup;
-    },
-    {}
-  );
+  const replaceChars = {"<": 1, ">": 1, "?": 1, "&": 1, "=": 1, ";": 1, ":": 1, '"': 1, "'": 1};
 
   const chars = [];
 
