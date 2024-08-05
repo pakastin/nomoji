@@ -34,3 +34,5 @@ nomoji('Hello <b>HTML</b> 🤩!', null, true);
 ```html
 Hello <b>HTML</b> <img draggable="false" class="emoji" src="dist/svg/1f929.svg">!
 ```
+## license
+Code is licensed with MIT license, graphics (OpenMoji) are licensed with CC-BY-SA-4.0 license
