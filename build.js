@@ -49,7 +49,9 @@ function nomoji(txt, prefix, noSanitation) {
     }
 
     if (result.length) {
-      results += `<img draggable="false" class="emoji" src="${prefix}svg/${result.join("_").toLowerCase()}.svg">`;
+      results += `<img draggable="false" class="emoji" src="${prefix}svg/${result
+        .join("_")
+        .toLowerCase()}.svg">`;
       i--;
     } else {
       if (!noSanitation && replaceChars[char]) {

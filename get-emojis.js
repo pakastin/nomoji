@@ -1,7 +1,7 @@
 import { access, writeFile } from "fs/promises";
 
 const txt = await fetch(
-  "https://unicode.org/Public/emoji/15.1/emoji-test.txt"
+  "https://unicode.org/Public/emoji/16.0/emoji-test.txt"
 ).then((res) => res.text());
 
 const results = {};
@@ -19,7 +19,7 @@ for (const line of lines) {
   }
   const emoji = line.split(";")[0].trim().split(" ").join("-").toUpperCase();
 
-  const url = `https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/color/svg/${emoji}.svg`;
+  const url = `https://raw.githubusercontent.com/hfg-gmuend/openmoji/refs/heads/master/color/svg/${emoji}.svg`;
 
   const filename = `${emoji.split("-").join("_").toLowerCase()}.svg`;
 
