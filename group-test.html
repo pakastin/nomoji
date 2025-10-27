@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Group test</h1>
+    <script type="module">
+      const response = await fetch("dist/meta.json");
+      const groups = await response.json();
+
+      for (const group of groups) {
+        const title = document.createElement("h2");
+        title.textContent = group.name;
+        document.body.appendChild(title);
+
+        for (const subgroup of group.subgroups) {
+          const title = document.createElement("h3");
+          title.textContent = subgroup.name;
+          document.body.appendChild(title);
+
+          const emojis = subgroup.emojis;
+
+          for (const emoji of emojis) {
+            const img = document.createElement("img");
+            img.src = `dist/svg/${emoji.filename}`;
+            img.style.width = "3rem";
+            img.style.height = "3rem";
+            img.title = emoji.description;
+            document.body.appendChild(img);
+          }
+        }
+      }
+
+      console.log(await response.json());
+    </script>
+  </body>
+</html>

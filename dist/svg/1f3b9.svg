@@ -1,20 +1,34 @@
-<svg id="emoji" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
-  <g id="color">
-    <rect x="13.6299" y="13.0801" width="45.6611" height="45.6621" fill="#FFFFFF" stroke="none"/>
-    <rect x="32.8642" y="12.2618" width="7.0732" height="30.5028" fill="#3F3F3F" stroke="none"/>
-    <rect x="46.0632" y="12.1986" width="6.8837" height="30.7554" fill="#3F3F3F" stroke="none"/>
-    <rect x="19.6653" y="11.8539" width="7.5783" height="31.3528" fill="#3F3F3F" stroke="none"/>
-  </g>
-  <g id="hair"/>
-  <g id="skin"/>
-  <g id="skin-shadow"/>
-  <g id="line">
-    <rect x="12.6294" y="12.0802" width="47.6616" height="47.6616" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="19.6398" y="12.0702" width="7.4038" height="30.9107" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="32.7584" y="12.0702" width="7.4037" height="30.9107" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="45.8769" y="12.0702" width="7.4037" height="30.9107" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="24.5448" x2="24.5448" y1="47.433" y2="59.7418" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="36.4602" x2="36.4602" y1="47.433" y2="59.7418" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-    <line x1="48.3756" x2="48.3756" y1="47.433" y2="59.7418" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<g>
+	<path style="fill:#82AEC0;" d="M117.39,124H10.61C6.96,124,4,121.04,4,117.39V16h120v101.39C124,121.04,121.04,124,117.39,124z"/>
+	<g>
+		<path style="fill:#FFFFFF;" d="M27.7,116.35H12.87c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8
+			C32.76,114.09,30.49,116.35,27.7,116.35z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M56.84,116.35H42.02c-2.8,0-5.06-2.27-5.06-5.06v-85.8H61.9v85.8
+			C61.9,114.09,59.64,116.35,56.84,116.35z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M85.98,116.35H71.16c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8
+			C91.04,114.09,88.78,116.35,85.98,116.35z"/>
+	</g>
+	<g>
+		<path style="fill:#FFFFFF;" d="M115.13,116.35H100.3c-2.8,0-5.06-2.27-5.06-5.06v-85.8h24.95v85.8
+			C120.19,114.09,117.92,116.35,115.13,116.35z"/>
+	</g>
+	<path d="M124,8.47C124,6,122,4,119.53,4H8.47C6,4,4,6,4,8.47V28h22.54v52.4c0,1.21,1.15,2.2,2.56,2.2h5.75h5.75
+		c1.42,0,2.56-0.98,2.56-2.2V28h12.51v52.4c0,1.21,1.15,2.2,2.56,2.2H64h5.75c1.42,0,2.56-0.98,2.56-2.2V28h12.51v52.4
+		c0,1.21,1.15,2.2,2.56,2.2h5.75h5.75c1.42,0,2.56-0.98,2.56-2.2V28H124V8.47z"/>
+	<rect x="4" y="4" style="fill:#757575;" width="120" height="6.65"/>
+	<path style="fill:#757575;" d="M97.42,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55
+		c0.84,0,1.52,0.68,1.52,1.52v7.21C98.93,79.57,98.25,80.25,97.42,80.25z"/>
+	<path style="fill:#757575;" d="M68.27,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55
+		c0.84,0,1.52,0.68,1.52,1.52v7.21C69.79,79.57,69.11,80.25,68.27,80.25z"/>
+	<path style="fill:#757575;" d="M39.13,80.25h-8.55c-0.84,0-1.52-0.68-1.52-1.52v-7.21c0-0.84,0.68-1.52,1.52-1.52h8.55
+		c0.84,0,1.52,0.68,1.52,1.52v7.21C40.65,79.57,39.97,80.25,39.13,80.25z"/>
+</g>
 </svg>
