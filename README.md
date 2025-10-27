@@ -1,6 +1,6 @@
 # nomoji
 
-Replace emojis in text with SVG images (https://openmoji.org)
+Replace emojis in text with SVG images ([https://openmoji.org](https://github.com/googlefonts/noto-emoji))
 
 ## installation
 
