@@ -1,5 +1,12 @@
 import { readdir, readFile, writeFile } from "fs/promises";
 
+const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
+  (lookup, char) => {
+    lookup[char] = true;
+    return lookup;
+  },
+  {}
+);
 const results = {};
 
 const files = await readdir("dist/svg");
@@ -21,7 +28,17 @@ for (const file of files) {
 function nomoji(txt, prefix, noSanitation) {
   let results = "";
 
-  const replaceChars = {"<": 1, ">": 1, "?": 1, "&": 1, "=": 1, ";": 1, ":": 1, '"': 1, "'": 1};
+  const replaceChars = {
+    "<": 1,
+    ">": 1,
+    "?": 1,
+    "&": 1,
+    "=": 1,
+    ";": 1,
+    ":": 1,
+    '"': 1,
+    "'": 1,
+  };
 
   const chars = [];
 

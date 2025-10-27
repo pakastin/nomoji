@@ -8,15 +8,20 @@
   },
   "type": "module",
   "scripts": {
-    "build": "node build && babel dist/nomoji.js --out-dir dist --presets=@babel/preset-env",
+    "build": "npm run build-es && npm run build-cjs",
+    "build-es": "rollup -p '@rollup/plugin-babel={ babelHelpers: \"bundled\", presets: [\"@babel/preset-env\"] }' --inlineDynamicImports -f iife -n nomoji -o dist/nomoji.js nomoji.js",
+    "build-cjs": "rollup -p '@rollup/plugin-babel={ babelHelpers: \"bundled\", presets: [\"@babel/preset-env\"] }' --inlineDynamicImports -f cjs -n nomoji -o nomoji.cjs nomoji.js",
+    "build-old": "node build && babel dist/nomoji.js --out-dir dist --presets=@babel/preset-env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@babel/cli": "^7.28.3",
-    "@babel/core": "^7.28.5",
-    "@babel/preset-env": "^7.28.5"
+    "@babel/preset-env": "^7.28.5",
+    "rollup": "^4.52.5"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.1.0"
   }
 }

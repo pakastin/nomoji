@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+          segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto,
+          noto, helvetica, arial, sans-serif;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Group test</h1>
+    <h1>Emoji groups</h1>
+    <a id="variants-link" href="?variants"
+      >Show variants (skin tone, hair style)</a
+    >
     <script type="module">
+      const variantsLink = document.querySelector("#variants-link");
+      const url = new URL(location.href);
+      const showVariants = url.searchParams.get("variants") != null;
       const response = await fetch("dist/meta.json");
       const groups = await response.json();
+
+      if (showVariants) {
+        variantsLink.href = "?";
+        variantsLink.textContent = "Hide variants";
+      }
 
       for (const group of groups) {
         const title = document.createElement("h2");
@@ -25,6 +45,17 @@
             img.style.height = "3rem";
             img.title = emoji.description;
             document.body.appendChild(img);
+
+            if (showVariants) {
+              for (const variant of emoji.variants) {
+                const img = document.createElement("img");
+                img.src = `dist/svg/${variant.filename}`;
+                img.style.width = "3rem";
+                img.style.height = "3rem";
+                img.title = variant.description;
+                document.body.appendChild(img);
+              }
+            }
           }
         }
       }
