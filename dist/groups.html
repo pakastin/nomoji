@@ -49,6 +49,7 @@
             img.style.width = "3rem";
             img.style.height = "3rem";
             img.title = emoji.description;
+            img.loading = "lazy";
             document.body.appendChild(img);
 
             if (showVariants) {
@@ -58,6 +59,7 @@
                 img.style.width = "3rem";
                 img.style.height = "3rem";
                 img.title = variant.description;
+                img.loading = "lazy";
                 document.body.appendChild(img);
               }
             }
