@@ -58,8 +58,3 @@ You can customize the style in CSS with `.emoji` selector:
   height: 1em;
 }
 ```
-
-
-## license
-
-Code is licensed with MIT license, graphics (Noto Emoji) are licensed with Apache license, version 2.0 -license
