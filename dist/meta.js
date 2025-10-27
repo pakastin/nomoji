@@ -1,0 +1,17989 @@
+const emojiGroups = [
+  {
+    "type": "Group",
+    "name": "Smileys & Emotion",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "face-smiling",
+        "emojis": [
+          {
+            "filename": "1f600.svg",
+            "description": "grinning face",
+            "variants": []
+          },
+          {
+            "filename": "1f603.svg",
+            "description": "grinning face with big eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f604.svg",
+            "description": "grinning face with smiling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f601.svg",
+            "description": "beaming face with smiling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f606.svg",
+            "description": "grinning squinting face",
+            "variants": []
+          },
+          {
+            "filename": "1f605.svg",
+            "description": "grinning face with sweat",
+            "variants": []
+          },
+          {
+            "filename": "1f923.svg",
+            "description": "rolling on the floor laughing",
+            "variants": []
+          },
+          {
+            "filename": "1f602.svg",
+            "description": "face with tears of joy",
+            "variants": []
+          },
+          {
+            "filename": "1f642.svg",
+            "description": "slightly smiling face",
+            "variants": []
+          },
+          {
+            "filename": "1f643.svg",
+            "description": "upside-down face",
+            "variants": []
+          },
+          {
+            "filename": "1fae0.svg",
+            "description": "melting face",
+            "variants": []
+          },
+          {
+            "filename": "1f609.svg",
+            "description": "winking face",
+            "variants": []
+          },
+          {
+            "filename": "1f60a.svg",
+            "description": "smiling face with smiling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f607.svg",
+            "description": "smiling face with halo",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-affection",
+        "emojis": [
+          {
+            "filename": "1f970.svg",
+            "description": "smiling face with hearts",
+            "variants": []
+          },
+          {
+            "filename": "1f60d.svg",
+            "description": "smiling face with heart-eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f929.svg",
+            "description": "star-struck",
+            "variants": []
+          },
+          {
+            "filename": "1f618.svg",
+            "description": "face blowing a kiss",
+            "variants": []
+          },
+          {
+            "filename": "1f617.svg",
+            "description": "kissing face",
+            "variants": []
+          },
+          {
+            "filename": "263a.svg",
+            "description": "smiling face",
+            "variants": []
+          },
+          {
+            "filename": "1f61a.svg",
+            "description": "kissing face with closed eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f619.svg",
+            "description": "kissing face with smiling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f972.svg",
+            "description": "smiling face with tear",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-tongue",
+        "emojis": [
+          {
+            "filename": "1f60b.svg",
+            "description": "face savoring food",
+            "variants": []
+          },
+          {
+            "filename": "1f61b.svg",
+            "description": "face with tongue",
+            "variants": []
+          },
+          {
+            "filename": "1f61c.svg",
+            "description": "winking face with tongue",
+            "variants": []
+          },
+          {
+            "filename": "1f92a.svg",
+            "description": "zany face",
+            "variants": []
+          },
+          {
+            "filename": "1f61d.svg",
+            "description": "squinting face with tongue",
+            "variants": []
+          },
+          {
+            "filename": "1f911.svg",
+            "description": "money-mouth face",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-hand",
+        "emojis": [
+          {
+            "filename": "1f917.svg",
+            "description": "smiling face with open hands",
+            "variants": []
+          },
+          {
+            "filename": "1f92d.svg",
+            "description": "face with hand over mouth",
+            "variants": []
+          },
+          {
+            "filename": "1fae2.svg",
+            "description": "face with open eyes and hand over mouth",
+            "variants": []
+          },
+          {
+            "filename": "1fae3.svg",
+            "description": "face with peeking eye",
+            "variants": []
+          },
+          {
+            "filename": "1f92b.svg",
+            "description": "shushing face",
+            "variants": []
+          },
+          {
+            "filename": "1f914.svg",
+            "description": "thinking face",
+            "variants": []
+          },
+          {
+            "filename": "1fae1.svg",
+            "description": "saluting face",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-neutral-skeptical",
+        "emojis": [
+          {
+            "filename": "1f910.svg",
+            "description": "zipper-mouth face",
+            "variants": []
+          },
+          {
+            "filename": "1f928.svg",
+            "description": "face with raised eyebrow",
+            "variants": []
+          },
+          {
+            "filename": "1f610.svg",
+            "description": "neutral face",
+            "variants": []
+          },
+          {
+            "filename": "1f611.svg",
+            "description": "expressionless face",
+            "variants": []
+          },
+          {
+            "filename": "1f636.svg",
+            "description": "face without mouth",
+            "variants": []
+          },
+          {
+            "filename": "1fae5.svg",
+            "description": "dotted line face",
+            "variants": []
+          },
+          {
+            "filename": "1f636_200d_1f32b.svg",
+            "description": "face in clouds",
+            "variants": []
+          },
+          {
+            "filename": "1f60f.svg",
+            "description": "smirking face",
+            "variants": []
+          },
+          {
+            "filename": "1f612.svg",
+            "description": "unamused face",
+            "variants": []
+          },
+          {
+            "filename": "1f644.svg",
+            "description": "face with rolling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f62c.svg",
+            "description": "grimacing face",
+            "variants": []
+          },
+          {
+            "filename": "1f62e_200d_1f4a8.svg",
+            "description": "face exhaling",
+            "variants": []
+          },
+          {
+            "filename": "1f925.svg",
+            "description": "lying face",
+            "variants": []
+          },
+          {
+            "filename": "1fae8.svg",
+            "description": "shaking face",
+            "variants": []
+          },
+          {
+            "filename": "1f642_200d_2194.svg",
+            "description": "head shaking horizontally",
+            "variants": []
+          },
+          {
+            "filename": "1f642_200d_2195.svg",
+            "description": "head shaking vertically",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-sleepy",
+        "emojis": [
+          {
+            "filename": "1f60c.svg",
+            "description": "relieved face",
+            "variants": []
+          },
+          {
+            "filename": "1f614.svg",
+            "description": "pensive face",
+            "variants": []
+          },
+          {
+            "filename": "1f62a.svg",
+            "description": "sleepy face",
+            "variants": []
+          },
+          {
+            "filename": "1f924.svg",
+            "description": "drooling face",
+            "variants": []
+          },
+          {
+            "filename": "1f634.svg",
+            "description": "sleeping face",
+            "variants": []
+          },
+          {
+            "filename": "1fae9.svg",
+            "description": "face with bags under eyes",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-unwell",
+        "emojis": [
+          {
+            "filename": "1f637.svg",
+            "description": "face with medical mask",
+            "variants": []
+          },
+          {
+            "filename": "1f912.svg",
+            "description": "face with thermometer",
+            "variants": []
+          },
+          {
+            "filename": "1f915.svg",
+            "description": "face with head-bandage",
+            "variants": []
+          },
+          {
+            "filename": "1f922.svg",
+            "description": "nauseated face",
+            "variants": []
+          },
+          {
+            "filename": "1f92e.svg",
+            "description": "face vomiting",
+            "variants": []
+          },
+          {
+            "filename": "1f927.svg",
+            "description": "sneezing face",
+            "variants": []
+          },
+          {
+            "filename": "1f975.svg",
+            "description": "hot face",
+            "variants": []
+          },
+          {
+            "filename": "1f976.svg",
+            "description": "cold face",
+            "variants": []
+          },
+          {
+            "filename": "1f974.svg",
+            "description": "woozy face",
+            "variants": []
+          },
+          {
+            "filename": "1f635.svg",
+            "description": "face with crossed-out eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f635_200d_1f4ab.svg",
+            "description": "face with spiral eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f92f.svg",
+            "description": "exploding head",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-hat",
+        "emojis": [
+          {
+            "filename": "1f920.svg",
+            "description": "cowboy hat face",
+            "variants": []
+          },
+          {
+            "filename": "1f973.svg",
+            "description": "partying face",
+            "variants": []
+          },
+          {
+            "filename": "1f978.svg",
+            "description": "disguised face",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-glasses",
+        "emojis": [
+          {
+            "filename": "1f60e.svg",
+            "description": "smiling face with sunglasses",
+            "variants": []
+          },
+          {
+            "filename": "1f913.svg",
+            "description": "nerd face",
+            "variants": []
+          },
+          {
+            "filename": "1f9d0.svg",
+            "description": "face with monocle",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-concerned",
+        "emojis": [
+          {
+            "filename": "1f615.svg",
+            "description": "confused face",
+            "variants": []
+          },
+          {
+            "filename": "1fae4.svg",
+            "description": "face with diagonal mouth",
+            "variants": []
+          },
+          {
+            "filename": "1f61f.svg",
+            "description": "worried face",
+            "variants": []
+          },
+          {
+            "filename": "1f641.svg",
+            "description": "slightly frowning face",
+            "variants": []
+          },
+          {
+            "filename": "2639.svg",
+            "description": "frowning face",
+            "variants": []
+          },
+          {
+            "filename": "1f62e.svg",
+            "description": "face with open mouth",
+            "variants": []
+          },
+          {
+            "filename": "1f62f.svg",
+            "description": "hushed face",
+            "variants": []
+          },
+          {
+            "filename": "1f632.svg",
+            "description": "astonished face",
+            "variants": []
+          },
+          {
+            "filename": "1f633.svg",
+            "description": "flushed face",
+            "variants": []
+          },
+          {
+            "filename": "1f97a.svg",
+            "description": "pleading face",
+            "variants": []
+          },
+          {
+            "filename": "1f979.svg",
+            "description": "face holding back tears",
+            "variants": []
+          },
+          {
+            "filename": "1f626.svg",
+            "description": "frowning face with open mouth",
+            "variants": []
+          },
+          {
+            "filename": "1f627.svg",
+            "description": "anguished face",
+            "variants": []
+          },
+          {
+            "filename": "1f628.svg",
+            "description": "fearful face",
+            "variants": []
+          },
+          {
+            "filename": "1f630.svg",
+            "description": "anxious face with sweat",
+            "variants": []
+          },
+          {
+            "filename": "1f625.svg",
+            "description": "sad but relieved face",
+            "variants": []
+          },
+          {
+            "filename": "1f622.svg",
+            "description": "crying face",
+            "variants": []
+          },
+          {
+            "filename": "1f62d.svg",
+            "description": "loudly crying face",
+            "variants": []
+          },
+          {
+            "filename": "1f631.svg",
+            "description": "face screaming in fear",
+            "variants": []
+          },
+          {
+            "filename": "1f616.svg",
+            "description": "confounded face",
+            "variants": []
+          },
+          {
+            "filename": "1f623.svg",
+            "description": "persevering face",
+            "variants": []
+          },
+          {
+            "filename": "1f61e.svg",
+            "description": "disappointed face",
+            "variants": []
+          },
+          {
+            "filename": "1f613.svg",
+            "description": "downcast face with sweat",
+            "variants": []
+          },
+          {
+            "filename": "1f629.svg",
+            "description": "weary face",
+            "variants": []
+          },
+          {
+            "filename": "1f62b.svg",
+            "description": "tired face",
+            "variants": []
+          },
+          {
+            "filename": "1f971.svg",
+            "description": "yawning face",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-negative",
+        "emojis": [
+          {
+            "filename": "1f624.svg",
+            "description": "face with steam from nose",
+            "variants": []
+          },
+          {
+            "filename": "1f621.svg",
+            "description": "enraged face",
+            "variants": []
+          },
+          {
+            "filename": "1f620.svg",
+            "description": "angry face",
+            "variants": []
+          },
+          {
+            "filename": "1f92c.svg",
+            "description": "face with symbols on mouth",
+            "variants": []
+          },
+          {
+            "filename": "1f608.svg",
+            "description": "smiling face with horns",
+            "variants": []
+          },
+          {
+            "filename": "1f47f.svg",
+            "description": "angry face with horns",
+            "variants": []
+          },
+          {
+            "filename": "1f480.svg",
+            "description": "skull",
+            "variants": []
+          },
+          {
+            "filename": "2620.svg",
+            "description": "skull and crossbones",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "face-costume",
+        "emojis": [
+          {
+            "filename": "1f4a9.svg",
+            "description": "pile of poo",
+            "variants": []
+          },
+          {
+            "filename": "1f921.svg",
+            "description": "clown face",
+            "variants": []
+          },
+          {
+            "filename": "1f479.svg",
+            "description": "ogre",
+            "variants": []
+          },
+          {
+            "filename": "1f47a.svg",
+            "description": "goblin",
+            "variants": []
+          },
+          {
+            "filename": "1f47b.svg",
+            "description": "ghost",
+            "variants": []
+          },
+          {
+            "filename": "1f47d.svg",
+            "description": "alien",
+            "variants": []
+          },
+          {
+            "filename": "1f47e.svg",
+            "description": "alien monster",
+            "variants": []
+          },
+          {
+            "filename": "1f916.svg",
+            "description": "robot",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "cat-face",
+        "emojis": [
+          {
+            "filename": "1f63a.svg",
+            "description": "grinning cat",
+            "variants": []
+          },
+          {
+            "filename": "1f638.svg",
+            "description": "grinning cat with smiling eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f639.svg",
+            "description": "cat with tears of joy",
+            "variants": []
+          },
+          {
+            "filename": "1f63b.svg",
+            "description": "smiling cat with heart-eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f63c.svg",
+            "description": "cat with wry smile",
+            "variants": []
+          },
+          {
+            "filename": "1f63d.svg",
+            "description": "kissing cat",
+            "variants": []
+          },
+          {
+            "filename": "1f640.svg",
+            "description": "weary cat",
+            "variants": []
+          },
+          {
+            "filename": "1f63f.svg",
+            "description": "crying cat",
+            "variants": []
+          },
+          {
+            "filename": "1f63e.svg",
+            "description": "pouting cat",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "monkey-face",
+        "emojis": [
+          {
+            "filename": "1f648.svg",
+            "description": "see-no-evil monkey",
+            "variants": []
+          },
+          {
+            "filename": "1f649.svg",
+            "description": "hear-no-evil monkey",
+            "variants": []
+          },
+          {
+            "filename": "1f64a.svg",
+            "description": "speak-no-evil monkey",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "heart",
+        "emojis": [
+          {
+            "filename": "1f48c.svg",
+            "description": "love letter",
+            "variants": []
+          },
+          {
+            "filename": "1f498.svg",
+            "description": "heart with arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f49d.svg",
+            "description": "heart with ribbon",
+            "variants": []
+          },
+          {
+            "filename": "1f496.svg",
+            "description": "sparkling heart",
+            "variants": []
+          },
+          {
+            "filename": "1f497.svg",
+            "description": "growing heart",
+            "variants": []
+          },
+          {
+            "filename": "1f493.svg",
+            "description": "beating heart",
+            "variants": []
+          },
+          {
+            "filename": "1f49e.svg",
+            "description": "revolving hearts",
+            "variants": []
+          },
+          {
+            "filename": "1f495.svg",
+            "description": "two hearts",
+            "variants": []
+          },
+          {
+            "filename": "1f49f.svg",
+            "description": "heart decoration",
+            "variants": []
+          },
+          {
+            "filename": "2763.svg",
+            "description": "heart exclamation",
+            "variants": []
+          },
+          {
+            "filename": "1f494.svg",
+            "description": "broken heart",
+            "variants": []
+          },
+          {
+            "filename": "2764_200d_1f525.svg",
+            "description": "heart on fire",
+            "variants": []
+          },
+          {
+            "filename": "2764_200d_1fa79.svg",
+            "description": "mending heart",
+            "variants": []
+          },
+          {
+            "filename": "2764.svg",
+            "description": "red heart",
+            "variants": []
+          },
+          {
+            "filename": "1fa77.svg",
+            "description": "pink heart",
+            "variants": []
+          },
+          {
+            "filename": "1f9e1.svg",
+            "description": "orange heart",
+            "variants": []
+          },
+          {
+            "filename": "1f49b.svg",
+            "description": "yellow heart",
+            "variants": []
+          },
+          {
+            "filename": "1f49a.svg",
+            "description": "green heart",
+            "variants": []
+          },
+          {
+            "filename": "1f499.svg",
+            "description": "blue heart",
+            "variants": []
+          },
+          {
+            "filename": "1fa75.svg",
+            "description": "light blue heart",
+            "variants": []
+          },
+          {
+            "filename": "1f49c.svg",
+            "description": "purple heart",
+            "variants": []
+          },
+          {
+            "filename": "1f90e.svg",
+            "description": "brown heart",
+            "variants": []
+          },
+          {
+            "filename": "1f5a4.svg",
+            "description": "black heart",
+            "variants": []
+          },
+          {
+            "filename": "1fa76.svg",
+            "description": "grey heart",
+            "variants": []
+          },
+          {
+            "filename": "1f90d.svg",
+            "description": "white heart",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "emotion",
+        "emojis": [
+          {
+            "filename": "1f48b.svg",
+            "description": "kiss mark",
+            "variants": []
+          },
+          {
+            "filename": "1f4af.svg",
+            "description": "hundred points",
+            "variants": []
+          },
+          {
+            "filename": "1f4a2.svg",
+            "description": "anger symbol",
+            "variants": []
+          },
+          {
+            "filename": "1f4a5.svg",
+            "description": "collision",
+            "variants": []
+          },
+          {
+            "filename": "1f4ab.svg",
+            "description": "dizzy",
+            "variants": []
+          },
+          {
+            "filename": "1f4a6.svg",
+            "description": "sweat droplets",
+            "variants": []
+          },
+          {
+            "filename": "1f4a8.svg",
+            "description": "dashing away",
+            "variants": []
+          },
+          {
+            "filename": "1f573.svg",
+            "description": "hole",
+            "variants": []
+          },
+          {
+            "filename": "1f4ac.svg",
+            "description": "speech balloon",
+            "variants": []
+          },
+          {
+            "filename": "1f441_200d_1f5e8.svg",
+            "description": "eye in speech bubble",
+            "variants": []
+          },
+          {
+            "filename": "1f5e8.svg",
+            "description": "left speech bubble",
+            "variants": []
+          },
+          {
+            "filename": "1f5ef.svg",
+            "description": "right anger bubble",
+            "variants": []
+          },
+          {
+            "filename": "1f4ad.svg",
+            "description": "thought balloon",
+            "variants": []
+          },
+          {
+            "filename": "1f4a4.svg",
+            "description": "ZZZ",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "People & Body",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "hand-fingers-open",
+        "emojis": [
+          {
+            "filename": "1f44b.svg",
+            "description": "waving hand",
+            "variants": [
+              {
+                "filename": "1f44b_1f3fb.svg",
+                "description": "waving hand: light skin tone"
+              },
+              {
+                "filename": "1f44b_1f3fc.svg",
+                "description": "waving hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f44b_1f3fd.svg",
+                "description": "waving hand: medium skin tone"
+              },
+              {
+                "filename": "1f44b_1f3fe.svg",
+                "description": "waving hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44b_1f3ff.svg",
+                "description": "waving hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91a.svg",
+            "description": "raised back of hand",
+            "variants": [
+              {
+                "filename": "1f91a_1f3fb.svg",
+                "description": "raised back of hand: light skin tone"
+              },
+              {
+                "filename": "1f91a_1f3fc.svg",
+                "description": "raised back of hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f91a_1f3fd.svg",
+                "description": "raised back of hand: medium skin tone"
+              },
+              {
+                "filename": "1f91a_1f3fe.svg",
+                "description": "raised back of hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91a_1f3ff.svg",
+                "description": "raised back of hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f590.svg",
+            "description": "hand with fingers splayed",
+            "variants": [
+              {
+                "filename": "1f590_1f3fb.svg",
+                "description": "hand with fingers splayed: light skin tone"
+              },
+              {
+                "filename": "1f590_1f3fc.svg",
+                "description": "hand with fingers splayed: medium-light skin tone"
+              },
+              {
+                "filename": "1f590_1f3fd.svg",
+                "description": "hand with fingers splayed: medium skin tone"
+              },
+              {
+                "filename": "1f590_1f3fe.svg",
+                "description": "hand with fingers splayed: medium-dark skin tone"
+              },
+              {
+                "filename": "1f590_1f3ff.svg",
+                "description": "hand with fingers splayed: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "270b.svg",
+            "description": "raised hand",
+            "variants": [
+              {
+                "filename": "270b_1f3fb.svg",
+                "description": "raised hand: light skin tone"
+              },
+              {
+                "filename": "270b_1f3fc.svg",
+                "description": "raised hand: medium-light skin tone"
+              },
+              {
+                "filename": "270b_1f3fd.svg",
+                "description": "raised hand: medium skin tone"
+              },
+              {
+                "filename": "270b_1f3fe.svg",
+                "description": "raised hand: medium-dark skin tone"
+              },
+              {
+                "filename": "270b_1f3ff.svg",
+                "description": "raised hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f596.svg",
+            "description": "vulcan salute",
+            "variants": [
+              {
+                "filename": "1f596_1f3fb.svg",
+                "description": "vulcan salute: light skin tone"
+              },
+              {
+                "filename": "1f596_1f3fc.svg",
+                "description": "vulcan salute: medium-light skin tone"
+              },
+              {
+                "filename": "1f596_1f3fd.svg",
+                "description": "vulcan salute: medium skin tone"
+              },
+              {
+                "filename": "1f596_1f3fe.svg",
+                "description": "vulcan salute: medium-dark skin tone"
+              },
+              {
+                "filename": "1f596_1f3ff.svg",
+                "description": "vulcan salute: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf1.svg",
+            "description": "rightwards hand",
+            "variants": [
+              {
+                "filename": "1faf1_1f3fb.svg",
+                "description": "rightwards hand: light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fc.svg",
+                "description": "rightwards hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fd.svg",
+                "description": "rightwards hand: medium skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fe.svg",
+                "description": "rightwards hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3ff.svg",
+                "description": "rightwards hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf2.svg",
+            "description": "leftwards hand",
+            "variants": [
+              {
+                "filename": "1faf2_1f3fb.svg",
+                "description": "leftwards hand: light skin tone"
+              },
+              {
+                "filename": "1faf2_1f3fc.svg",
+                "description": "leftwards hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf2_1f3fd.svg",
+                "description": "leftwards hand: medium skin tone"
+              },
+              {
+                "filename": "1faf2_1f3fe.svg",
+                "description": "leftwards hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf2_1f3ff.svg",
+                "description": "leftwards hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf3.svg",
+            "description": "palm down hand",
+            "variants": [
+              {
+                "filename": "1faf3_1f3fb.svg",
+                "description": "palm down hand: light skin tone"
+              },
+              {
+                "filename": "1faf3_1f3fc.svg",
+                "description": "palm down hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf3_1f3fd.svg",
+                "description": "palm down hand: medium skin tone"
+              },
+              {
+                "filename": "1faf3_1f3fe.svg",
+                "description": "palm down hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf3_1f3ff.svg",
+                "description": "palm down hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf4.svg",
+            "description": "palm up hand",
+            "variants": [
+              {
+                "filename": "1faf4_1f3fb.svg",
+                "description": "palm up hand: light skin tone"
+              },
+              {
+                "filename": "1faf4_1f3fc.svg",
+                "description": "palm up hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf4_1f3fd.svg",
+                "description": "palm up hand: medium skin tone"
+              },
+              {
+                "filename": "1faf4_1f3fe.svg",
+                "description": "palm up hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf4_1f3ff.svg",
+                "description": "palm up hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf7.svg",
+            "description": "leftwards pushing hand",
+            "variants": [
+              {
+                "filename": "1faf7_1f3fb.svg",
+                "description": "leftwards pushing hand: light skin tone"
+              },
+              {
+                "filename": "1faf7_1f3fc.svg",
+                "description": "leftwards pushing hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf7_1f3fd.svg",
+                "description": "leftwards pushing hand: medium skin tone"
+              },
+              {
+                "filename": "1faf7_1f3fe.svg",
+                "description": "leftwards pushing hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf7_1f3ff.svg",
+                "description": "leftwards pushing hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf8.svg",
+            "description": "rightwards pushing hand",
+            "variants": [
+              {
+                "filename": "1faf8_1f3fb.svg",
+                "description": "rightwards pushing hand: light skin tone"
+              },
+              {
+                "filename": "1faf8_1f3fc.svg",
+                "description": "rightwards pushing hand: medium-light skin tone"
+              },
+              {
+                "filename": "1faf8_1f3fd.svg",
+                "description": "rightwards pushing hand: medium skin tone"
+              },
+              {
+                "filename": "1faf8_1f3fe.svg",
+                "description": "rightwards pushing hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf8_1f3ff.svg",
+                "description": "rightwards pushing hand: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hand-fingers-partial",
+        "emojis": [
+          {
+            "filename": "1f44c.svg",
+            "description": "OK hand",
+            "variants": [
+              {
+                "filename": "1f44c_1f3fb.svg",
+                "description": "OK hand: light skin tone"
+              },
+              {
+                "filename": "1f44c_1f3fc.svg",
+                "description": "OK hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f44c_1f3fd.svg",
+                "description": "OK hand: medium skin tone"
+              },
+              {
+                "filename": "1f44c_1f3fe.svg",
+                "description": "OK hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44c_1f3ff.svg",
+                "description": "OK hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f90c.svg",
+            "description": "pinched fingers",
+            "variants": [
+              {
+                "filename": "1f90c_1f3fb.svg",
+                "description": "pinched fingers: light skin tone"
+              },
+              {
+                "filename": "1f90c_1f3fc.svg",
+                "description": "pinched fingers: medium-light skin tone"
+              },
+              {
+                "filename": "1f90c_1f3fd.svg",
+                "description": "pinched fingers: medium skin tone"
+              },
+              {
+                "filename": "1f90c_1f3fe.svg",
+                "description": "pinched fingers: medium-dark skin tone"
+              },
+              {
+                "filename": "1f90c_1f3ff.svg",
+                "description": "pinched fingers: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f90f.svg",
+            "description": "pinching hand",
+            "variants": [
+              {
+                "filename": "1f90f_1f3fb.svg",
+                "description": "pinching hand: light skin tone"
+              },
+              {
+                "filename": "1f90f_1f3fc.svg",
+                "description": "pinching hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f90f_1f3fd.svg",
+                "description": "pinching hand: medium skin tone"
+              },
+              {
+                "filename": "1f90f_1f3fe.svg",
+                "description": "pinching hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f90f_1f3ff.svg",
+                "description": "pinching hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "270c.svg",
+            "description": "victory hand",
+            "variants": [
+              {
+                "filename": "270c_1f3fb.svg",
+                "description": "victory hand: light skin tone"
+              },
+              {
+                "filename": "270c_1f3fc.svg",
+                "description": "victory hand: medium-light skin tone"
+              },
+              {
+                "filename": "270c_1f3fd.svg",
+                "description": "victory hand: medium skin tone"
+              },
+              {
+                "filename": "270c_1f3fe.svg",
+                "description": "victory hand: medium-dark skin tone"
+              },
+              {
+                "filename": "270c_1f3ff.svg",
+                "description": "victory hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91e.svg",
+            "description": "crossed fingers",
+            "variants": [
+              {
+                "filename": "1f91e_1f3fb.svg",
+                "description": "crossed fingers: light skin tone"
+              },
+              {
+                "filename": "1f91e_1f3fc.svg",
+                "description": "crossed fingers: medium-light skin tone"
+              },
+              {
+                "filename": "1f91e_1f3fd.svg",
+                "description": "crossed fingers: medium skin tone"
+              },
+              {
+                "filename": "1f91e_1f3fe.svg",
+                "description": "crossed fingers: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91e_1f3ff.svg",
+                "description": "crossed fingers: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf0.svg",
+            "description": "hand with index finger and thumb crossed",
+            "variants": [
+              {
+                "filename": "1faf0_1f3fb.svg",
+                "description": "hand with index finger and thumb crossed: light skin tone"
+              },
+              {
+                "filename": "1faf0_1f3fc.svg",
+                "description": "hand with index finger and thumb crossed: medium-light skin tone"
+              },
+              {
+                "filename": "1faf0_1f3fd.svg",
+                "description": "hand with index finger and thumb crossed: medium skin tone"
+              },
+              {
+                "filename": "1faf0_1f3fe.svg",
+                "description": "hand with index finger and thumb crossed: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf0_1f3ff.svg",
+                "description": "hand with index finger and thumb crossed: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91f.svg",
+            "description": "love-you gesture",
+            "variants": [
+              {
+                "filename": "1f91f_1f3fb.svg",
+                "description": "love-you gesture: light skin tone"
+              },
+              {
+                "filename": "1f91f_1f3fc.svg",
+                "description": "love-you gesture: medium-light skin tone"
+              },
+              {
+                "filename": "1f91f_1f3fd.svg",
+                "description": "love-you gesture: medium skin tone"
+              },
+              {
+                "filename": "1f91f_1f3fe.svg",
+                "description": "love-you gesture: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91f_1f3ff.svg",
+                "description": "love-you gesture: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f918.svg",
+            "description": "sign of the horns",
+            "variants": [
+              {
+                "filename": "1f918_1f3fb.svg",
+                "description": "sign of the horns: light skin tone"
+              },
+              {
+                "filename": "1f918_1f3fc.svg",
+                "description": "sign of the horns: medium-light skin tone"
+              },
+              {
+                "filename": "1f918_1f3fd.svg",
+                "description": "sign of the horns: medium skin tone"
+              },
+              {
+                "filename": "1f918_1f3fe.svg",
+                "description": "sign of the horns: medium-dark skin tone"
+              },
+              {
+                "filename": "1f918_1f3ff.svg",
+                "description": "sign of the horns: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f919.svg",
+            "description": "call me hand",
+            "variants": [
+              {
+                "filename": "1f919_1f3fb.svg",
+                "description": "call me hand: light skin tone"
+              },
+              {
+                "filename": "1f919_1f3fc.svg",
+                "description": "call me hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f919_1f3fd.svg",
+                "description": "call me hand: medium skin tone"
+              },
+              {
+                "filename": "1f919_1f3fe.svg",
+                "description": "call me hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f919_1f3ff.svg",
+                "description": "call me hand: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hand-single-finger",
+        "emojis": [
+          {
+            "filename": "1f448.svg",
+            "description": "backhand index pointing left",
+            "variants": [
+              {
+                "filename": "1f448_1f3fb.svg",
+                "description": "backhand index pointing left: light skin tone"
+              },
+              {
+                "filename": "1f448_1f3fc.svg",
+                "description": "backhand index pointing left: medium-light skin tone"
+              },
+              {
+                "filename": "1f448_1f3fd.svg",
+                "description": "backhand index pointing left: medium skin tone"
+              },
+              {
+                "filename": "1f448_1f3fe.svg",
+                "description": "backhand index pointing left: medium-dark skin tone"
+              },
+              {
+                "filename": "1f448_1f3ff.svg",
+                "description": "backhand index pointing left: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f449.svg",
+            "description": "backhand index pointing right",
+            "variants": [
+              {
+                "filename": "1f449_1f3fb.svg",
+                "description": "backhand index pointing right: light skin tone"
+              },
+              {
+                "filename": "1f449_1f3fc.svg",
+                "description": "backhand index pointing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f449_1f3fd.svg",
+                "description": "backhand index pointing right: medium skin tone"
+              },
+              {
+                "filename": "1f449_1f3fe.svg",
+                "description": "backhand index pointing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f449_1f3ff.svg",
+                "description": "backhand index pointing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f446.svg",
+            "description": "backhand index pointing up",
+            "variants": [
+              {
+                "filename": "1f446_1f3fb.svg",
+                "description": "backhand index pointing up: light skin tone"
+              },
+              {
+                "filename": "1f446_1f3fc.svg",
+                "description": "backhand index pointing up: medium-light skin tone"
+              },
+              {
+                "filename": "1f446_1f3fd.svg",
+                "description": "backhand index pointing up: medium skin tone"
+              },
+              {
+                "filename": "1f446_1f3fe.svg",
+                "description": "backhand index pointing up: medium-dark skin tone"
+              },
+              {
+                "filename": "1f446_1f3ff.svg",
+                "description": "backhand index pointing up: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f595.svg",
+            "description": "middle finger",
+            "variants": [
+              {
+                "filename": "1f595_1f3fb.svg",
+                "description": "middle finger: light skin tone"
+              },
+              {
+                "filename": "1f595_1f3fc.svg",
+                "description": "middle finger: medium-light skin tone"
+              },
+              {
+                "filename": "1f595_1f3fd.svg",
+                "description": "middle finger: medium skin tone"
+              },
+              {
+                "filename": "1f595_1f3fe.svg",
+                "description": "middle finger: medium-dark skin tone"
+              },
+              {
+                "filename": "1f595_1f3ff.svg",
+                "description": "middle finger: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f447.svg",
+            "description": "backhand index pointing down",
+            "variants": [
+              {
+                "filename": "1f447_1f3fb.svg",
+                "description": "backhand index pointing down: light skin tone"
+              },
+              {
+                "filename": "1f447_1f3fc.svg",
+                "description": "backhand index pointing down: medium-light skin tone"
+              },
+              {
+                "filename": "1f447_1f3fd.svg",
+                "description": "backhand index pointing down: medium skin tone"
+              },
+              {
+                "filename": "1f447_1f3fe.svg",
+                "description": "backhand index pointing down: medium-dark skin tone"
+              },
+              {
+                "filename": "1f447_1f3ff.svg",
+                "description": "backhand index pointing down: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "261d.svg",
+            "description": "index pointing up",
+            "variants": [
+              {
+                "filename": "261d_1f3fb.svg",
+                "description": "index pointing up: light skin tone"
+              },
+              {
+                "filename": "261d_1f3fc.svg",
+                "description": "index pointing up: medium-light skin tone"
+              },
+              {
+                "filename": "261d_1f3fd.svg",
+                "description": "index pointing up: medium skin tone"
+              },
+              {
+                "filename": "261d_1f3fe.svg",
+                "description": "index pointing up: medium-dark skin tone"
+              },
+              {
+                "filename": "261d_1f3ff.svg",
+                "description": "index pointing up: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf5.svg",
+            "description": "index pointing at the viewer",
+            "variants": [
+              {
+                "filename": "1faf5_1f3fb.svg",
+                "description": "index pointing at the viewer: light skin tone"
+              },
+              {
+                "filename": "1faf5_1f3fc.svg",
+                "description": "index pointing at the viewer: medium-light skin tone"
+              },
+              {
+                "filename": "1faf5_1f3fd.svg",
+                "description": "index pointing at the viewer: medium skin tone"
+              },
+              {
+                "filename": "1faf5_1f3fe.svg",
+                "description": "index pointing at the viewer: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf5_1f3ff.svg",
+                "description": "index pointing at the viewer: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hand-fingers-closed",
+        "emojis": [
+          {
+            "filename": "1f44d.svg",
+            "description": "thumbs up",
+            "variants": [
+              {
+                "filename": "1f44d_1f3fb.svg",
+                "description": "thumbs up: light skin tone"
+              },
+              {
+                "filename": "1f44d_1f3fc.svg",
+                "description": "thumbs up: medium-light skin tone"
+              },
+              {
+                "filename": "1f44d_1f3fd.svg",
+                "description": "thumbs up: medium skin tone"
+              },
+              {
+                "filename": "1f44d_1f3fe.svg",
+                "description": "thumbs up: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44d_1f3ff.svg",
+                "description": "thumbs up: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f44e.svg",
+            "description": "thumbs down",
+            "variants": [
+              {
+                "filename": "1f44e_1f3fb.svg",
+                "description": "thumbs down: light skin tone"
+              },
+              {
+                "filename": "1f44e_1f3fc.svg",
+                "description": "thumbs down: medium-light skin tone"
+              },
+              {
+                "filename": "1f44e_1f3fd.svg",
+                "description": "thumbs down: medium skin tone"
+              },
+              {
+                "filename": "1f44e_1f3fe.svg",
+                "description": "thumbs down: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44e_1f3ff.svg",
+                "description": "thumbs down: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "270a.svg",
+            "description": "raised fist",
+            "variants": [
+              {
+                "filename": "270a_1f3fb.svg",
+                "description": "raised fist: light skin tone"
+              },
+              {
+                "filename": "270a_1f3fc.svg",
+                "description": "raised fist: medium-light skin tone"
+              },
+              {
+                "filename": "270a_1f3fd.svg",
+                "description": "raised fist: medium skin tone"
+              },
+              {
+                "filename": "270a_1f3fe.svg",
+                "description": "raised fist: medium-dark skin tone"
+              },
+              {
+                "filename": "270a_1f3ff.svg",
+                "description": "raised fist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f44a.svg",
+            "description": "oncoming fist",
+            "variants": [
+              {
+                "filename": "1f44a_1f3fb.svg",
+                "description": "oncoming fist: light skin tone"
+              },
+              {
+                "filename": "1f44a_1f3fc.svg",
+                "description": "oncoming fist: medium-light skin tone"
+              },
+              {
+                "filename": "1f44a_1f3fd.svg",
+                "description": "oncoming fist: medium skin tone"
+              },
+              {
+                "filename": "1f44a_1f3fe.svg",
+                "description": "oncoming fist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44a_1f3ff.svg",
+                "description": "oncoming fist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91b.svg",
+            "description": "left-facing fist",
+            "variants": [
+              {
+                "filename": "1f91b_1f3fb.svg",
+                "description": "left-facing fist: light skin tone"
+              },
+              {
+                "filename": "1f91b_1f3fc.svg",
+                "description": "left-facing fist: medium-light skin tone"
+              },
+              {
+                "filename": "1f91b_1f3fd.svg",
+                "description": "left-facing fist: medium skin tone"
+              },
+              {
+                "filename": "1f91b_1f3fe.svg",
+                "description": "left-facing fist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91b_1f3ff.svg",
+                "description": "left-facing fist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91c.svg",
+            "description": "right-facing fist",
+            "variants": [
+              {
+                "filename": "1f91c_1f3fb.svg",
+                "description": "right-facing fist: light skin tone"
+              },
+              {
+                "filename": "1f91c_1f3fc.svg",
+                "description": "right-facing fist: medium-light skin tone"
+              },
+              {
+                "filename": "1f91c_1f3fd.svg",
+                "description": "right-facing fist: medium skin tone"
+              },
+              {
+                "filename": "1f91c_1f3fe.svg",
+                "description": "right-facing fist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91c_1f3ff.svg",
+                "description": "right-facing fist: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hands",
+        "emojis": [
+          {
+            "filename": "1f44f.svg",
+            "description": "clapping hands",
+            "variants": [
+              {
+                "filename": "1f44f_1f3fb.svg",
+                "description": "clapping hands: light skin tone"
+              },
+              {
+                "filename": "1f44f_1f3fc.svg",
+                "description": "clapping hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f44f_1f3fd.svg",
+                "description": "clapping hands: medium skin tone"
+              },
+              {
+                "filename": "1f44f_1f3fe.svg",
+                "description": "clapping hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f44f_1f3ff.svg",
+                "description": "clapping hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64c.svg",
+            "description": "raising hands",
+            "variants": [
+              {
+                "filename": "1f64c_1f3fb.svg",
+                "description": "raising hands: light skin tone"
+              },
+              {
+                "filename": "1f64c_1f3fc.svg",
+                "description": "raising hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f64c_1f3fd.svg",
+                "description": "raising hands: medium skin tone"
+              },
+              {
+                "filename": "1f64c_1f3fe.svg",
+                "description": "raising hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64c_1f3ff.svg",
+                "description": "raising hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1faf6.svg",
+            "description": "heart hands",
+            "variants": [
+              {
+                "filename": "1faf6_1f3fb.svg",
+                "description": "heart hands: light skin tone"
+              },
+              {
+                "filename": "1faf6_1f3fc.svg",
+                "description": "heart hands: medium-light skin tone"
+              },
+              {
+                "filename": "1faf6_1f3fd.svg",
+                "description": "heart hands: medium skin tone"
+              },
+              {
+                "filename": "1faf6_1f3fe.svg",
+                "description": "heart hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1faf6_1f3ff.svg",
+                "description": "heart hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f450.svg",
+            "description": "open hands",
+            "variants": [
+              {
+                "filename": "1f450_1f3fb.svg",
+                "description": "open hands: light skin tone"
+              },
+              {
+                "filename": "1f450_1f3fc.svg",
+                "description": "open hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f450_1f3fd.svg",
+                "description": "open hands: medium skin tone"
+              },
+              {
+                "filename": "1f450_1f3fe.svg",
+                "description": "open hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f450_1f3ff.svg",
+                "description": "open hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f932.svg",
+            "description": "palms up together",
+            "variants": [
+              {
+                "filename": "1f932_1f3fb.svg",
+                "description": "palms up together: light skin tone"
+              },
+              {
+                "filename": "1f932_1f3fc.svg",
+                "description": "palms up together: medium-light skin tone"
+              },
+              {
+                "filename": "1f932_1f3fd.svg",
+                "description": "palms up together: medium skin tone"
+              },
+              {
+                "filename": "1f932_1f3fe.svg",
+                "description": "palms up together: medium-dark skin tone"
+              },
+              {
+                "filename": "1f932_1f3ff.svg",
+                "description": "palms up together: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f91d.svg",
+            "description": "handshake",
+            "variants": [
+              {
+                "filename": "1f91d_1f3fb.svg",
+                "description": "handshake: light skin tone"
+              },
+              {
+                "filename": "1f91d_1f3fc.svg",
+                "description": "handshake: medium-light skin tone"
+              },
+              {
+                "filename": "1f91d_1f3fd.svg",
+                "description": "handshake: medium skin tone"
+              },
+              {
+                "filename": "1f91d_1f3fe.svg",
+                "description": "handshake: medium-dark skin tone"
+              },
+              {
+                "filename": "1f91d_1f3ff.svg",
+                "description": "handshake: dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fb_200d_1faf2_1f3fc.svg",
+                "description": "handshake: light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fb_200d_1faf2_1f3fd.svg",
+                "description": "handshake: light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fb_200d_1faf2_1f3fe.svg",
+                "description": "handshake: light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fb_200d_1faf2_1f3ff.svg",
+                "description": "handshake: light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fc_200d_1faf2_1f3fb.svg",
+                "description": "handshake: medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fc_200d_1faf2_1f3fd.svg",
+                "description": "handshake: medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fc_200d_1faf2_1f3fe.svg",
+                "description": "handshake: medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fc_200d_1faf2_1f3ff.svg",
+                "description": "handshake: medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fd_200d_1faf2_1f3fb.svg",
+                "description": "handshake: medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fd_200d_1faf2_1f3fc.svg",
+                "description": "handshake: medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fd_200d_1faf2_1f3fe.svg",
+                "description": "handshake: medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fd_200d_1faf2_1f3ff.svg",
+                "description": "handshake: medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fe_200d_1faf2_1f3fb.svg",
+                "description": "handshake: medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fe_200d_1faf2_1f3fc.svg",
+                "description": "handshake: medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fe_200d_1faf2_1f3fd.svg",
+                "description": "handshake: medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1faf1_1f3fe_200d_1faf2_1f3ff.svg",
+                "description": "handshake: medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1faf1_1f3ff_200d_1faf2_1f3fb.svg",
+                "description": "handshake: dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3ff_200d_1faf2_1f3fc.svg",
+                "description": "handshake: dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1faf1_1f3ff_200d_1faf2_1f3fd.svg",
+                "description": "handshake: dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1faf1_1f3ff_200d_1faf2_1f3fe.svg",
+                "description": "handshake: dark skin tone, medium-dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64f.svg",
+            "description": "folded hands",
+            "variants": [
+              {
+                "filename": "1f64f_1f3fb.svg",
+                "description": "folded hands: light skin tone"
+              },
+              {
+                "filename": "1f64f_1f3fc.svg",
+                "description": "folded hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f64f_1f3fd.svg",
+                "description": "folded hands: medium skin tone"
+              },
+              {
+                "filename": "1f64f_1f3fe.svg",
+                "description": "folded hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64f_1f3ff.svg",
+                "description": "folded hands: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hand-prop",
+        "emojis": [
+          {
+            "filename": "270d.svg",
+            "description": "writing hand",
+            "variants": [
+              {
+                "filename": "270d_1f3fb.svg",
+                "description": "writing hand: light skin tone"
+              },
+              {
+                "filename": "270d_1f3fc.svg",
+                "description": "writing hand: medium-light skin tone"
+              },
+              {
+                "filename": "270d_1f3fd.svg",
+                "description": "writing hand: medium skin tone"
+              },
+              {
+                "filename": "270d_1f3fe.svg",
+                "description": "writing hand: medium-dark skin tone"
+              },
+              {
+                "filename": "270d_1f3ff.svg",
+                "description": "writing hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f485.svg",
+            "description": "nail polish",
+            "variants": [
+              {
+                "filename": "1f485_1f3fb.svg",
+                "description": "nail polish: light skin tone"
+              },
+              {
+                "filename": "1f485_1f3fc.svg",
+                "description": "nail polish: medium-light skin tone"
+              },
+              {
+                "filename": "1f485_1f3fd.svg",
+                "description": "nail polish: medium skin tone"
+              },
+              {
+                "filename": "1f485_1f3fe.svg",
+                "description": "nail polish: medium-dark skin tone"
+              },
+              {
+                "filename": "1f485_1f3ff.svg",
+                "description": "nail polish: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f933.svg",
+            "description": "selfie",
+            "variants": [
+              {
+                "filename": "1f933_1f3fb.svg",
+                "description": "selfie: light skin tone"
+              },
+              {
+                "filename": "1f933_1f3fc.svg",
+                "description": "selfie: medium-light skin tone"
+              },
+              {
+                "filename": "1f933_1f3fd.svg",
+                "description": "selfie: medium skin tone"
+              },
+              {
+                "filename": "1f933_1f3fe.svg",
+                "description": "selfie: medium-dark skin tone"
+              },
+              {
+                "filename": "1f933_1f3ff.svg",
+                "description": "selfie: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "body-parts",
+        "emojis": [
+          {
+            "filename": "1f4aa.svg",
+            "description": "flexed biceps",
+            "variants": [
+              {
+                "filename": "1f4aa_1f3fb.svg",
+                "description": "flexed biceps: light skin tone"
+              },
+              {
+                "filename": "1f4aa_1f3fc.svg",
+                "description": "flexed biceps: medium-light skin tone"
+              },
+              {
+                "filename": "1f4aa_1f3fd.svg",
+                "description": "flexed biceps: medium skin tone"
+              },
+              {
+                "filename": "1f4aa_1f3fe.svg",
+                "description": "flexed biceps: medium-dark skin tone"
+              },
+              {
+                "filename": "1f4aa_1f3ff.svg",
+                "description": "flexed biceps: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9be.svg",
+            "description": "mechanical arm",
+            "variants": []
+          },
+          {
+            "filename": "1f9bf.svg",
+            "description": "mechanical leg",
+            "variants": []
+          },
+          {
+            "filename": "1f9b5.svg",
+            "description": "leg",
+            "variants": [
+              {
+                "filename": "1f9b5_1f3fb.svg",
+                "description": "leg: light skin tone"
+              },
+              {
+                "filename": "1f9b5_1f3fc.svg",
+                "description": "leg: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b5_1f3fd.svg",
+                "description": "leg: medium skin tone"
+              },
+              {
+                "filename": "1f9b5_1f3fe.svg",
+                "description": "leg: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b5_1f3ff.svg",
+                "description": "leg: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b6.svg",
+            "description": "foot",
+            "variants": [
+              {
+                "filename": "1f9b6_1f3fb.svg",
+                "description": "foot: light skin tone"
+              },
+              {
+                "filename": "1f9b6_1f3fc.svg",
+                "description": "foot: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b6_1f3fd.svg",
+                "description": "foot: medium skin tone"
+              },
+              {
+                "filename": "1f9b6_1f3fe.svg",
+                "description": "foot: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b6_1f3ff.svg",
+                "description": "foot: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f442.svg",
+            "description": "ear",
+            "variants": [
+              {
+                "filename": "1f442_1f3fb.svg",
+                "description": "ear: light skin tone"
+              },
+              {
+                "filename": "1f442_1f3fc.svg",
+                "description": "ear: medium-light skin tone"
+              },
+              {
+                "filename": "1f442_1f3fd.svg",
+                "description": "ear: medium skin tone"
+              },
+              {
+                "filename": "1f442_1f3fe.svg",
+                "description": "ear: medium-dark skin tone"
+              },
+              {
+                "filename": "1f442_1f3ff.svg",
+                "description": "ear: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9bb.svg",
+            "description": "ear with hearing aid",
+            "variants": [
+              {
+                "filename": "1f9bb_1f3fb.svg",
+                "description": "ear with hearing aid: light skin tone"
+              },
+              {
+                "filename": "1f9bb_1f3fc.svg",
+                "description": "ear with hearing aid: medium-light skin tone"
+              },
+              {
+                "filename": "1f9bb_1f3fd.svg",
+                "description": "ear with hearing aid: medium skin tone"
+              },
+              {
+                "filename": "1f9bb_1f3fe.svg",
+                "description": "ear with hearing aid: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9bb_1f3ff.svg",
+                "description": "ear with hearing aid: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f443.svg",
+            "description": "nose",
+            "variants": [
+              {
+                "filename": "1f443_1f3fb.svg",
+                "description": "nose: light skin tone"
+              },
+              {
+                "filename": "1f443_1f3fc.svg",
+                "description": "nose: medium-light skin tone"
+              },
+              {
+                "filename": "1f443_1f3fd.svg",
+                "description": "nose: medium skin tone"
+              },
+              {
+                "filename": "1f443_1f3fe.svg",
+                "description": "nose: medium-dark skin tone"
+              },
+              {
+                "filename": "1f443_1f3ff.svg",
+                "description": "nose: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9e0.svg",
+            "description": "brain",
+            "variants": []
+          },
+          {
+            "filename": "1fac0.svg",
+            "description": "anatomical heart",
+            "variants": []
+          },
+          {
+            "filename": "1fac1.svg",
+            "description": "lungs",
+            "variants": []
+          },
+          {
+            "filename": "1f9b7.svg",
+            "description": "tooth",
+            "variants": []
+          },
+          {
+            "filename": "1f9b4.svg",
+            "description": "bone",
+            "variants": []
+          },
+          {
+            "filename": "1f440.svg",
+            "description": "eyes",
+            "variants": []
+          },
+          {
+            "filename": "1f441.svg",
+            "description": "eye",
+            "variants": []
+          },
+          {
+            "filename": "1f445.svg",
+            "description": "tongue",
+            "variants": []
+          },
+          {
+            "filename": "1f444.svg",
+            "description": "mouth",
+            "variants": []
+          },
+          {
+            "filename": "1fae6.svg",
+            "description": "biting lip",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person",
+        "emojis": [
+          {
+            "filename": "1f476.svg",
+            "description": "baby",
+            "variants": [
+              {
+                "filename": "1f476_1f3fb.svg",
+                "description": "baby: light skin tone"
+              },
+              {
+                "filename": "1f476_1f3fc.svg",
+                "description": "baby: medium-light skin tone"
+              },
+              {
+                "filename": "1f476_1f3fd.svg",
+                "description": "baby: medium skin tone"
+              },
+              {
+                "filename": "1f476_1f3fe.svg",
+                "description": "baby: medium-dark skin tone"
+              },
+              {
+                "filename": "1f476_1f3ff.svg",
+                "description": "baby: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d2.svg",
+            "description": "child",
+            "variants": [
+              {
+                "filename": "1f9d2_1f3fb.svg",
+                "description": "child: light skin tone"
+              },
+              {
+                "filename": "1f9d2_1f3fc.svg",
+                "description": "child: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d2_1f3fd.svg",
+                "description": "child: medium skin tone"
+              },
+              {
+                "filename": "1f9d2_1f3fe.svg",
+                "description": "child: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d2_1f3ff.svg",
+                "description": "child: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f466.svg",
+            "description": "boy",
+            "variants": [
+              {
+                "filename": "1f466_1f3fb.svg",
+                "description": "boy: light skin tone"
+              },
+              {
+                "filename": "1f466_1f3fc.svg",
+                "description": "boy: medium-light skin tone"
+              },
+              {
+                "filename": "1f466_1f3fd.svg",
+                "description": "boy: medium skin tone"
+              },
+              {
+                "filename": "1f466_1f3fe.svg",
+                "description": "boy: medium-dark skin tone"
+              },
+              {
+                "filename": "1f466_1f3ff.svg",
+                "description": "boy: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f467.svg",
+            "description": "girl",
+            "variants": [
+              {
+                "filename": "1f467_1f3fb.svg",
+                "description": "girl: light skin tone"
+              },
+              {
+                "filename": "1f467_1f3fc.svg",
+                "description": "girl: medium-light skin tone"
+              },
+              {
+                "filename": "1f467_1f3fd.svg",
+                "description": "girl: medium skin tone"
+              },
+              {
+                "filename": "1f467_1f3fe.svg",
+                "description": "girl: medium-dark skin tone"
+              },
+              {
+                "filename": "1f467_1f3ff.svg",
+                "description": "girl: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1.svg",
+            "description": "person",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb.svg",
+                "description": "person: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc.svg",
+                "description": "person: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd.svg",
+                "description": "person: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe.svg",
+                "description": "person: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff.svg",
+                "description": "person: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f471.svg",
+            "description": "person: blond hair",
+            "variants": [
+              {
+                "filename": "1f471_1f3fb.svg",
+                "description": "person: light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fc.svg",
+                "description": "person: medium-light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fd.svg",
+                "description": "person: medium skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fe.svg",
+                "description": "person: medium-dark skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3ff.svg",
+                "description": "person: dark skin tone, blond hair"
+              }
+            ]
+          },
+          {
+            "filename": "1f468.svg",
+            "description": "man",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb.svg",
+                "description": "man: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc.svg",
+                "description": "man: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd.svg",
+                "description": "man: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe.svg",
+                "description": "man: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff.svg",
+                "description": "man: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d4.svg",
+            "description": "person: beard",
+            "variants": [
+              {
+                "filename": "1f9d4_1f3fb.svg",
+                "description": "person: light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fc.svg",
+                "description": "person: medium-light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fd.svg",
+                "description": "person: medium skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fe.svg",
+                "description": "person: medium-dark skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3ff.svg",
+                "description": "person: dark skin tone, beard"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d4_200d_2642.svg",
+            "description": "man: beard",
+            "variants": [
+              {
+                "filename": "1f9d4_1f3fb_200d_2642.svg",
+                "description": "man: light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fc_200d_2642.svg",
+                "description": "man: medium-light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fd_200d_2642.svg",
+                "description": "man: medium skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fe_200d_2642.svg",
+                "description": "man: medium-dark skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3ff_200d_2642.svg",
+                "description": "man: dark skin tone, beard"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d4_200d_2640.svg",
+            "description": "woman: beard",
+            "variants": [
+              {
+                "filename": "1f9d4_1f3fb_200d_2640.svg",
+                "description": "woman: light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fc_200d_2640.svg",
+                "description": "woman: medium-light skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fd_200d_2640.svg",
+                "description": "woman: medium skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3fe_200d_2640.svg",
+                "description": "woman: medium-dark skin tone, beard"
+              },
+              {
+                "filename": "1f9d4_1f3ff_200d_2640.svg",
+                "description": "woman: dark skin tone, beard"
+              },
+              {
+                "filename": "1f468_200d_1f9b0.svg",
+                "description": "man: red hair"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f9b0.svg",
+                "description": "man: light skin tone, red hair"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9b0.svg",
+                "description": "man: medium-light skin tone, red hair"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9b0.svg",
+                "description": "man: medium skin tone, red hair"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9b0.svg",
+                "description": "man: medium-dark skin tone, red hair"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9b0.svg",
+                "description": "man: dark skin tone, red hair"
+              },
+              {
+                "filename": "1f468_200d_1f9b1.svg",
+                "description": "man: curly hair"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f9b1.svg",
+                "description": "man: light skin tone, curly hair"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9b1.svg",
+                "description": "man: medium-light skin tone, curly hair"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9b1.svg",
+                "description": "man: medium skin tone, curly hair"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9b1.svg",
+                "description": "man: medium-dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9b1.svg",
+                "description": "man: dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f468_200d_1f9b3.svg",
+                "description": "man: white hair"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f9b3.svg",
+                "description": "man: light skin tone, white hair"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9b3.svg",
+                "description": "man: medium-light skin tone, white hair"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9b3.svg",
+                "description": "man: medium skin tone, white hair"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9b3.svg",
+                "description": "man: medium-dark skin tone, white hair"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9b3.svg",
+                "description": "man: dark skin tone, white hair"
+              },
+              {
+                "filename": "1f468_200d_1f9b2.svg",
+                "description": "man: bald"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f9b2.svg",
+                "description": "man: light skin tone, bald"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9b2.svg",
+                "description": "man: medium-light skin tone, bald"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9b2.svg",
+                "description": "man: medium skin tone, bald"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9b2.svg",
+                "description": "man: medium-dark skin tone, bald"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9b2.svg",
+                "description": "man: dark skin tone, bald"
+              }
+            ]
+          },
+          {
+            "filename": "1f469.svg",
+            "description": "woman",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb.svg",
+                "description": "woman: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc.svg",
+                "description": "woman: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd.svg",
+                "description": "woman: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe.svg",
+                "description": "woman: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff.svg",
+                "description": "woman: dark skin tone"
+              },
+              {
+                "filename": "1f469_200d_1f9b0.svg",
+                "description": "woman: red hair"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f9b0.svg",
+                "description": "woman: light skin tone, red hair"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9b0.svg",
+                "description": "woman: medium-light skin tone, red hair"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9b0.svg",
+                "description": "woman: medium skin tone, red hair"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9b0.svg",
+                "description": "woman: medium-dark skin tone, red hair"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9b0.svg",
+                "description": "woman: dark skin tone, red hair"
+              },
+              {
+                "filename": "1f9d1_200d_1f9b0.svg",
+                "description": "person: red hair"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9b0.svg",
+                "description": "person: light skin tone, red hair"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9b0.svg",
+                "description": "person: medium-light skin tone, red hair"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9b0.svg",
+                "description": "person: medium skin tone, red hair"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9b0.svg",
+                "description": "person: medium-dark skin tone, red hair"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9b0.svg",
+                "description": "person: dark skin tone, red hair"
+              },
+              {
+                "filename": "1f469_200d_1f9b1.svg",
+                "description": "woman: curly hair"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f9b1.svg",
+                "description": "woman: light skin tone, curly hair"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9b1.svg",
+                "description": "woman: medium-light skin tone, curly hair"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9b1.svg",
+                "description": "woman: medium skin tone, curly hair"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9b1.svg",
+                "description": "woman: medium-dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9b1.svg",
+                "description": "woman: dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f9d1_200d_1f9b1.svg",
+                "description": "person: curly hair"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9b1.svg",
+                "description": "person: light skin tone, curly hair"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9b1.svg",
+                "description": "person: medium-light skin tone, curly hair"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9b1.svg",
+                "description": "person: medium skin tone, curly hair"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9b1.svg",
+                "description": "person: medium-dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9b1.svg",
+                "description": "person: dark skin tone, curly hair"
+              },
+              {
+                "filename": "1f469_200d_1f9b3.svg",
+                "description": "woman: white hair"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f9b3.svg",
+                "description": "woman: light skin tone, white hair"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9b3.svg",
+                "description": "woman: medium-light skin tone, white hair"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9b3.svg",
+                "description": "woman: medium skin tone, white hair"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9b3.svg",
+                "description": "woman: medium-dark skin tone, white hair"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9b3.svg",
+                "description": "woman: dark skin tone, white hair"
+              },
+              {
+                "filename": "1f9d1_200d_1f9b3.svg",
+                "description": "person: white hair"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9b3.svg",
+                "description": "person: light skin tone, white hair"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9b3.svg",
+                "description": "person: medium-light skin tone, white hair"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9b3.svg",
+                "description": "person: medium skin tone, white hair"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9b3.svg",
+                "description": "person: medium-dark skin tone, white hair"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9b3.svg",
+                "description": "person: dark skin tone, white hair"
+              },
+              {
+                "filename": "1f469_200d_1f9b2.svg",
+                "description": "woman: bald"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f9b2.svg",
+                "description": "woman: light skin tone, bald"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9b2.svg",
+                "description": "woman: medium-light skin tone, bald"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9b2.svg",
+                "description": "woman: medium skin tone, bald"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9b2.svg",
+                "description": "woman: medium-dark skin tone, bald"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9b2.svg",
+                "description": "woman: dark skin tone, bald"
+              },
+              {
+                "filename": "1f9d1_200d_1f9b2.svg",
+                "description": "person: bald"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9b2.svg",
+                "description": "person: light skin tone, bald"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9b2.svg",
+                "description": "person: medium-light skin tone, bald"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9b2.svg",
+                "description": "person: medium skin tone, bald"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9b2.svg",
+                "description": "person: medium-dark skin tone, bald"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9b2.svg",
+                "description": "person: dark skin tone, bald"
+              }
+            ]
+          },
+          {
+            "filename": "1f471_200d_2640.svg",
+            "description": "woman: blond hair",
+            "variants": [
+              {
+                "filename": "1f471_1f3fb_200d_2640.svg",
+                "description": "woman: light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fc_200d_2640.svg",
+                "description": "woman: medium-light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fd_200d_2640.svg",
+                "description": "woman: medium skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fe_200d_2640.svg",
+                "description": "woman: medium-dark skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3ff_200d_2640.svg",
+                "description": "woman: dark skin tone, blond hair"
+              }
+            ]
+          },
+          {
+            "filename": "1f471_200d_2642.svg",
+            "description": "man: blond hair",
+            "variants": [
+              {
+                "filename": "1f471_1f3fb_200d_2642.svg",
+                "description": "man: light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fc_200d_2642.svg",
+                "description": "man: medium-light skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fd_200d_2642.svg",
+                "description": "man: medium skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3fe_200d_2642.svg",
+                "description": "man: medium-dark skin tone, blond hair"
+              },
+              {
+                "filename": "1f471_1f3ff_200d_2642.svg",
+                "description": "man: dark skin tone, blond hair"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d3.svg",
+            "description": "older person",
+            "variants": [
+              {
+                "filename": "1f9d3_1f3fb.svg",
+                "description": "older person: light skin tone"
+              },
+              {
+                "filename": "1f9d3_1f3fc.svg",
+                "description": "older person: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d3_1f3fd.svg",
+                "description": "older person: medium skin tone"
+              },
+              {
+                "filename": "1f9d3_1f3fe.svg",
+                "description": "older person: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d3_1f3ff.svg",
+                "description": "older person: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f474.svg",
+            "description": "old man",
+            "variants": [
+              {
+                "filename": "1f474_1f3fb.svg",
+                "description": "old man: light skin tone"
+              },
+              {
+                "filename": "1f474_1f3fc.svg",
+                "description": "old man: medium-light skin tone"
+              },
+              {
+                "filename": "1f474_1f3fd.svg",
+                "description": "old man: medium skin tone"
+              },
+              {
+                "filename": "1f474_1f3fe.svg",
+                "description": "old man: medium-dark skin tone"
+              },
+              {
+                "filename": "1f474_1f3ff.svg",
+                "description": "old man: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f475.svg",
+            "description": "old woman",
+            "variants": [
+              {
+                "filename": "1f475_1f3fb.svg",
+                "description": "old woman: light skin tone"
+              },
+              {
+                "filename": "1f475_1f3fc.svg",
+                "description": "old woman: medium-light skin tone"
+              },
+              {
+                "filename": "1f475_1f3fd.svg",
+                "description": "old woman: medium skin tone"
+              },
+              {
+                "filename": "1f475_1f3fe.svg",
+                "description": "old woman: medium-dark skin tone"
+              },
+              {
+                "filename": "1f475_1f3ff.svg",
+                "description": "old woman: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-gesture",
+        "emojis": [
+          {
+            "filename": "1f64d.svg",
+            "description": "person frowning",
+            "variants": [
+              {
+                "filename": "1f64d_1f3fb.svg",
+                "description": "person frowning: light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fc.svg",
+                "description": "person frowning: medium-light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fd.svg",
+                "description": "person frowning: medium skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fe.svg",
+                "description": "person frowning: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64d_1f3ff.svg",
+                "description": "person frowning: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64d_200d_2642.svg",
+            "description": "man frowning",
+            "variants": [
+              {
+                "filename": "1f64d_1f3fb_200d_2642.svg",
+                "description": "man frowning: light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fc_200d_2642.svg",
+                "description": "man frowning: medium-light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fd_200d_2642.svg",
+                "description": "man frowning: medium skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fe_200d_2642.svg",
+                "description": "man frowning: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64d_1f3ff_200d_2642.svg",
+                "description": "man frowning: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64d_200d_2640.svg",
+            "description": "woman frowning",
+            "variants": [
+              {
+                "filename": "1f64d_1f3fb_200d_2640.svg",
+                "description": "woman frowning: light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fc_200d_2640.svg",
+                "description": "woman frowning: medium-light skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fd_200d_2640.svg",
+                "description": "woman frowning: medium skin tone"
+              },
+              {
+                "filename": "1f64d_1f3fe_200d_2640.svg",
+                "description": "woman frowning: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64d_1f3ff_200d_2640.svg",
+                "description": "woman frowning: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64e.svg",
+            "description": "person pouting",
+            "variants": [
+              {
+                "filename": "1f64e_1f3fb.svg",
+                "description": "person pouting: light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fc.svg",
+                "description": "person pouting: medium-light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fd.svg",
+                "description": "person pouting: medium skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fe.svg",
+                "description": "person pouting: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64e_1f3ff.svg",
+                "description": "person pouting: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64e_200d_2642.svg",
+            "description": "man pouting",
+            "variants": [
+              {
+                "filename": "1f64e_1f3fb_200d_2642.svg",
+                "description": "man pouting: light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fc_200d_2642.svg",
+                "description": "man pouting: medium-light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fd_200d_2642.svg",
+                "description": "man pouting: medium skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fe_200d_2642.svg",
+                "description": "man pouting: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64e_1f3ff_200d_2642.svg",
+                "description": "man pouting: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64e_200d_2640.svg",
+            "description": "woman pouting",
+            "variants": [
+              {
+                "filename": "1f64e_1f3fb_200d_2640.svg",
+                "description": "woman pouting: light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fc_200d_2640.svg",
+                "description": "woman pouting: medium-light skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fd_200d_2640.svg",
+                "description": "woman pouting: medium skin tone"
+              },
+              {
+                "filename": "1f64e_1f3fe_200d_2640.svg",
+                "description": "woman pouting: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64e_1f3ff_200d_2640.svg",
+                "description": "woman pouting: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f645.svg",
+            "description": "person gesturing NO",
+            "variants": [
+              {
+                "filename": "1f645_1f3fb.svg",
+                "description": "person gesturing NO: light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fc.svg",
+                "description": "person gesturing NO: medium-light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fd.svg",
+                "description": "person gesturing NO: medium skin tone"
+              },
+              {
+                "filename": "1f645_1f3fe.svg",
+                "description": "person gesturing NO: medium-dark skin tone"
+              },
+              {
+                "filename": "1f645_1f3ff.svg",
+                "description": "person gesturing NO: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f645_200d_2642.svg",
+            "description": "man gesturing NO",
+            "variants": [
+              {
+                "filename": "1f645_1f3fb_200d_2642.svg",
+                "description": "man gesturing NO: light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fc_200d_2642.svg",
+                "description": "man gesturing NO: medium-light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fd_200d_2642.svg",
+                "description": "man gesturing NO: medium skin tone"
+              },
+              {
+                "filename": "1f645_1f3fe_200d_2642.svg",
+                "description": "man gesturing NO: medium-dark skin tone"
+              },
+              {
+                "filename": "1f645_1f3ff_200d_2642.svg",
+                "description": "man gesturing NO: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f645_200d_2640.svg",
+            "description": "woman gesturing NO",
+            "variants": [
+              {
+                "filename": "1f645_1f3fb_200d_2640.svg",
+                "description": "woman gesturing NO: light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fc_200d_2640.svg",
+                "description": "woman gesturing NO: medium-light skin tone"
+              },
+              {
+                "filename": "1f645_1f3fd_200d_2640.svg",
+                "description": "woman gesturing NO: medium skin tone"
+              },
+              {
+                "filename": "1f645_1f3fe_200d_2640.svg",
+                "description": "woman gesturing NO: medium-dark skin tone"
+              },
+              {
+                "filename": "1f645_1f3ff_200d_2640.svg",
+                "description": "woman gesturing NO: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f646.svg",
+            "description": "person gesturing OK",
+            "variants": [
+              {
+                "filename": "1f646_1f3fb.svg",
+                "description": "person gesturing OK: light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fc.svg",
+                "description": "person gesturing OK: medium-light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fd.svg",
+                "description": "person gesturing OK: medium skin tone"
+              },
+              {
+                "filename": "1f646_1f3fe.svg",
+                "description": "person gesturing OK: medium-dark skin tone"
+              },
+              {
+                "filename": "1f646_1f3ff.svg",
+                "description": "person gesturing OK: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f646_200d_2642.svg",
+            "description": "man gesturing OK",
+            "variants": [
+              {
+                "filename": "1f646_1f3fb_200d_2642.svg",
+                "description": "man gesturing OK: light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fc_200d_2642.svg",
+                "description": "man gesturing OK: medium-light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fd_200d_2642.svg",
+                "description": "man gesturing OK: medium skin tone"
+              },
+              {
+                "filename": "1f646_1f3fe_200d_2642.svg",
+                "description": "man gesturing OK: medium-dark skin tone"
+              },
+              {
+                "filename": "1f646_1f3ff_200d_2642.svg",
+                "description": "man gesturing OK: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f646_200d_2640.svg",
+            "description": "woman gesturing OK",
+            "variants": [
+              {
+                "filename": "1f646_1f3fb_200d_2640.svg",
+                "description": "woman gesturing OK: light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fc_200d_2640.svg",
+                "description": "woman gesturing OK: medium-light skin tone"
+              },
+              {
+                "filename": "1f646_1f3fd_200d_2640.svg",
+                "description": "woman gesturing OK: medium skin tone"
+              },
+              {
+                "filename": "1f646_1f3fe_200d_2640.svg",
+                "description": "woman gesturing OK: medium-dark skin tone"
+              },
+              {
+                "filename": "1f646_1f3ff_200d_2640.svg",
+                "description": "woman gesturing OK: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f481.svg",
+            "description": "person tipping hand",
+            "variants": [
+              {
+                "filename": "1f481_1f3fb.svg",
+                "description": "person tipping hand: light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fc.svg",
+                "description": "person tipping hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fd.svg",
+                "description": "person tipping hand: medium skin tone"
+              },
+              {
+                "filename": "1f481_1f3fe.svg",
+                "description": "person tipping hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f481_1f3ff.svg",
+                "description": "person tipping hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f481_200d_2642.svg",
+            "description": "man tipping hand",
+            "variants": [
+              {
+                "filename": "1f481_1f3fb_200d_2642.svg",
+                "description": "man tipping hand: light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fc_200d_2642.svg",
+                "description": "man tipping hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fd_200d_2642.svg",
+                "description": "man tipping hand: medium skin tone"
+              },
+              {
+                "filename": "1f481_1f3fe_200d_2642.svg",
+                "description": "man tipping hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f481_1f3ff_200d_2642.svg",
+                "description": "man tipping hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f481_200d_2640.svg",
+            "description": "woman tipping hand",
+            "variants": [
+              {
+                "filename": "1f481_1f3fb_200d_2640.svg",
+                "description": "woman tipping hand: light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fc_200d_2640.svg",
+                "description": "woman tipping hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f481_1f3fd_200d_2640.svg",
+                "description": "woman tipping hand: medium skin tone"
+              },
+              {
+                "filename": "1f481_1f3fe_200d_2640.svg",
+                "description": "woman tipping hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f481_1f3ff_200d_2640.svg",
+                "description": "woman tipping hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64b.svg",
+            "description": "person raising hand",
+            "variants": [
+              {
+                "filename": "1f64b_1f3fb.svg",
+                "description": "person raising hand: light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fc.svg",
+                "description": "person raising hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fd.svg",
+                "description": "person raising hand: medium skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fe.svg",
+                "description": "person raising hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64b_1f3ff.svg",
+                "description": "person raising hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64b_200d_2642.svg",
+            "description": "man raising hand",
+            "variants": [
+              {
+                "filename": "1f64b_1f3fb_200d_2642.svg",
+                "description": "man raising hand: light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fc_200d_2642.svg",
+                "description": "man raising hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fd_200d_2642.svg",
+                "description": "man raising hand: medium skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fe_200d_2642.svg",
+                "description": "man raising hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64b_1f3ff_200d_2642.svg",
+                "description": "man raising hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f64b_200d_2640.svg",
+            "description": "woman raising hand",
+            "variants": [
+              {
+                "filename": "1f64b_1f3fb_200d_2640.svg",
+                "description": "woman raising hand: light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fc_200d_2640.svg",
+                "description": "woman raising hand: medium-light skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fd_200d_2640.svg",
+                "description": "woman raising hand: medium skin tone"
+              },
+              {
+                "filename": "1f64b_1f3fe_200d_2640.svg",
+                "description": "woman raising hand: medium-dark skin tone"
+              },
+              {
+                "filename": "1f64b_1f3ff_200d_2640.svg",
+                "description": "woman raising hand: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cf.svg",
+            "description": "deaf person",
+            "variants": [
+              {
+                "filename": "1f9cf_1f3fb.svg",
+                "description": "deaf person: light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fc.svg",
+                "description": "deaf person: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fd.svg",
+                "description": "deaf person: medium skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fe.svg",
+                "description": "deaf person: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3ff.svg",
+                "description": "deaf person: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cf_200d_2642.svg",
+            "description": "deaf man",
+            "variants": [
+              {
+                "filename": "1f9cf_1f3fb_200d_2642.svg",
+                "description": "deaf man: light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fc_200d_2642.svg",
+                "description": "deaf man: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fd_200d_2642.svg",
+                "description": "deaf man: medium skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fe_200d_2642.svg",
+                "description": "deaf man: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3ff_200d_2642.svg",
+                "description": "deaf man: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cf_200d_2640.svg",
+            "description": "deaf woman",
+            "variants": [
+              {
+                "filename": "1f9cf_1f3fb_200d_2640.svg",
+                "description": "deaf woman: light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fc_200d_2640.svg",
+                "description": "deaf woman: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fd_200d_2640.svg",
+                "description": "deaf woman: medium skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3fe_200d_2640.svg",
+                "description": "deaf woman: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cf_1f3ff_200d_2640.svg",
+                "description": "deaf woman: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f647.svg",
+            "description": "person bowing",
+            "variants": [
+              {
+                "filename": "1f647_1f3fb.svg",
+                "description": "person bowing: light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fc.svg",
+                "description": "person bowing: medium-light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fd.svg",
+                "description": "person bowing: medium skin tone"
+              },
+              {
+                "filename": "1f647_1f3fe.svg",
+                "description": "person bowing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f647_1f3ff.svg",
+                "description": "person bowing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f647_200d_2642.svg",
+            "description": "man bowing",
+            "variants": [
+              {
+                "filename": "1f647_1f3fb_200d_2642.svg",
+                "description": "man bowing: light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fc_200d_2642.svg",
+                "description": "man bowing: medium-light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fd_200d_2642.svg",
+                "description": "man bowing: medium skin tone"
+              },
+              {
+                "filename": "1f647_1f3fe_200d_2642.svg",
+                "description": "man bowing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f647_1f3ff_200d_2642.svg",
+                "description": "man bowing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f647_200d_2640.svg",
+            "description": "woman bowing",
+            "variants": [
+              {
+                "filename": "1f647_1f3fb_200d_2640.svg",
+                "description": "woman bowing: light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fc_200d_2640.svg",
+                "description": "woman bowing: medium-light skin tone"
+              },
+              {
+                "filename": "1f647_1f3fd_200d_2640.svg",
+                "description": "woman bowing: medium skin tone"
+              },
+              {
+                "filename": "1f647_1f3fe_200d_2640.svg",
+                "description": "woman bowing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f647_1f3ff_200d_2640.svg",
+                "description": "woman bowing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f926.svg",
+            "description": "person facepalming",
+            "variants": [
+              {
+                "filename": "1f926_1f3fb.svg",
+                "description": "person facepalming: light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fc.svg",
+                "description": "person facepalming: medium-light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fd.svg",
+                "description": "person facepalming: medium skin tone"
+              },
+              {
+                "filename": "1f926_1f3fe.svg",
+                "description": "person facepalming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f926_1f3ff.svg",
+                "description": "person facepalming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f926_200d_2642.svg",
+            "description": "man facepalming",
+            "variants": [
+              {
+                "filename": "1f926_1f3fb_200d_2642.svg",
+                "description": "man facepalming: light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fc_200d_2642.svg",
+                "description": "man facepalming: medium-light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fd_200d_2642.svg",
+                "description": "man facepalming: medium skin tone"
+              },
+              {
+                "filename": "1f926_1f3fe_200d_2642.svg",
+                "description": "man facepalming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f926_1f3ff_200d_2642.svg",
+                "description": "man facepalming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f926_200d_2640.svg",
+            "description": "woman facepalming",
+            "variants": [
+              {
+                "filename": "1f926_1f3fb_200d_2640.svg",
+                "description": "woman facepalming: light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fc_200d_2640.svg",
+                "description": "woman facepalming: medium-light skin tone"
+              },
+              {
+                "filename": "1f926_1f3fd_200d_2640.svg",
+                "description": "woman facepalming: medium skin tone"
+              },
+              {
+                "filename": "1f926_1f3fe_200d_2640.svg",
+                "description": "woman facepalming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f926_1f3ff_200d_2640.svg",
+                "description": "woman facepalming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f937.svg",
+            "description": "person shrugging",
+            "variants": [
+              {
+                "filename": "1f937_1f3fb.svg",
+                "description": "person shrugging: light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fc.svg",
+                "description": "person shrugging: medium-light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fd.svg",
+                "description": "person shrugging: medium skin tone"
+              },
+              {
+                "filename": "1f937_1f3fe.svg",
+                "description": "person shrugging: medium-dark skin tone"
+              },
+              {
+                "filename": "1f937_1f3ff.svg",
+                "description": "person shrugging: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f937_200d_2642.svg",
+            "description": "man shrugging",
+            "variants": [
+              {
+                "filename": "1f937_1f3fb_200d_2642.svg",
+                "description": "man shrugging: light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fc_200d_2642.svg",
+                "description": "man shrugging: medium-light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fd_200d_2642.svg",
+                "description": "man shrugging: medium skin tone"
+              },
+              {
+                "filename": "1f937_1f3fe_200d_2642.svg",
+                "description": "man shrugging: medium-dark skin tone"
+              },
+              {
+                "filename": "1f937_1f3ff_200d_2642.svg",
+                "description": "man shrugging: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f937_200d_2640.svg",
+            "description": "woman shrugging",
+            "variants": [
+              {
+                "filename": "1f937_1f3fb_200d_2640.svg",
+                "description": "woman shrugging: light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fc_200d_2640.svg",
+                "description": "woman shrugging: medium-light skin tone"
+              },
+              {
+                "filename": "1f937_1f3fd_200d_2640.svg",
+                "description": "woman shrugging: medium skin tone"
+              },
+              {
+                "filename": "1f937_1f3fe_200d_2640.svg",
+                "description": "woman shrugging: medium-dark skin tone"
+              },
+              {
+                "filename": "1f937_1f3ff_200d_2640.svg",
+                "description": "woman shrugging: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-role",
+        "emojis": [
+          {
+            "filename": "1f9d1_200d_2695.svg",
+            "description": "health worker",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_2695.svg",
+                "description": "health worker: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2695.svg",
+                "description": "health worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2695.svg",
+                "description": "health worker: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2695.svg",
+                "description": "health worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2695.svg",
+                "description": "health worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_2695.svg",
+            "description": "man health worker",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_2695.svg",
+                "description": "man health worker: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2695.svg",
+                "description": "man health worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2695.svg",
+                "description": "man health worker: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2695.svg",
+                "description": "man health worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2695.svg",
+                "description": "man health worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2695.svg",
+            "description": "woman health worker",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2695.svg",
+                "description": "woman health worker: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2695.svg",
+                "description": "woman health worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2695.svg",
+                "description": "woman health worker: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2695.svg",
+                "description": "woman health worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2695.svg",
+                "description": "woman health worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f393.svg",
+            "description": "student",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f393.svg",
+                "description": "student: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f393.svg",
+                "description": "student: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f393.svg",
+                "description": "student: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f393.svg",
+                "description": "student: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f393.svg",
+                "description": "student: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f393.svg",
+            "description": "man student",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f393.svg",
+                "description": "man student: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f393.svg",
+                "description": "man student: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f393.svg",
+                "description": "man student: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f393.svg",
+                "description": "man student: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f393.svg",
+                "description": "man student: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f393.svg",
+            "description": "woman student",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f393.svg",
+                "description": "woman student: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f393.svg",
+                "description": "woman student: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f393.svg",
+                "description": "woman student: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f393.svg",
+                "description": "woman student: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f393.svg",
+                "description": "woman student: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f3eb.svg",
+            "description": "teacher",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f3eb.svg",
+                "description": "teacher: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f3eb.svg",
+                "description": "teacher: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f3eb.svg",
+                "description": "teacher: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f3eb.svg",
+                "description": "teacher: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f3eb.svg",
+                "description": "teacher: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f3eb.svg",
+            "description": "man teacher",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f3eb.svg",
+                "description": "man teacher: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f3eb.svg",
+                "description": "man teacher: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f3eb.svg",
+                "description": "man teacher: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f3eb.svg",
+                "description": "man teacher: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f3eb.svg",
+                "description": "man teacher: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f3eb.svg",
+            "description": "woman teacher",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f3eb.svg",
+                "description": "woman teacher: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f3eb.svg",
+                "description": "woman teacher: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f3eb.svg",
+                "description": "woman teacher: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f3eb.svg",
+                "description": "woman teacher: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f3eb.svg",
+                "description": "woman teacher: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_2696.svg",
+            "description": "judge",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_2696.svg",
+                "description": "judge: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2696.svg",
+                "description": "judge: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2696.svg",
+                "description": "judge: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2696.svg",
+                "description": "judge: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2696.svg",
+                "description": "judge: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_2696.svg",
+            "description": "man judge",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_2696.svg",
+                "description": "man judge: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2696.svg",
+                "description": "man judge: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2696.svg",
+                "description": "man judge: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2696.svg",
+                "description": "man judge: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2696.svg",
+                "description": "man judge: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2696.svg",
+            "description": "woman judge",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2696.svg",
+                "description": "woman judge: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2696.svg",
+                "description": "woman judge: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2696.svg",
+                "description": "woman judge: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2696.svg",
+                "description": "woman judge: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2696.svg",
+                "description": "woman judge: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f33e.svg",
+            "description": "farmer",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f33e.svg",
+                "description": "farmer: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f33e.svg",
+                "description": "farmer: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f33e.svg",
+                "description": "farmer: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f33e.svg",
+                "description": "farmer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f33e.svg",
+                "description": "farmer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f33e.svg",
+            "description": "man farmer",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f33e.svg",
+                "description": "man farmer: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f33e.svg",
+                "description": "man farmer: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f33e.svg",
+                "description": "man farmer: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f33e.svg",
+                "description": "man farmer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f33e.svg",
+                "description": "man farmer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f33e.svg",
+            "description": "woman farmer",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f33e.svg",
+                "description": "woman farmer: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f33e.svg",
+                "description": "woman farmer: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f33e.svg",
+                "description": "woman farmer: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f33e.svg",
+                "description": "woman farmer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f33e.svg",
+                "description": "woman farmer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f373.svg",
+            "description": "cook",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f373.svg",
+                "description": "cook: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f373.svg",
+                "description": "cook: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f373.svg",
+                "description": "cook: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f373.svg",
+                "description": "cook: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f373.svg",
+                "description": "cook: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f373.svg",
+            "description": "man cook",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f373.svg",
+                "description": "man cook: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f373.svg",
+                "description": "man cook: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f373.svg",
+                "description": "man cook: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f373.svg",
+                "description": "man cook: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f373.svg",
+                "description": "man cook: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f373.svg",
+            "description": "woman cook",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f373.svg",
+                "description": "woman cook: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f373.svg",
+                "description": "woman cook: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f373.svg",
+                "description": "woman cook: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f373.svg",
+                "description": "woman cook: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f373.svg",
+                "description": "woman cook: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f527.svg",
+            "description": "mechanic",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f527.svg",
+                "description": "mechanic: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f527.svg",
+                "description": "mechanic: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f527.svg",
+                "description": "mechanic: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f527.svg",
+                "description": "mechanic: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f527.svg",
+                "description": "mechanic: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f527.svg",
+            "description": "man mechanic",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f527.svg",
+                "description": "man mechanic: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f527.svg",
+                "description": "man mechanic: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f527.svg",
+                "description": "man mechanic: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f527.svg",
+                "description": "man mechanic: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f527.svg",
+                "description": "man mechanic: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f527.svg",
+            "description": "woman mechanic",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f527.svg",
+                "description": "woman mechanic: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f527.svg",
+                "description": "woman mechanic: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f527.svg",
+                "description": "woman mechanic: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f527.svg",
+                "description": "woman mechanic: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f527.svg",
+                "description": "woman mechanic: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f3ed.svg",
+            "description": "factory worker",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f3ed.svg",
+                "description": "factory worker: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f3ed.svg",
+                "description": "factory worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f3ed.svg",
+                "description": "factory worker: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f3ed.svg",
+                "description": "factory worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f3ed.svg",
+                "description": "factory worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f3ed.svg",
+            "description": "man factory worker",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f3ed.svg",
+                "description": "man factory worker: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f3ed.svg",
+                "description": "man factory worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f3ed.svg",
+                "description": "man factory worker: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f3ed.svg",
+                "description": "man factory worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f3ed.svg",
+                "description": "man factory worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f3ed.svg",
+            "description": "woman factory worker",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f3ed.svg",
+                "description": "woman factory worker: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f3ed.svg",
+                "description": "woman factory worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f3ed.svg",
+                "description": "woman factory worker: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f3ed.svg",
+                "description": "woman factory worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f3ed.svg",
+                "description": "woman factory worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f4bc.svg",
+            "description": "office worker",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f4bc.svg",
+                "description": "office worker: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f4bc.svg",
+                "description": "office worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f4bc.svg",
+                "description": "office worker: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f4bc.svg",
+                "description": "office worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f4bc.svg",
+                "description": "office worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f4bc.svg",
+            "description": "man office worker",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f4bc.svg",
+                "description": "man office worker: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f4bc.svg",
+                "description": "man office worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f4bc.svg",
+                "description": "man office worker: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f4bc.svg",
+                "description": "man office worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f4bc.svg",
+                "description": "man office worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f4bc.svg",
+            "description": "woman office worker",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f4bc.svg",
+                "description": "woman office worker: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f4bc.svg",
+                "description": "woman office worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f4bc.svg",
+                "description": "woman office worker: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f4bc.svg",
+                "description": "woman office worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f4bc.svg",
+                "description": "woman office worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f52c.svg",
+            "description": "scientist",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f52c.svg",
+                "description": "scientist: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f52c.svg",
+                "description": "scientist: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f52c.svg",
+                "description": "scientist: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f52c.svg",
+                "description": "scientist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f52c.svg",
+                "description": "scientist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f52c.svg",
+            "description": "man scientist",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f52c.svg",
+                "description": "man scientist: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f52c.svg",
+                "description": "man scientist: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f52c.svg",
+                "description": "man scientist: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f52c.svg",
+                "description": "man scientist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f52c.svg",
+                "description": "man scientist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f52c.svg",
+            "description": "woman scientist",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f52c.svg",
+                "description": "woman scientist: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f52c.svg",
+                "description": "woman scientist: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f52c.svg",
+                "description": "woman scientist: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f52c.svg",
+                "description": "woman scientist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f52c.svg",
+                "description": "woman scientist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f4bb.svg",
+            "description": "technologist",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f4bb.svg",
+                "description": "technologist: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f4bb.svg",
+                "description": "technologist: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f4bb.svg",
+                "description": "technologist: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f4bb.svg",
+                "description": "technologist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f4bb.svg",
+                "description": "technologist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f4bb.svg",
+            "description": "man technologist",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f4bb.svg",
+                "description": "man technologist: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f4bb.svg",
+                "description": "man technologist: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f4bb.svg",
+                "description": "man technologist: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f4bb.svg",
+                "description": "man technologist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f4bb.svg",
+                "description": "man technologist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f4bb.svg",
+            "description": "woman technologist",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f4bb.svg",
+                "description": "woman technologist: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f4bb.svg",
+                "description": "woman technologist: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f4bb.svg",
+                "description": "woman technologist: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f4bb.svg",
+                "description": "woman technologist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f4bb.svg",
+                "description": "woman technologist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f3a4.svg",
+            "description": "singer",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f3a4.svg",
+                "description": "singer: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f3a4.svg",
+                "description": "singer: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f3a4.svg",
+                "description": "singer: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f3a4.svg",
+                "description": "singer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f3a4.svg",
+                "description": "singer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f3a4.svg",
+            "description": "man singer",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f3a4.svg",
+                "description": "man singer: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f3a4.svg",
+                "description": "man singer: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f3a4.svg",
+                "description": "man singer: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f3a4.svg",
+                "description": "man singer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f3a4.svg",
+                "description": "man singer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f3a4.svg",
+            "description": "woman singer",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f3a4.svg",
+                "description": "woman singer: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f3a4.svg",
+                "description": "woman singer: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f3a4.svg",
+                "description": "woman singer: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f3a4.svg",
+                "description": "woman singer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f3a4.svg",
+                "description": "woman singer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f3a8.svg",
+            "description": "artist",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f3a8.svg",
+                "description": "artist: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f3a8.svg",
+                "description": "artist: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f3a8.svg",
+                "description": "artist: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f3a8.svg",
+                "description": "artist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f3a8.svg",
+                "description": "artist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f3a8.svg",
+            "description": "man artist",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f3a8.svg",
+                "description": "man artist: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f3a8.svg",
+                "description": "man artist: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f3a8.svg",
+                "description": "man artist: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f3a8.svg",
+                "description": "man artist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f3a8.svg",
+                "description": "man artist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f3a8.svg",
+            "description": "woman artist",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f3a8.svg",
+                "description": "woman artist: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f3a8.svg",
+                "description": "woman artist: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f3a8.svg",
+                "description": "woman artist: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f3a8.svg",
+                "description": "woman artist: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f3a8.svg",
+                "description": "woman artist: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_2708.svg",
+            "description": "pilot",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_2708.svg",
+                "description": "pilot: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2708.svg",
+                "description": "pilot: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2708.svg",
+                "description": "pilot: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2708.svg",
+                "description": "pilot: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2708.svg",
+                "description": "pilot: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_2708.svg",
+            "description": "man pilot",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_2708.svg",
+                "description": "man pilot: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2708.svg",
+                "description": "man pilot: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2708.svg",
+                "description": "man pilot: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2708.svg",
+                "description": "man pilot: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2708.svg",
+                "description": "man pilot: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2708.svg",
+            "description": "woman pilot",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2708.svg",
+                "description": "woman pilot: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2708.svg",
+                "description": "woman pilot: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2708.svg",
+                "description": "woman pilot: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2708.svg",
+                "description": "woman pilot: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2708.svg",
+                "description": "woman pilot: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f680.svg",
+            "description": "astronaut",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f680.svg",
+                "description": "astronaut: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f680.svg",
+                "description": "astronaut: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f680.svg",
+                "description": "astronaut: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f680.svg",
+                "description": "astronaut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f680.svg",
+                "description": "astronaut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f680.svg",
+            "description": "man astronaut",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f680.svg",
+                "description": "man astronaut: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f680.svg",
+                "description": "man astronaut: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f680.svg",
+                "description": "man astronaut: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f680.svg",
+                "description": "man astronaut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f680.svg",
+                "description": "man astronaut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f680.svg",
+            "description": "woman astronaut",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f680.svg",
+                "description": "woman astronaut: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f680.svg",
+                "description": "woman astronaut: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f680.svg",
+                "description": "woman astronaut: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f680.svg",
+                "description": "woman astronaut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f680.svg",
+                "description": "woman astronaut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f692.svg",
+            "description": "firefighter",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f692.svg",
+                "description": "firefighter: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f692.svg",
+                "description": "firefighter: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f692.svg",
+                "description": "firefighter: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f692.svg",
+                "description": "firefighter: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f692.svg",
+                "description": "firefighter: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f692.svg",
+            "description": "man firefighter",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f692.svg",
+                "description": "man firefighter: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f692.svg",
+                "description": "man firefighter: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f692.svg",
+                "description": "man firefighter: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f692.svg",
+                "description": "man firefighter: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f692.svg",
+                "description": "man firefighter: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f692.svg",
+            "description": "woman firefighter",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f692.svg",
+                "description": "woman firefighter: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f692.svg",
+                "description": "woman firefighter: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f692.svg",
+                "description": "woman firefighter: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f692.svg",
+                "description": "woman firefighter: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f692.svg",
+                "description": "woman firefighter: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46e.svg",
+            "description": "police officer",
+            "variants": [
+              {
+                "filename": "1f46e_1f3fb.svg",
+                "description": "police officer: light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fc.svg",
+                "description": "police officer: medium-light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fd.svg",
+                "description": "police officer: medium skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fe.svg",
+                "description": "police officer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f46e_1f3ff.svg",
+                "description": "police officer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46e_200d_2642.svg",
+            "description": "man police officer",
+            "variants": [
+              {
+                "filename": "1f46e_1f3fb_200d_2642.svg",
+                "description": "man police officer: light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fc_200d_2642.svg",
+                "description": "man police officer: medium-light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fd_200d_2642.svg",
+                "description": "man police officer: medium skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fe_200d_2642.svg",
+                "description": "man police officer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f46e_1f3ff_200d_2642.svg",
+                "description": "man police officer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46e_200d_2640.svg",
+            "description": "woman police officer",
+            "variants": [
+              {
+                "filename": "1f46e_1f3fb_200d_2640.svg",
+                "description": "woman police officer: light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fc_200d_2640.svg",
+                "description": "woman police officer: medium-light skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fd_200d_2640.svg",
+                "description": "woman police officer: medium skin tone"
+              },
+              {
+                "filename": "1f46e_1f3fe_200d_2640.svg",
+                "description": "woman police officer: medium-dark skin tone"
+              },
+              {
+                "filename": "1f46e_1f3ff_200d_2640.svg",
+                "description": "woman police officer: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f575.svg",
+            "description": "detective",
+            "variants": [
+              {
+                "filename": "1f575_1f3fb.svg",
+                "description": "detective: light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fc.svg",
+                "description": "detective: medium-light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fd.svg",
+                "description": "detective: medium skin tone"
+              },
+              {
+                "filename": "1f575_1f3fe.svg",
+                "description": "detective: medium-dark skin tone"
+              },
+              {
+                "filename": "1f575_1f3ff.svg",
+                "description": "detective: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f575_200d_2642.svg",
+            "description": "man detective",
+            "variants": [
+              {
+                "filename": "1f575_1f3fb_200d_2642.svg",
+                "description": "man detective: light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fc_200d_2642.svg",
+                "description": "man detective: medium-light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fd_200d_2642.svg",
+                "description": "man detective: medium skin tone"
+              },
+              {
+                "filename": "1f575_1f3fe_200d_2642.svg",
+                "description": "man detective: medium-dark skin tone"
+              },
+              {
+                "filename": "1f575_1f3ff_200d_2642.svg",
+                "description": "man detective: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f575_200d_2640.svg",
+            "description": "woman detective",
+            "variants": [
+              {
+                "filename": "1f575_1f3fb_200d_2640.svg",
+                "description": "woman detective: light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fc_200d_2640.svg",
+                "description": "woman detective: medium-light skin tone"
+              },
+              {
+                "filename": "1f575_1f3fd_200d_2640.svg",
+                "description": "woman detective: medium skin tone"
+              },
+              {
+                "filename": "1f575_1f3fe_200d_2640.svg",
+                "description": "woman detective: medium-dark skin tone"
+              },
+              {
+                "filename": "1f575_1f3ff_200d_2640.svg",
+                "description": "woman detective: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f482.svg",
+            "description": "guard",
+            "variants": [
+              {
+                "filename": "1f482_1f3fb.svg",
+                "description": "guard: light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fc.svg",
+                "description": "guard: medium-light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fd.svg",
+                "description": "guard: medium skin tone"
+              },
+              {
+                "filename": "1f482_1f3fe.svg",
+                "description": "guard: medium-dark skin tone"
+              },
+              {
+                "filename": "1f482_1f3ff.svg",
+                "description": "guard: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f482_200d_2642.svg",
+            "description": "man guard",
+            "variants": [
+              {
+                "filename": "1f482_1f3fb_200d_2642.svg",
+                "description": "man guard: light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fc_200d_2642.svg",
+                "description": "man guard: medium-light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fd_200d_2642.svg",
+                "description": "man guard: medium skin tone"
+              },
+              {
+                "filename": "1f482_1f3fe_200d_2642.svg",
+                "description": "man guard: medium-dark skin tone"
+              },
+              {
+                "filename": "1f482_1f3ff_200d_2642.svg",
+                "description": "man guard: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f482_200d_2640.svg",
+            "description": "woman guard",
+            "variants": [
+              {
+                "filename": "1f482_1f3fb_200d_2640.svg",
+                "description": "woman guard: light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fc_200d_2640.svg",
+                "description": "woman guard: medium-light skin tone"
+              },
+              {
+                "filename": "1f482_1f3fd_200d_2640.svg",
+                "description": "woman guard: medium skin tone"
+              },
+              {
+                "filename": "1f482_1f3fe_200d_2640.svg",
+                "description": "woman guard: medium-dark skin tone"
+              },
+              {
+                "filename": "1f482_1f3ff_200d_2640.svg",
+                "description": "woman guard: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f977.svg",
+            "description": "ninja",
+            "variants": [
+              {
+                "filename": "1f977_1f3fb.svg",
+                "description": "ninja: light skin tone"
+              },
+              {
+                "filename": "1f977_1f3fc.svg",
+                "description": "ninja: medium-light skin tone"
+              },
+              {
+                "filename": "1f977_1f3fd.svg",
+                "description": "ninja: medium skin tone"
+              },
+              {
+                "filename": "1f977_1f3fe.svg",
+                "description": "ninja: medium-dark skin tone"
+              },
+              {
+                "filename": "1f977_1f3ff.svg",
+                "description": "ninja: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f477.svg",
+            "description": "construction worker",
+            "variants": [
+              {
+                "filename": "1f477_1f3fb.svg",
+                "description": "construction worker: light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fc.svg",
+                "description": "construction worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fd.svg",
+                "description": "construction worker: medium skin tone"
+              },
+              {
+                "filename": "1f477_1f3fe.svg",
+                "description": "construction worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f477_1f3ff.svg",
+                "description": "construction worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f477_200d_2642.svg",
+            "description": "man construction worker",
+            "variants": [
+              {
+                "filename": "1f477_1f3fb_200d_2642.svg",
+                "description": "man construction worker: light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fc_200d_2642.svg",
+                "description": "man construction worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fd_200d_2642.svg",
+                "description": "man construction worker: medium skin tone"
+              },
+              {
+                "filename": "1f477_1f3fe_200d_2642.svg",
+                "description": "man construction worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f477_1f3ff_200d_2642.svg",
+                "description": "man construction worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f477_200d_2640.svg",
+            "description": "woman construction worker",
+            "variants": [
+              {
+                "filename": "1f477_1f3fb_200d_2640.svg",
+                "description": "woman construction worker: light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fc_200d_2640.svg",
+                "description": "woman construction worker: medium-light skin tone"
+              },
+              {
+                "filename": "1f477_1f3fd_200d_2640.svg",
+                "description": "woman construction worker: medium skin tone"
+              },
+              {
+                "filename": "1f477_1f3fe_200d_2640.svg",
+                "description": "woman construction worker: medium-dark skin tone"
+              },
+              {
+                "filename": "1f477_1f3ff_200d_2640.svg",
+                "description": "woman construction worker: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1fac5.svg",
+            "description": "person with crown",
+            "variants": [
+              {
+                "filename": "1fac5_1f3fb.svg",
+                "description": "person with crown: light skin tone"
+              },
+              {
+                "filename": "1fac5_1f3fc.svg",
+                "description": "person with crown: medium-light skin tone"
+              },
+              {
+                "filename": "1fac5_1f3fd.svg",
+                "description": "person with crown: medium skin tone"
+              },
+              {
+                "filename": "1fac5_1f3fe.svg",
+                "description": "person with crown: medium-dark skin tone"
+              },
+              {
+                "filename": "1fac5_1f3ff.svg",
+                "description": "person with crown: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f934.svg",
+            "description": "prince",
+            "variants": [
+              {
+                "filename": "1f934_1f3fb.svg",
+                "description": "prince: light skin tone"
+              },
+              {
+                "filename": "1f934_1f3fc.svg",
+                "description": "prince: medium-light skin tone"
+              },
+              {
+                "filename": "1f934_1f3fd.svg",
+                "description": "prince: medium skin tone"
+              },
+              {
+                "filename": "1f934_1f3fe.svg",
+                "description": "prince: medium-dark skin tone"
+              },
+              {
+                "filename": "1f934_1f3ff.svg",
+                "description": "prince: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f478.svg",
+            "description": "princess",
+            "variants": [
+              {
+                "filename": "1f478_1f3fb.svg",
+                "description": "princess: light skin tone"
+              },
+              {
+                "filename": "1f478_1f3fc.svg",
+                "description": "princess: medium-light skin tone"
+              },
+              {
+                "filename": "1f478_1f3fd.svg",
+                "description": "princess: medium skin tone"
+              },
+              {
+                "filename": "1f478_1f3fe.svg",
+                "description": "princess: medium-dark skin tone"
+              },
+              {
+                "filename": "1f478_1f3ff.svg",
+                "description": "princess: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f473.svg",
+            "description": "person wearing turban",
+            "variants": [
+              {
+                "filename": "1f473_1f3fb.svg",
+                "description": "person wearing turban: light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fc.svg",
+                "description": "person wearing turban: medium-light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fd.svg",
+                "description": "person wearing turban: medium skin tone"
+              },
+              {
+                "filename": "1f473_1f3fe.svg",
+                "description": "person wearing turban: medium-dark skin tone"
+              },
+              {
+                "filename": "1f473_1f3ff.svg",
+                "description": "person wearing turban: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f473_200d_2642.svg",
+            "description": "man wearing turban",
+            "variants": [
+              {
+                "filename": "1f473_1f3fb_200d_2642.svg",
+                "description": "man wearing turban: light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fc_200d_2642.svg",
+                "description": "man wearing turban: medium-light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fd_200d_2642.svg",
+                "description": "man wearing turban: medium skin tone"
+              },
+              {
+                "filename": "1f473_1f3fe_200d_2642.svg",
+                "description": "man wearing turban: medium-dark skin tone"
+              },
+              {
+                "filename": "1f473_1f3ff_200d_2642.svg",
+                "description": "man wearing turban: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f473_200d_2640.svg",
+            "description": "woman wearing turban",
+            "variants": [
+              {
+                "filename": "1f473_1f3fb_200d_2640.svg",
+                "description": "woman wearing turban: light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fc_200d_2640.svg",
+                "description": "woman wearing turban: medium-light skin tone"
+              },
+              {
+                "filename": "1f473_1f3fd_200d_2640.svg",
+                "description": "woman wearing turban: medium skin tone"
+              },
+              {
+                "filename": "1f473_1f3fe_200d_2640.svg",
+                "description": "woman wearing turban: medium-dark skin tone"
+              },
+              {
+                "filename": "1f473_1f3ff_200d_2640.svg",
+                "description": "woman wearing turban: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f472.svg",
+            "description": "person with skullcap",
+            "variants": [
+              {
+                "filename": "1f472_1f3fb.svg",
+                "description": "person with skullcap: light skin tone"
+              },
+              {
+                "filename": "1f472_1f3fc.svg",
+                "description": "person with skullcap: medium-light skin tone"
+              },
+              {
+                "filename": "1f472_1f3fd.svg",
+                "description": "person with skullcap: medium skin tone"
+              },
+              {
+                "filename": "1f472_1f3fe.svg",
+                "description": "person with skullcap: medium-dark skin tone"
+              },
+              {
+                "filename": "1f472_1f3ff.svg",
+                "description": "person with skullcap: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d5.svg",
+            "description": "woman with headscarf",
+            "variants": [
+              {
+                "filename": "1f9d5_1f3fb.svg",
+                "description": "woman with headscarf: light skin tone"
+              },
+              {
+                "filename": "1f9d5_1f3fc.svg",
+                "description": "woman with headscarf: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d5_1f3fd.svg",
+                "description": "woman with headscarf: medium skin tone"
+              },
+              {
+                "filename": "1f9d5_1f3fe.svg",
+                "description": "woman with headscarf: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d5_1f3ff.svg",
+                "description": "woman with headscarf: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f935.svg",
+            "description": "person in tuxedo",
+            "variants": [
+              {
+                "filename": "1f935_1f3fb.svg",
+                "description": "person in tuxedo: light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fc.svg",
+                "description": "person in tuxedo: medium-light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fd.svg",
+                "description": "person in tuxedo: medium skin tone"
+              },
+              {
+                "filename": "1f935_1f3fe.svg",
+                "description": "person in tuxedo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f935_1f3ff.svg",
+                "description": "person in tuxedo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f935_200d_2642.svg",
+            "description": "man in tuxedo",
+            "variants": [
+              {
+                "filename": "1f935_1f3fb_200d_2642.svg",
+                "description": "man in tuxedo: light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fc_200d_2642.svg",
+                "description": "man in tuxedo: medium-light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fd_200d_2642.svg",
+                "description": "man in tuxedo: medium skin tone"
+              },
+              {
+                "filename": "1f935_1f3fe_200d_2642.svg",
+                "description": "man in tuxedo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f935_1f3ff_200d_2642.svg",
+                "description": "man in tuxedo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f935_200d_2640.svg",
+            "description": "woman in tuxedo",
+            "variants": [
+              {
+                "filename": "1f935_1f3fb_200d_2640.svg",
+                "description": "woman in tuxedo: light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fc_200d_2640.svg",
+                "description": "woman in tuxedo: medium-light skin tone"
+              },
+              {
+                "filename": "1f935_1f3fd_200d_2640.svg",
+                "description": "woman in tuxedo: medium skin tone"
+              },
+              {
+                "filename": "1f935_1f3fe_200d_2640.svg",
+                "description": "woman in tuxedo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f935_1f3ff_200d_2640.svg",
+                "description": "woman in tuxedo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f470.svg",
+            "description": "person with veil",
+            "variants": [
+              {
+                "filename": "1f470_1f3fb.svg",
+                "description": "person with veil: light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fc.svg",
+                "description": "person with veil: medium-light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fd.svg",
+                "description": "person with veil: medium skin tone"
+              },
+              {
+                "filename": "1f470_1f3fe.svg",
+                "description": "person with veil: medium-dark skin tone"
+              },
+              {
+                "filename": "1f470_1f3ff.svg",
+                "description": "person with veil: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f470_200d_2642.svg",
+            "description": "man with veil",
+            "variants": [
+              {
+                "filename": "1f470_1f3fb_200d_2642.svg",
+                "description": "man with veil: light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fc_200d_2642.svg",
+                "description": "man with veil: medium-light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fd_200d_2642.svg",
+                "description": "man with veil: medium skin tone"
+              },
+              {
+                "filename": "1f470_1f3fe_200d_2642.svg",
+                "description": "man with veil: medium-dark skin tone"
+              },
+              {
+                "filename": "1f470_1f3ff_200d_2642.svg",
+                "description": "man with veil: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f470_200d_2640.svg",
+            "description": "woman with veil",
+            "variants": [
+              {
+                "filename": "1f470_1f3fb_200d_2640.svg",
+                "description": "woman with veil: light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fc_200d_2640.svg",
+                "description": "woman with veil: medium-light skin tone"
+              },
+              {
+                "filename": "1f470_1f3fd_200d_2640.svg",
+                "description": "woman with veil: medium skin tone"
+              },
+              {
+                "filename": "1f470_1f3fe_200d_2640.svg",
+                "description": "woman with veil: medium-dark skin tone"
+              },
+              {
+                "filename": "1f470_1f3ff_200d_2640.svg",
+                "description": "woman with veil: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f930.svg",
+            "description": "pregnant woman",
+            "variants": [
+              {
+                "filename": "1f930_1f3fb.svg",
+                "description": "pregnant woman: light skin tone"
+              },
+              {
+                "filename": "1f930_1f3fc.svg",
+                "description": "pregnant woman: medium-light skin tone"
+              },
+              {
+                "filename": "1f930_1f3fd.svg",
+                "description": "pregnant woman: medium skin tone"
+              },
+              {
+                "filename": "1f930_1f3fe.svg",
+                "description": "pregnant woman: medium-dark skin tone"
+              },
+              {
+                "filename": "1f930_1f3ff.svg",
+                "description": "pregnant woman: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1fac3.svg",
+            "description": "pregnant man",
+            "variants": [
+              {
+                "filename": "1fac3_1f3fb.svg",
+                "description": "pregnant man: light skin tone"
+              },
+              {
+                "filename": "1fac3_1f3fc.svg",
+                "description": "pregnant man: medium-light skin tone"
+              },
+              {
+                "filename": "1fac3_1f3fd.svg",
+                "description": "pregnant man: medium skin tone"
+              },
+              {
+                "filename": "1fac3_1f3fe.svg",
+                "description": "pregnant man: medium-dark skin tone"
+              },
+              {
+                "filename": "1fac3_1f3ff.svg",
+                "description": "pregnant man: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1fac4.svg",
+            "description": "pregnant person",
+            "variants": [
+              {
+                "filename": "1fac4_1f3fb.svg",
+                "description": "pregnant person: light skin tone"
+              },
+              {
+                "filename": "1fac4_1f3fc.svg",
+                "description": "pregnant person: medium-light skin tone"
+              },
+              {
+                "filename": "1fac4_1f3fd.svg",
+                "description": "pregnant person: medium skin tone"
+              },
+              {
+                "filename": "1fac4_1f3fe.svg",
+                "description": "pregnant person: medium-dark skin tone"
+              },
+              {
+                "filename": "1fac4_1f3ff.svg",
+                "description": "pregnant person: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f931.svg",
+            "description": "breast-feeding",
+            "variants": [
+              {
+                "filename": "1f931_1f3fb.svg",
+                "description": "breast-feeding: light skin tone"
+              },
+              {
+                "filename": "1f931_1f3fc.svg",
+                "description": "breast-feeding: medium-light skin tone"
+              },
+              {
+                "filename": "1f931_1f3fd.svg",
+                "description": "breast-feeding: medium skin tone"
+              },
+              {
+                "filename": "1f931_1f3fe.svg",
+                "description": "breast-feeding: medium-dark skin tone"
+              },
+              {
+                "filename": "1f931_1f3ff.svg",
+                "description": "breast-feeding: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f37c.svg",
+            "description": "woman feeding baby",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f37c.svg",
+                "description": "woman feeding baby: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f37c.svg",
+                "description": "woman feeding baby: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f37c.svg",
+                "description": "woman feeding baby: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f37c.svg",
+                "description": "woman feeding baby: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f37c.svg",
+                "description": "woman feeding baby: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f37c.svg",
+            "description": "man feeding baby",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f37c.svg",
+                "description": "man feeding baby: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f37c.svg",
+                "description": "man feeding baby: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f37c.svg",
+                "description": "man feeding baby: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f37c.svg",
+                "description": "man feeding baby: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f37c.svg",
+                "description": "man feeding baby: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f37c.svg",
+            "description": "person feeding baby",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f37c.svg",
+                "description": "person feeding baby: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f37c.svg",
+                "description": "person feeding baby: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f37c.svg",
+                "description": "person feeding baby: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f37c.svg",
+                "description": "person feeding baby: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f37c.svg",
+                "description": "person feeding baby: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-fantasy",
+        "emojis": [
+          {
+            "filename": "1f47c.svg",
+            "description": "baby angel",
+            "variants": [
+              {
+                "filename": "1f47c_1f3fb.svg",
+                "description": "baby angel: light skin tone"
+              },
+              {
+                "filename": "1f47c_1f3fc.svg",
+                "description": "baby angel: medium-light skin tone"
+              },
+              {
+                "filename": "1f47c_1f3fd.svg",
+                "description": "baby angel: medium skin tone"
+              },
+              {
+                "filename": "1f47c_1f3fe.svg",
+                "description": "baby angel: medium-dark skin tone"
+              },
+              {
+                "filename": "1f47c_1f3ff.svg",
+                "description": "baby angel: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f385.svg",
+            "description": "Santa Claus",
+            "variants": [
+              {
+                "filename": "1f385_1f3fb.svg",
+                "description": "Santa Claus: light skin tone"
+              },
+              {
+                "filename": "1f385_1f3fc.svg",
+                "description": "Santa Claus: medium-light skin tone"
+              },
+              {
+                "filename": "1f385_1f3fd.svg",
+                "description": "Santa Claus: medium skin tone"
+              },
+              {
+                "filename": "1f385_1f3fe.svg",
+                "description": "Santa Claus: medium-dark skin tone"
+              },
+              {
+                "filename": "1f385_1f3ff.svg",
+                "description": "Santa Claus: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f936.svg",
+            "description": "Mrs. Claus",
+            "variants": [
+              {
+                "filename": "1f936_1f3fb.svg",
+                "description": "Mrs. Claus: light skin tone"
+              },
+              {
+                "filename": "1f936_1f3fc.svg",
+                "description": "Mrs. Claus: medium-light skin tone"
+              },
+              {
+                "filename": "1f936_1f3fd.svg",
+                "description": "Mrs. Claus: medium skin tone"
+              },
+              {
+                "filename": "1f936_1f3fe.svg",
+                "description": "Mrs. Claus: medium-dark skin tone"
+              },
+              {
+                "filename": "1f936_1f3ff.svg",
+                "description": "Mrs. Claus: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f384.svg",
+            "description": "Mx Claus",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f384.svg",
+                "description": "Mx Claus: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f384.svg",
+                "description": "Mx Claus: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f384.svg",
+                "description": "Mx Claus: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f384.svg",
+                "description": "Mx Claus: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f384.svg",
+                "description": "Mx Claus: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b8.svg",
+            "description": "superhero",
+            "variants": [
+              {
+                "filename": "1f9b8_1f3fb.svg",
+                "description": "superhero: light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fc.svg",
+                "description": "superhero: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fd.svg",
+                "description": "superhero: medium skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fe.svg",
+                "description": "superhero: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3ff.svg",
+                "description": "superhero: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b8_200d_2642.svg",
+            "description": "man superhero",
+            "variants": [
+              {
+                "filename": "1f9b8_1f3fb_200d_2642.svg",
+                "description": "man superhero: light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fc_200d_2642.svg",
+                "description": "man superhero: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fd_200d_2642.svg",
+                "description": "man superhero: medium skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fe_200d_2642.svg",
+                "description": "man superhero: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3ff_200d_2642.svg",
+                "description": "man superhero: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b8_200d_2640.svg",
+            "description": "woman superhero",
+            "variants": [
+              {
+                "filename": "1f9b8_1f3fb_200d_2640.svg",
+                "description": "woman superhero: light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fc_200d_2640.svg",
+                "description": "woman superhero: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fd_200d_2640.svg",
+                "description": "woman superhero: medium skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3fe_200d_2640.svg",
+                "description": "woman superhero: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b8_1f3ff_200d_2640.svg",
+                "description": "woman superhero: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b9.svg",
+            "description": "supervillain",
+            "variants": [
+              {
+                "filename": "1f9b9_1f3fb.svg",
+                "description": "supervillain: light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fc.svg",
+                "description": "supervillain: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fd.svg",
+                "description": "supervillain: medium skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fe.svg",
+                "description": "supervillain: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3ff.svg",
+                "description": "supervillain: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b9_200d_2642.svg",
+            "description": "man supervillain",
+            "variants": [
+              {
+                "filename": "1f9b9_1f3fb_200d_2642.svg",
+                "description": "man supervillain: light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fc_200d_2642.svg",
+                "description": "man supervillain: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fd_200d_2642.svg",
+                "description": "man supervillain: medium skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fe_200d_2642.svg",
+                "description": "man supervillain: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3ff_200d_2642.svg",
+                "description": "man supervillain: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9b9_200d_2640.svg",
+            "description": "woman supervillain",
+            "variants": [
+              {
+                "filename": "1f9b9_1f3fb_200d_2640.svg",
+                "description": "woman supervillain: light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fc_200d_2640.svg",
+                "description": "woman supervillain: medium-light skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fd_200d_2640.svg",
+                "description": "woman supervillain: medium skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3fe_200d_2640.svg",
+                "description": "woman supervillain: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9b9_1f3ff_200d_2640.svg",
+                "description": "woman supervillain: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d9.svg",
+            "description": "mage",
+            "variants": [
+              {
+                "filename": "1f9d9_1f3fb.svg",
+                "description": "mage: light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fc.svg",
+                "description": "mage: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fd.svg",
+                "description": "mage: medium skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fe.svg",
+                "description": "mage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3ff.svg",
+                "description": "mage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d9_200d_2642.svg",
+            "description": "man mage",
+            "variants": [
+              {
+                "filename": "1f9d9_1f3fb_200d_2642.svg",
+                "description": "man mage: light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fc_200d_2642.svg",
+                "description": "man mage: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fd_200d_2642.svg",
+                "description": "man mage: medium skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fe_200d_2642.svg",
+                "description": "man mage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3ff_200d_2642.svg",
+                "description": "man mage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d9_200d_2640.svg",
+            "description": "woman mage",
+            "variants": [
+              {
+                "filename": "1f9d9_1f3fb_200d_2640.svg",
+                "description": "woman mage: light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fc_200d_2640.svg",
+                "description": "woman mage: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fd_200d_2640.svg",
+                "description": "woman mage: medium skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3fe_200d_2640.svg",
+                "description": "woman mage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d9_1f3ff_200d_2640.svg",
+                "description": "woman mage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9da.svg",
+            "description": "fairy",
+            "variants": [
+              {
+                "filename": "1f9da_1f3fb.svg",
+                "description": "fairy: light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fc.svg",
+                "description": "fairy: medium-light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fd.svg",
+                "description": "fairy: medium skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fe.svg",
+                "description": "fairy: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9da_1f3ff.svg",
+                "description": "fairy: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9da_200d_2642.svg",
+            "description": "man fairy",
+            "variants": [
+              {
+                "filename": "1f9da_1f3fb_200d_2642.svg",
+                "description": "man fairy: light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fc_200d_2642.svg",
+                "description": "man fairy: medium-light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fd_200d_2642.svg",
+                "description": "man fairy: medium skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fe_200d_2642.svg",
+                "description": "man fairy: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9da_1f3ff_200d_2642.svg",
+                "description": "man fairy: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9da_200d_2640.svg",
+            "description": "woman fairy",
+            "variants": [
+              {
+                "filename": "1f9da_1f3fb_200d_2640.svg",
+                "description": "woman fairy: light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fc_200d_2640.svg",
+                "description": "woman fairy: medium-light skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fd_200d_2640.svg",
+                "description": "woman fairy: medium skin tone"
+              },
+              {
+                "filename": "1f9da_1f3fe_200d_2640.svg",
+                "description": "woman fairy: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9da_1f3ff_200d_2640.svg",
+                "description": "woman fairy: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9db.svg",
+            "description": "vampire",
+            "variants": [
+              {
+                "filename": "1f9db_1f3fb.svg",
+                "description": "vampire: light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fc.svg",
+                "description": "vampire: medium-light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fd.svg",
+                "description": "vampire: medium skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fe.svg",
+                "description": "vampire: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9db_1f3ff.svg",
+                "description": "vampire: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9db_200d_2642.svg",
+            "description": "man vampire",
+            "variants": [
+              {
+                "filename": "1f9db_1f3fb_200d_2642.svg",
+                "description": "man vampire: light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fc_200d_2642.svg",
+                "description": "man vampire: medium-light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fd_200d_2642.svg",
+                "description": "man vampire: medium skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fe_200d_2642.svg",
+                "description": "man vampire: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9db_1f3ff_200d_2642.svg",
+                "description": "man vampire: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9db_200d_2640.svg",
+            "description": "woman vampire",
+            "variants": [
+              {
+                "filename": "1f9db_1f3fb_200d_2640.svg",
+                "description": "woman vampire: light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fc_200d_2640.svg",
+                "description": "woman vampire: medium-light skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fd_200d_2640.svg",
+                "description": "woman vampire: medium skin tone"
+              },
+              {
+                "filename": "1f9db_1f3fe_200d_2640.svg",
+                "description": "woman vampire: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9db_1f3ff_200d_2640.svg",
+                "description": "woman vampire: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dc.svg",
+            "description": "merperson",
+            "variants": [
+              {
+                "filename": "1f9dc_1f3fb.svg",
+                "description": "merperson: light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fc.svg",
+                "description": "merperson: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fd.svg",
+                "description": "merperson: medium skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fe.svg",
+                "description": "merperson: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3ff.svg",
+                "description": "merperson: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dc_200d_2642.svg",
+            "description": "merman",
+            "variants": [
+              {
+                "filename": "1f9dc_1f3fb_200d_2642.svg",
+                "description": "merman: light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fc_200d_2642.svg",
+                "description": "merman: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fd_200d_2642.svg",
+                "description": "merman: medium skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fe_200d_2642.svg",
+                "description": "merman: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3ff_200d_2642.svg",
+                "description": "merman: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dc_200d_2640.svg",
+            "description": "mermaid",
+            "variants": [
+              {
+                "filename": "1f9dc_1f3fb_200d_2640.svg",
+                "description": "mermaid: light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fc_200d_2640.svg",
+                "description": "mermaid: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fd_200d_2640.svg",
+                "description": "mermaid: medium skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3fe_200d_2640.svg",
+                "description": "mermaid: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dc_1f3ff_200d_2640.svg",
+                "description": "mermaid: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dd.svg",
+            "description": "elf",
+            "variants": [
+              {
+                "filename": "1f9dd_1f3fb.svg",
+                "description": "elf: light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fc.svg",
+                "description": "elf: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fd.svg",
+                "description": "elf: medium skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fe.svg",
+                "description": "elf: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3ff.svg",
+                "description": "elf: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dd_200d_2642.svg",
+            "description": "man elf",
+            "variants": [
+              {
+                "filename": "1f9dd_1f3fb_200d_2642.svg",
+                "description": "man elf: light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fc_200d_2642.svg",
+                "description": "man elf: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fd_200d_2642.svg",
+                "description": "man elf: medium skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fe_200d_2642.svg",
+                "description": "man elf: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3ff_200d_2642.svg",
+                "description": "man elf: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9dd_200d_2640.svg",
+            "description": "woman elf",
+            "variants": [
+              {
+                "filename": "1f9dd_1f3fb_200d_2640.svg",
+                "description": "woman elf: light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fc_200d_2640.svg",
+                "description": "woman elf: medium-light skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fd_200d_2640.svg",
+                "description": "woman elf: medium skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3fe_200d_2640.svg",
+                "description": "woman elf: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9dd_1f3ff_200d_2640.svg",
+                "description": "woman elf: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9de.svg",
+            "description": "genie",
+            "variants": []
+          },
+          {
+            "filename": "1f9de_200d_2642.svg",
+            "description": "man genie",
+            "variants": []
+          },
+          {
+            "filename": "1f9de_200d_2640.svg",
+            "description": "woman genie",
+            "variants": []
+          },
+          {
+            "filename": "1f9df.svg",
+            "description": "zombie",
+            "variants": []
+          },
+          {
+            "filename": "1f9df_200d_2642.svg",
+            "description": "man zombie",
+            "variants": []
+          },
+          {
+            "filename": "1f9df_200d_2640.svg",
+            "description": "woman zombie",
+            "variants": []
+          },
+          {
+            "filename": "1f9cc.svg",
+            "description": "troll",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-activity",
+        "emojis": [
+          {
+            "filename": "1f486.svg",
+            "description": "person getting massage",
+            "variants": [
+              {
+                "filename": "1f486_1f3fb.svg",
+                "description": "person getting massage: light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fc.svg",
+                "description": "person getting massage: medium-light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fd.svg",
+                "description": "person getting massage: medium skin tone"
+              },
+              {
+                "filename": "1f486_1f3fe.svg",
+                "description": "person getting massage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f486_1f3ff.svg",
+                "description": "person getting massage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f486_200d_2642.svg",
+            "description": "man getting massage",
+            "variants": [
+              {
+                "filename": "1f486_1f3fb_200d_2642.svg",
+                "description": "man getting massage: light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fc_200d_2642.svg",
+                "description": "man getting massage: medium-light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fd_200d_2642.svg",
+                "description": "man getting massage: medium skin tone"
+              },
+              {
+                "filename": "1f486_1f3fe_200d_2642.svg",
+                "description": "man getting massage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f486_1f3ff_200d_2642.svg",
+                "description": "man getting massage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f486_200d_2640.svg",
+            "description": "woman getting massage",
+            "variants": [
+              {
+                "filename": "1f486_1f3fb_200d_2640.svg",
+                "description": "woman getting massage: light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fc_200d_2640.svg",
+                "description": "woman getting massage: medium-light skin tone"
+              },
+              {
+                "filename": "1f486_1f3fd_200d_2640.svg",
+                "description": "woman getting massage: medium skin tone"
+              },
+              {
+                "filename": "1f486_1f3fe_200d_2640.svg",
+                "description": "woman getting massage: medium-dark skin tone"
+              },
+              {
+                "filename": "1f486_1f3ff_200d_2640.svg",
+                "description": "woman getting massage: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f487.svg",
+            "description": "person getting haircut",
+            "variants": [
+              {
+                "filename": "1f487_1f3fb.svg",
+                "description": "person getting haircut: light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fc.svg",
+                "description": "person getting haircut: medium-light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fd.svg",
+                "description": "person getting haircut: medium skin tone"
+              },
+              {
+                "filename": "1f487_1f3fe.svg",
+                "description": "person getting haircut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f487_1f3ff.svg",
+                "description": "person getting haircut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f487_200d_2642.svg",
+            "description": "man getting haircut",
+            "variants": [
+              {
+                "filename": "1f487_1f3fb_200d_2642.svg",
+                "description": "man getting haircut: light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fc_200d_2642.svg",
+                "description": "man getting haircut: medium-light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fd_200d_2642.svg",
+                "description": "man getting haircut: medium skin tone"
+              },
+              {
+                "filename": "1f487_1f3fe_200d_2642.svg",
+                "description": "man getting haircut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f487_1f3ff_200d_2642.svg",
+                "description": "man getting haircut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f487_200d_2640.svg",
+            "description": "woman getting haircut",
+            "variants": [
+              {
+                "filename": "1f487_1f3fb_200d_2640.svg",
+                "description": "woman getting haircut: light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fc_200d_2640.svg",
+                "description": "woman getting haircut: medium-light skin tone"
+              },
+              {
+                "filename": "1f487_1f3fd_200d_2640.svg",
+                "description": "woman getting haircut: medium skin tone"
+              },
+              {
+                "filename": "1f487_1f3fe_200d_2640.svg",
+                "description": "woman getting haircut: medium-dark skin tone"
+              },
+              {
+                "filename": "1f487_1f3ff_200d_2640.svg",
+                "description": "woman getting haircut: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6.svg",
+            "description": "person walking",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb.svg",
+                "description": "person walking: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc.svg",
+                "description": "person walking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd.svg",
+                "description": "person walking: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe.svg",
+                "description": "person walking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff.svg",
+                "description": "person walking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6_200d_2642.svg",
+            "description": "man walking",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb_200d_2642.svg",
+                "description": "man walking: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc_200d_2642.svg",
+                "description": "man walking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd_200d_2642.svg",
+                "description": "man walking: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe_200d_2642.svg",
+                "description": "man walking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff_200d_2642.svg",
+                "description": "man walking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6_200d_2640.svg",
+            "description": "woman walking",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb_200d_2640.svg",
+                "description": "woman walking: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc_200d_2640.svg",
+                "description": "woman walking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd_200d_2640.svg",
+                "description": "woman walking: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe_200d_2640.svg",
+                "description": "woman walking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff_200d_2640.svg",
+                "description": "woman walking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6_200d_27a1.svg",
+            "description": "person walking facing right",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb_200d_27a1.svg",
+                "description": "person walking facing right: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc_200d_27a1.svg",
+                "description": "person walking facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd_200d_27a1.svg",
+                "description": "person walking facing right: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe_200d_27a1.svg",
+                "description": "person walking facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff_200d_27a1.svg",
+                "description": "person walking facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6_200d_2640_200d_27a1.svg",
+            "description": "woman walking facing right",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb_200d_2640_200d_27a1.svg",
+                "description": "woman walking facing right: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc_200d_2640_200d_27a1.svg",
+                "description": "woman walking facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd_200d_2640_200d_27a1.svg",
+                "description": "woman walking facing right: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe_200d_2640_200d_27a1.svg",
+                "description": "woman walking facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff_200d_2640_200d_27a1.svg",
+                "description": "woman walking facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b6_200d_2642_200d_27a1.svg",
+            "description": "man walking facing right",
+            "variants": [
+              {
+                "filename": "1f6b6_1f3fb_200d_2642_200d_27a1.svg",
+                "description": "man walking facing right: light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fc_200d_2642_200d_27a1.svg",
+                "description": "man walking facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fd_200d_2642_200d_27a1.svg",
+                "description": "man walking facing right: medium skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3fe_200d_2642_200d_27a1.svg",
+                "description": "man walking facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b6_1f3ff_200d_2642_200d_27a1.svg",
+                "description": "man walking facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cd.svg",
+            "description": "person standing",
+            "variants": [
+              {
+                "filename": "1f9cd_1f3fb.svg",
+                "description": "person standing: light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fc.svg",
+                "description": "person standing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fd.svg",
+                "description": "person standing: medium skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fe.svg",
+                "description": "person standing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3ff.svg",
+                "description": "person standing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cd_200d_2642.svg",
+            "description": "man standing",
+            "variants": [
+              {
+                "filename": "1f9cd_1f3fb_200d_2642.svg",
+                "description": "man standing: light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fc_200d_2642.svg",
+                "description": "man standing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fd_200d_2642.svg",
+                "description": "man standing: medium skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fe_200d_2642.svg",
+                "description": "man standing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3ff_200d_2642.svg",
+                "description": "man standing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9cd_200d_2640.svg",
+            "description": "woman standing",
+            "variants": [
+              {
+                "filename": "1f9cd_1f3fb_200d_2640.svg",
+                "description": "woman standing: light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fc_200d_2640.svg",
+                "description": "woman standing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fd_200d_2640.svg",
+                "description": "woman standing: medium skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3fe_200d_2640.svg",
+                "description": "woman standing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9cd_1f3ff_200d_2640.svg",
+                "description": "woman standing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce.svg",
+            "description": "person kneeling",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb.svg",
+                "description": "person kneeling: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc.svg",
+                "description": "person kneeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd.svg",
+                "description": "person kneeling: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe.svg",
+                "description": "person kneeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff.svg",
+                "description": "person kneeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce_200d_2642.svg",
+            "description": "man kneeling",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb_200d_2642.svg",
+                "description": "man kneeling: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc_200d_2642.svg",
+                "description": "man kneeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd_200d_2642.svg",
+                "description": "man kneeling: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe_200d_2642.svg",
+                "description": "man kneeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff_200d_2642.svg",
+                "description": "man kneeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce_200d_2640.svg",
+            "description": "woman kneeling",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb_200d_2640.svg",
+                "description": "woman kneeling: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc_200d_2640.svg",
+                "description": "woman kneeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd_200d_2640.svg",
+                "description": "woman kneeling: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe_200d_2640.svg",
+                "description": "woman kneeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff_200d_2640.svg",
+                "description": "woman kneeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce_200d_27a1.svg",
+            "description": "person kneeling facing right",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb_200d_27a1.svg",
+                "description": "person kneeling facing right: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc_200d_27a1.svg",
+                "description": "person kneeling facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd_200d_27a1.svg",
+                "description": "person kneeling facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe_200d_27a1.svg",
+                "description": "person kneeling facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff_200d_27a1.svg",
+                "description": "person kneeling facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce_200d_2640_200d_27a1.svg",
+            "description": "woman kneeling facing right",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb_200d_2640_200d_27a1.svg",
+                "description": "woman kneeling facing right: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc_200d_2640_200d_27a1.svg",
+                "description": "woman kneeling facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd_200d_2640_200d_27a1.svg",
+                "description": "woman kneeling facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe_200d_2640_200d_27a1.svg",
+                "description": "woman kneeling facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff_200d_2640_200d_27a1.svg",
+                "description": "woman kneeling facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9ce_200d_2642_200d_27a1.svg",
+            "description": "man kneeling facing right",
+            "variants": [
+              {
+                "filename": "1f9ce_1f3fb_200d_2642_200d_27a1.svg",
+                "description": "man kneeling facing right: light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fc_200d_2642_200d_27a1.svg",
+                "description": "man kneeling facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fd_200d_2642_200d_27a1.svg",
+                "description": "man kneeling facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3fe_200d_2642_200d_27a1.svg",
+                "description": "man kneeling facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9ce_1f3ff_200d_2642_200d_27a1.svg",
+                "description": "man kneeling facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9af.svg",
+            "description": "person with white cane",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9af.svg",
+                "description": "person with white cane: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9af.svg",
+                "description": "person with white cane: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9af.svg",
+                "description": "person with white cane: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9af.svg",
+                "description": "person with white cane: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9af.svg",
+                "description": "person with white cane: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9af_200d_27a1.svg",
+            "description": "person with white cane facing right",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9af_200d_27a1.svg",
+                "description": "person with white cane facing right: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9af_200d_27a1.svg",
+                "description": "person with white cane facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9af_200d_27a1.svg",
+                "description": "person with white cane facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9af_200d_27a1.svg",
+                "description": "person with white cane facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9af_200d_27a1.svg",
+                "description": "person with white cane facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9af.svg",
+            "description": "man with white cane",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9af.svg",
+                "description": "man with white cane: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9af.svg",
+                "description": "man with white cane: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9af.svg",
+                "description": "man with white cane: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9af.svg",
+                "description": "man with white cane: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9af.svg",
+                "description": "man with white cane: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9af_200d_27a1.svg",
+            "description": "man with white cane facing right",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9af_200d_27a1.svg",
+                "description": "man with white cane facing right: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9af_200d_27a1.svg",
+                "description": "man with white cane facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9af_200d_27a1.svg",
+                "description": "man with white cane facing right: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9af_200d_27a1.svg",
+                "description": "man with white cane facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9af_200d_27a1.svg",
+                "description": "man with white cane facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9af.svg",
+            "description": "woman with white cane",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9af.svg",
+                "description": "woman with white cane: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9af.svg",
+                "description": "woman with white cane: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9af.svg",
+                "description": "woman with white cane: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9af.svg",
+                "description": "woman with white cane: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9af.svg",
+                "description": "woman with white cane: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9af_200d_27a1.svg",
+            "description": "woman with white cane facing right",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9af_200d_27a1.svg",
+                "description": "woman with white cane facing right: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9af_200d_27a1.svg",
+                "description": "woman with white cane facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9af_200d_27a1.svg",
+                "description": "woman with white cane facing right: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9af_200d_27a1.svg",
+                "description": "woman with white cane facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9af_200d_27a1.svg",
+                "description": "woman with white cane facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9bc.svg",
+            "description": "person in motorized wheelchair",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9bc.svg",
+                "description": "person in motorized wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9bc.svg",
+                "description": "person in motorized wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9bc.svg",
+                "description": "person in motorized wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9bc.svg",
+                "description": "person in motorized wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9bc.svg",
+                "description": "person in motorized wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9bc_200d_27a1.svg",
+            "description": "person in motorized wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9bc_200d_27a1.svg",
+                "description": "person in motorized wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9bc_200d_27a1.svg",
+                "description": "person in motorized wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9bc_200d_27a1.svg",
+                "description": "person in motorized wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9bc_200d_27a1.svg",
+                "description": "person in motorized wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9bc_200d_27a1.svg",
+                "description": "person in motorized wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9bc.svg",
+            "description": "man in motorized wheelchair",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9bc.svg",
+                "description": "man in motorized wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9bc.svg",
+                "description": "man in motorized wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9bc.svg",
+                "description": "man in motorized wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9bc.svg",
+                "description": "man in motorized wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9bc.svg",
+                "description": "man in motorized wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9bc_200d_27a1.svg",
+            "description": "man in motorized wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9bc_200d_27a1.svg",
+                "description": "man in motorized wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9bc_200d_27a1.svg",
+                "description": "man in motorized wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9bc_200d_27a1.svg",
+                "description": "man in motorized wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9bc_200d_27a1.svg",
+                "description": "man in motorized wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9bc_200d_27a1.svg",
+                "description": "man in motorized wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9bc.svg",
+            "description": "woman in motorized wheelchair",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9bc.svg",
+                "description": "woman in motorized wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9bc.svg",
+                "description": "woman in motorized wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9bc.svg",
+                "description": "woman in motorized wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9bc.svg",
+                "description": "woman in motorized wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9bc.svg",
+                "description": "woman in motorized wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9bc_200d_27a1.svg",
+            "description": "woman in motorized wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9bc_200d_27a1.svg",
+                "description": "woman in motorized wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9bc_200d_27a1.svg",
+                "description": "woman in motorized wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9bc_200d_27a1.svg",
+                "description": "woman in motorized wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9bc_200d_27a1.svg",
+                "description": "woman in motorized wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9bc_200d_27a1.svg",
+                "description": "woman in motorized wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9bd.svg",
+            "description": "person in manual wheelchair",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9bd.svg",
+                "description": "person in manual wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9bd.svg",
+                "description": "person in manual wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9bd.svg",
+                "description": "person in manual wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9bd.svg",
+                "description": "person in manual wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9bd.svg",
+                "description": "person in manual wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d1_200d_1f9bd_200d_27a1.svg",
+            "description": "person in manual wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f9bd_200d_27a1.svg",
+                "description": "person in manual wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f9bd_200d_27a1.svg",
+                "description": "person in manual wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f9bd_200d_27a1.svg",
+                "description": "person in manual wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f9bd_200d_27a1.svg",
+                "description": "person in manual wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f9bd_200d_27a1.svg",
+                "description": "person in manual wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9bd.svg",
+            "description": "man in manual wheelchair",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9bd.svg",
+                "description": "man in manual wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9bd.svg",
+                "description": "man in manual wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9bd.svg",
+                "description": "man in manual wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9bd.svg",
+                "description": "man in manual wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9bd.svg",
+                "description": "man in manual wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f9bd_200d_27a1.svg",
+            "description": "man in manual wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_1f9bd_200d_27a1.svg",
+                "description": "man in manual wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f9bd_200d_27a1.svg",
+                "description": "man in manual wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f9bd_200d_27a1.svg",
+                "description": "man in manual wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f9bd_200d_27a1.svg",
+                "description": "man in manual wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f9bd_200d_27a1.svg",
+                "description": "man in manual wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9bd.svg",
+            "description": "woman in manual wheelchair",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9bd.svg",
+                "description": "woman in manual wheelchair: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9bd.svg",
+                "description": "woman in manual wheelchair: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9bd.svg",
+                "description": "woman in manual wheelchair: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9bd.svg",
+                "description": "woman in manual wheelchair: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9bd.svg",
+                "description": "woman in manual wheelchair: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_1f9bd_200d_27a1.svg",
+            "description": "woman in manual wheelchair facing right",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_1f9bd_200d_27a1.svg",
+                "description": "woman in manual wheelchair facing right: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f9bd_200d_27a1.svg",
+                "description": "woman in manual wheelchair facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f9bd_200d_27a1.svg",
+                "description": "woman in manual wheelchair facing right: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f9bd_200d_27a1.svg",
+                "description": "woman in manual wheelchair facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f9bd_200d_27a1.svg",
+                "description": "woman in manual wheelchair facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3.svg",
+            "description": "person running",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb.svg",
+                "description": "person running: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc.svg",
+                "description": "person running: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd.svg",
+                "description": "person running: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe.svg",
+                "description": "person running: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff.svg",
+                "description": "person running: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3_200d_2642.svg",
+            "description": "man running",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb_200d_2642.svg",
+                "description": "man running: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc_200d_2642.svg",
+                "description": "man running: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd_200d_2642.svg",
+                "description": "man running: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe_200d_2642.svg",
+                "description": "man running: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff_200d_2642.svg",
+                "description": "man running: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3_200d_2640.svg",
+            "description": "woman running",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb_200d_2640.svg",
+                "description": "woman running: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc_200d_2640.svg",
+                "description": "woman running: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd_200d_2640.svg",
+                "description": "woman running: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe_200d_2640.svg",
+                "description": "woman running: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff_200d_2640.svg",
+                "description": "woman running: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3_200d_27a1.svg",
+            "description": "person running facing right",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb_200d_27a1.svg",
+                "description": "person running facing right: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc_200d_27a1.svg",
+                "description": "person running facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd_200d_27a1.svg",
+                "description": "person running facing right: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe_200d_27a1.svg",
+                "description": "person running facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff_200d_27a1.svg",
+                "description": "person running facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3_200d_2640_200d_27a1.svg",
+            "description": "woman running facing right",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb_200d_2640_200d_27a1.svg",
+                "description": "woman running facing right: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc_200d_2640_200d_27a1.svg",
+                "description": "woman running facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd_200d_2640_200d_27a1.svg",
+                "description": "woman running facing right: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe_200d_2640_200d_27a1.svg",
+                "description": "woman running facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff_200d_2640_200d_27a1.svg",
+                "description": "woman running facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c3_200d_2642_200d_27a1.svg",
+            "description": "man running facing right",
+            "variants": [
+              {
+                "filename": "1f3c3_1f3fb_200d_2642_200d_27a1.svg",
+                "description": "man running facing right: light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fc_200d_2642_200d_27a1.svg",
+                "description": "man running facing right: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fd_200d_2642_200d_27a1.svg",
+                "description": "man running facing right: medium skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3fe_200d_2642_200d_27a1.svg",
+                "description": "man running facing right: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c3_1f3ff_200d_2642_200d_27a1.svg",
+                "description": "man running facing right: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f483.svg",
+            "description": "woman dancing",
+            "variants": [
+              {
+                "filename": "1f483_1f3fb.svg",
+                "description": "woman dancing: light skin tone"
+              },
+              {
+                "filename": "1f483_1f3fc.svg",
+                "description": "woman dancing: medium-light skin tone"
+              },
+              {
+                "filename": "1f483_1f3fd.svg",
+                "description": "woman dancing: medium skin tone"
+              },
+              {
+                "filename": "1f483_1f3fe.svg",
+                "description": "woman dancing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f483_1f3ff.svg",
+                "description": "woman dancing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f57a.svg",
+            "description": "man dancing",
+            "variants": [
+              {
+                "filename": "1f57a_1f3fb.svg",
+                "description": "man dancing: light skin tone"
+              },
+              {
+                "filename": "1f57a_1f3fc.svg",
+                "description": "man dancing: medium-light skin tone"
+              },
+              {
+                "filename": "1f57a_1f3fd.svg",
+                "description": "man dancing: medium skin tone"
+              },
+              {
+                "filename": "1f57a_1f3fe.svg",
+                "description": "man dancing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f57a_1f3ff.svg",
+                "description": "man dancing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f574.svg",
+            "description": "person in suit levitating",
+            "variants": [
+              {
+                "filename": "1f574_1f3fb.svg",
+                "description": "person in suit levitating: light skin tone"
+              },
+              {
+                "filename": "1f574_1f3fc.svg",
+                "description": "person in suit levitating: medium-light skin tone"
+              },
+              {
+                "filename": "1f574_1f3fd.svg",
+                "description": "person in suit levitating: medium skin tone"
+              },
+              {
+                "filename": "1f574_1f3fe.svg",
+                "description": "person in suit levitating: medium-dark skin tone"
+              },
+              {
+                "filename": "1f574_1f3ff.svg",
+                "description": "person in suit levitating: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46f.svg",
+            "description": "people with bunny ears",
+            "variants": []
+          },
+          {
+            "filename": "1f46f_200d_2642.svg",
+            "description": "men with bunny ears",
+            "variants": []
+          },
+          {
+            "filename": "1f46f_200d_2640.svg",
+            "description": "women with bunny ears",
+            "variants": []
+          },
+          {
+            "filename": "1f9d6.svg",
+            "description": "person in steamy room",
+            "variants": [
+              {
+                "filename": "1f9d6_1f3fb.svg",
+                "description": "person in steamy room: light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fc.svg",
+                "description": "person in steamy room: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fd.svg",
+                "description": "person in steamy room: medium skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fe.svg",
+                "description": "person in steamy room: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3ff.svg",
+                "description": "person in steamy room: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d6_200d_2642.svg",
+            "description": "man in steamy room",
+            "variants": [
+              {
+                "filename": "1f9d6_1f3fb_200d_2642.svg",
+                "description": "man in steamy room: light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fc_200d_2642.svg",
+                "description": "man in steamy room: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fd_200d_2642.svg",
+                "description": "man in steamy room: medium skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fe_200d_2642.svg",
+                "description": "man in steamy room: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3ff_200d_2642.svg",
+                "description": "man in steamy room: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d6_200d_2640.svg",
+            "description": "woman in steamy room",
+            "variants": [
+              {
+                "filename": "1f9d6_1f3fb_200d_2640.svg",
+                "description": "woman in steamy room: light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fc_200d_2640.svg",
+                "description": "woman in steamy room: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fd_200d_2640.svg",
+                "description": "woman in steamy room: medium skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3fe_200d_2640.svg",
+                "description": "woman in steamy room: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d6_1f3ff_200d_2640.svg",
+                "description": "woman in steamy room: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d7.svg",
+            "description": "person climbing",
+            "variants": [
+              {
+                "filename": "1f9d7_1f3fb.svg",
+                "description": "person climbing: light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fc.svg",
+                "description": "person climbing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fd.svg",
+                "description": "person climbing: medium skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fe.svg",
+                "description": "person climbing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3ff.svg",
+                "description": "person climbing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d7_200d_2642.svg",
+            "description": "man climbing",
+            "variants": [
+              {
+                "filename": "1f9d7_1f3fb_200d_2642.svg",
+                "description": "man climbing: light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fc_200d_2642.svg",
+                "description": "man climbing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fd_200d_2642.svg",
+                "description": "man climbing: medium skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fe_200d_2642.svg",
+                "description": "man climbing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3ff_200d_2642.svg",
+                "description": "man climbing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d7_200d_2640.svg",
+            "description": "woman climbing",
+            "variants": [
+              {
+                "filename": "1f9d7_1f3fb_200d_2640.svg",
+                "description": "woman climbing: light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fc_200d_2640.svg",
+                "description": "woman climbing: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fd_200d_2640.svg",
+                "description": "woman climbing: medium skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3fe_200d_2640.svg",
+                "description": "woman climbing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d7_1f3ff_200d_2640.svg",
+                "description": "woman climbing: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-sport",
+        "emojis": [
+          {
+            "filename": "1f93a.svg",
+            "description": "person fencing",
+            "variants": []
+          },
+          {
+            "filename": "1f3c7.svg",
+            "description": "horse racing",
+            "variants": [
+              {
+                "filename": "1f3c7_1f3fb.svg",
+                "description": "horse racing: light skin tone"
+              },
+              {
+                "filename": "1f3c7_1f3fc.svg",
+                "description": "horse racing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c7_1f3fd.svg",
+                "description": "horse racing: medium skin tone"
+              },
+              {
+                "filename": "1f3c7_1f3fe.svg",
+                "description": "horse racing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c7_1f3ff.svg",
+                "description": "horse racing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "26f7.svg",
+            "description": "skier",
+            "variants": []
+          },
+          {
+            "filename": "1f3c2.svg",
+            "description": "snowboarder",
+            "variants": [
+              {
+                "filename": "1f3c2_1f3fb.svg",
+                "description": "snowboarder: light skin tone"
+              },
+              {
+                "filename": "1f3c2_1f3fc.svg",
+                "description": "snowboarder: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c2_1f3fd.svg",
+                "description": "snowboarder: medium skin tone"
+              },
+              {
+                "filename": "1f3c2_1f3fe.svg",
+                "description": "snowboarder: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c2_1f3ff.svg",
+                "description": "snowboarder: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cc.svg",
+            "description": "person golfing",
+            "variants": [
+              {
+                "filename": "1f3cc_1f3fb.svg",
+                "description": "person golfing: light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fc.svg",
+                "description": "person golfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fd.svg",
+                "description": "person golfing: medium skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fe.svg",
+                "description": "person golfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3ff.svg",
+                "description": "person golfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cc_200d_2642.svg",
+            "description": "man golfing",
+            "variants": [
+              {
+                "filename": "1f3cc_1f3fb_200d_2642.svg",
+                "description": "man golfing: light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fc_200d_2642.svg",
+                "description": "man golfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fd_200d_2642.svg",
+                "description": "man golfing: medium skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fe_200d_2642.svg",
+                "description": "man golfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3ff_200d_2642.svg",
+                "description": "man golfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cc_200d_2640.svg",
+            "description": "woman golfing",
+            "variants": [
+              {
+                "filename": "1f3cc_1f3fb_200d_2640.svg",
+                "description": "woman golfing: light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fc_200d_2640.svg",
+                "description": "woman golfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fd_200d_2640.svg",
+                "description": "woman golfing: medium skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3fe_200d_2640.svg",
+                "description": "woman golfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cc_1f3ff_200d_2640.svg",
+                "description": "woman golfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c4.svg",
+            "description": "person surfing",
+            "variants": [
+              {
+                "filename": "1f3c4_1f3fb.svg",
+                "description": "person surfing: light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fc.svg",
+                "description": "person surfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fd.svg",
+                "description": "person surfing: medium skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fe.svg",
+                "description": "person surfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3ff.svg",
+                "description": "person surfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c4_200d_2642.svg",
+            "description": "man surfing",
+            "variants": [
+              {
+                "filename": "1f3c4_1f3fb_200d_2642.svg",
+                "description": "man surfing: light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fc_200d_2642.svg",
+                "description": "man surfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fd_200d_2642.svg",
+                "description": "man surfing: medium skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fe_200d_2642.svg",
+                "description": "man surfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3ff_200d_2642.svg",
+                "description": "man surfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3c4_200d_2640.svg",
+            "description": "woman surfing",
+            "variants": [
+              {
+                "filename": "1f3c4_1f3fb_200d_2640.svg",
+                "description": "woman surfing: light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fc_200d_2640.svg",
+                "description": "woman surfing: medium-light skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fd_200d_2640.svg",
+                "description": "woman surfing: medium skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3fe_200d_2640.svg",
+                "description": "woman surfing: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3c4_1f3ff_200d_2640.svg",
+                "description": "woman surfing: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6a3.svg",
+            "description": "person rowing boat",
+            "variants": [
+              {
+                "filename": "1f6a3_1f3fb.svg",
+                "description": "person rowing boat: light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fc.svg",
+                "description": "person rowing boat: medium-light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fd.svg",
+                "description": "person rowing boat: medium skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fe.svg",
+                "description": "person rowing boat: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3ff.svg",
+                "description": "person rowing boat: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6a3_200d_2642.svg",
+            "description": "man rowing boat",
+            "variants": [
+              {
+                "filename": "1f6a3_1f3fb_200d_2642.svg",
+                "description": "man rowing boat: light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fc_200d_2642.svg",
+                "description": "man rowing boat: medium-light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fd_200d_2642.svg",
+                "description": "man rowing boat: medium skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fe_200d_2642.svg",
+                "description": "man rowing boat: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3ff_200d_2642.svg",
+                "description": "man rowing boat: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6a3_200d_2640.svg",
+            "description": "woman rowing boat",
+            "variants": [
+              {
+                "filename": "1f6a3_1f3fb_200d_2640.svg",
+                "description": "woman rowing boat: light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fc_200d_2640.svg",
+                "description": "woman rowing boat: medium-light skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fd_200d_2640.svg",
+                "description": "woman rowing boat: medium skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3fe_200d_2640.svg",
+                "description": "woman rowing boat: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6a3_1f3ff_200d_2640.svg",
+                "description": "woman rowing boat: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3ca.svg",
+            "description": "person swimming",
+            "variants": [
+              {
+                "filename": "1f3ca_1f3fb.svg",
+                "description": "person swimming: light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fc.svg",
+                "description": "person swimming: medium-light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fd.svg",
+                "description": "person swimming: medium skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fe.svg",
+                "description": "person swimming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3ff.svg",
+                "description": "person swimming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3ca_200d_2642.svg",
+            "description": "man swimming",
+            "variants": [
+              {
+                "filename": "1f3ca_1f3fb_200d_2642.svg",
+                "description": "man swimming: light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fc_200d_2642.svg",
+                "description": "man swimming: medium-light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fd_200d_2642.svg",
+                "description": "man swimming: medium skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fe_200d_2642.svg",
+                "description": "man swimming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3ff_200d_2642.svg",
+                "description": "man swimming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3ca_200d_2640.svg",
+            "description": "woman swimming",
+            "variants": [
+              {
+                "filename": "1f3ca_1f3fb_200d_2640.svg",
+                "description": "woman swimming: light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fc_200d_2640.svg",
+                "description": "woman swimming: medium-light skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fd_200d_2640.svg",
+                "description": "woman swimming: medium skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3fe_200d_2640.svg",
+                "description": "woman swimming: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3ca_1f3ff_200d_2640.svg",
+                "description": "woman swimming: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "26f9.svg",
+            "description": "person bouncing ball",
+            "variants": [
+              {
+                "filename": "26f9_1f3fb.svg",
+                "description": "person bouncing ball: light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fc.svg",
+                "description": "person bouncing ball: medium-light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fd.svg",
+                "description": "person bouncing ball: medium skin tone"
+              },
+              {
+                "filename": "26f9_1f3fe.svg",
+                "description": "person bouncing ball: medium-dark skin tone"
+              },
+              {
+                "filename": "26f9_1f3ff.svg",
+                "description": "person bouncing ball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "26f9_200d_2642.svg",
+            "description": "man bouncing ball",
+            "variants": [
+              {
+                "filename": "26f9_1f3fb_200d_2642.svg",
+                "description": "man bouncing ball: light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fc_200d_2642.svg",
+                "description": "man bouncing ball: medium-light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fd_200d_2642.svg",
+                "description": "man bouncing ball: medium skin tone"
+              },
+              {
+                "filename": "26f9_1f3fe_200d_2642.svg",
+                "description": "man bouncing ball: medium-dark skin tone"
+              },
+              {
+                "filename": "26f9_1f3ff_200d_2642.svg",
+                "description": "man bouncing ball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "26f9_200d_2640.svg",
+            "description": "woman bouncing ball",
+            "variants": [
+              {
+                "filename": "26f9_1f3fb_200d_2640.svg",
+                "description": "woman bouncing ball: light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fc_200d_2640.svg",
+                "description": "woman bouncing ball: medium-light skin tone"
+              },
+              {
+                "filename": "26f9_1f3fd_200d_2640.svg",
+                "description": "woman bouncing ball: medium skin tone"
+              },
+              {
+                "filename": "26f9_1f3fe_200d_2640.svg",
+                "description": "woman bouncing ball: medium-dark skin tone"
+              },
+              {
+                "filename": "26f9_1f3ff_200d_2640.svg",
+                "description": "woman bouncing ball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cb.svg",
+            "description": "person lifting weights",
+            "variants": [
+              {
+                "filename": "1f3cb_1f3fb.svg",
+                "description": "person lifting weights: light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fc.svg",
+                "description": "person lifting weights: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fd.svg",
+                "description": "person lifting weights: medium skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fe.svg",
+                "description": "person lifting weights: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3ff.svg",
+                "description": "person lifting weights: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cb_200d_2642.svg",
+            "description": "man lifting weights",
+            "variants": [
+              {
+                "filename": "1f3cb_1f3fb_200d_2642.svg",
+                "description": "man lifting weights: light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fc_200d_2642.svg",
+                "description": "man lifting weights: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fd_200d_2642.svg",
+                "description": "man lifting weights: medium skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fe_200d_2642.svg",
+                "description": "man lifting weights: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3ff_200d_2642.svg",
+                "description": "man lifting weights: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f3cb_200d_2640.svg",
+            "description": "woman lifting weights",
+            "variants": [
+              {
+                "filename": "1f3cb_1f3fb_200d_2640.svg",
+                "description": "woman lifting weights: light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fc_200d_2640.svg",
+                "description": "woman lifting weights: medium-light skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fd_200d_2640.svg",
+                "description": "woman lifting weights: medium skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3fe_200d_2640.svg",
+                "description": "woman lifting weights: medium-dark skin tone"
+              },
+              {
+                "filename": "1f3cb_1f3ff_200d_2640.svg",
+                "description": "woman lifting weights: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b4.svg",
+            "description": "person biking",
+            "variants": [
+              {
+                "filename": "1f6b4_1f3fb.svg",
+                "description": "person biking: light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fc.svg",
+                "description": "person biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fd.svg",
+                "description": "person biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fe.svg",
+                "description": "person biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3ff.svg",
+                "description": "person biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b4_200d_2642.svg",
+            "description": "man biking",
+            "variants": [
+              {
+                "filename": "1f6b4_1f3fb_200d_2642.svg",
+                "description": "man biking: light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fc_200d_2642.svg",
+                "description": "man biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fd_200d_2642.svg",
+                "description": "man biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fe_200d_2642.svg",
+                "description": "man biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3ff_200d_2642.svg",
+                "description": "man biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b4_200d_2640.svg",
+            "description": "woman biking",
+            "variants": [
+              {
+                "filename": "1f6b4_1f3fb_200d_2640.svg",
+                "description": "woman biking: light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fc_200d_2640.svg",
+                "description": "woman biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fd_200d_2640.svg",
+                "description": "woman biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3fe_200d_2640.svg",
+                "description": "woman biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b4_1f3ff_200d_2640.svg",
+                "description": "woman biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b5.svg",
+            "description": "person mountain biking",
+            "variants": [
+              {
+                "filename": "1f6b5_1f3fb.svg",
+                "description": "person mountain biking: light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fc.svg",
+                "description": "person mountain biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fd.svg",
+                "description": "person mountain biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fe.svg",
+                "description": "person mountain biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3ff.svg",
+                "description": "person mountain biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b5_200d_2642.svg",
+            "description": "man mountain biking",
+            "variants": [
+              {
+                "filename": "1f6b5_1f3fb_200d_2642.svg",
+                "description": "man mountain biking: light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fc_200d_2642.svg",
+                "description": "man mountain biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fd_200d_2642.svg",
+                "description": "man mountain biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fe_200d_2642.svg",
+                "description": "man mountain biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3ff_200d_2642.svg",
+                "description": "man mountain biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6b5_200d_2640.svg",
+            "description": "woman mountain biking",
+            "variants": [
+              {
+                "filename": "1f6b5_1f3fb_200d_2640.svg",
+                "description": "woman mountain biking: light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fc_200d_2640.svg",
+                "description": "woman mountain biking: medium-light skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fd_200d_2640.svg",
+                "description": "woman mountain biking: medium skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3fe_200d_2640.svg",
+                "description": "woman mountain biking: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6b5_1f3ff_200d_2640.svg",
+                "description": "woman mountain biking: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f938.svg",
+            "description": "person cartwheeling",
+            "variants": [
+              {
+                "filename": "1f938_1f3fb.svg",
+                "description": "person cartwheeling: light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fc.svg",
+                "description": "person cartwheeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fd.svg",
+                "description": "person cartwheeling: medium skin tone"
+              },
+              {
+                "filename": "1f938_1f3fe.svg",
+                "description": "person cartwheeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f938_1f3ff.svg",
+                "description": "person cartwheeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f938_200d_2642.svg",
+            "description": "man cartwheeling",
+            "variants": [
+              {
+                "filename": "1f938_1f3fb_200d_2642.svg",
+                "description": "man cartwheeling: light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fc_200d_2642.svg",
+                "description": "man cartwheeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fd_200d_2642.svg",
+                "description": "man cartwheeling: medium skin tone"
+              },
+              {
+                "filename": "1f938_1f3fe_200d_2642.svg",
+                "description": "man cartwheeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f938_1f3ff_200d_2642.svg",
+                "description": "man cartwheeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f938_200d_2640.svg",
+            "description": "woman cartwheeling",
+            "variants": [
+              {
+                "filename": "1f938_1f3fb_200d_2640.svg",
+                "description": "woman cartwheeling: light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fc_200d_2640.svg",
+                "description": "woman cartwheeling: medium-light skin tone"
+              },
+              {
+                "filename": "1f938_1f3fd_200d_2640.svg",
+                "description": "woman cartwheeling: medium skin tone"
+              },
+              {
+                "filename": "1f938_1f3fe_200d_2640.svg",
+                "description": "woman cartwheeling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f938_1f3ff_200d_2640.svg",
+                "description": "woman cartwheeling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93c.svg",
+            "description": "people wrestling",
+            "variants": []
+          },
+          {
+            "filename": "1f93c_200d_2642.svg",
+            "description": "men wrestling",
+            "variants": []
+          },
+          {
+            "filename": "1f93c_200d_2640.svg",
+            "description": "women wrestling",
+            "variants": []
+          },
+          {
+            "filename": "1f93d.svg",
+            "description": "person playing water polo",
+            "variants": [
+              {
+                "filename": "1f93d_1f3fb.svg",
+                "description": "person playing water polo: light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fc.svg",
+                "description": "person playing water polo: medium-light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fd.svg",
+                "description": "person playing water polo: medium skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fe.svg",
+                "description": "person playing water polo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93d_1f3ff.svg",
+                "description": "person playing water polo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93d_200d_2642.svg",
+            "description": "man playing water polo",
+            "variants": [
+              {
+                "filename": "1f93d_1f3fb_200d_2642.svg",
+                "description": "man playing water polo: light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fc_200d_2642.svg",
+                "description": "man playing water polo: medium-light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fd_200d_2642.svg",
+                "description": "man playing water polo: medium skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fe_200d_2642.svg",
+                "description": "man playing water polo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93d_1f3ff_200d_2642.svg",
+                "description": "man playing water polo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93d_200d_2640.svg",
+            "description": "woman playing water polo",
+            "variants": [
+              {
+                "filename": "1f93d_1f3fb_200d_2640.svg",
+                "description": "woman playing water polo: light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fc_200d_2640.svg",
+                "description": "woman playing water polo: medium-light skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fd_200d_2640.svg",
+                "description": "woman playing water polo: medium skin tone"
+              },
+              {
+                "filename": "1f93d_1f3fe_200d_2640.svg",
+                "description": "woman playing water polo: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93d_1f3ff_200d_2640.svg",
+                "description": "woman playing water polo: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93e.svg",
+            "description": "person playing handball",
+            "variants": [
+              {
+                "filename": "1f93e_1f3fb.svg",
+                "description": "person playing handball: light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fc.svg",
+                "description": "person playing handball: medium-light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fd.svg",
+                "description": "person playing handball: medium skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fe.svg",
+                "description": "person playing handball: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93e_1f3ff.svg",
+                "description": "person playing handball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93e_200d_2642.svg",
+            "description": "man playing handball",
+            "variants": [
+              {
+                "filename": "1f93e_1f3fb_200d_2642.svg",
+                "description": "man playing handball: light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fc_200d_2642.svg",
+                "description": "man playing handball: medium-light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fd_200d_2642.svg",
+                "description": "man playing handball: medium skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fe_200d_2642.svg",
+                "description": "man playing handball: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93e_1f3ff_200d_2642.svg",
+                "description": "man playing handball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f93e_200d_2640.svg",
+            "description": "woman playing handball",
+            "variants": [
+              {
+                "filename": "1f93e_1f3fb_200d_2640.svg",
+                "description": "woman playing handball: light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fc_200d_2640.svg",
+                "description": "woman playing handball: medium-light skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fd_200d_2640.svg",
+                "description": "woman playing handball: medium skin tone"
+              },
+              {
+                "filename": "1f93e_1f3fe_200d_2640.svg",
+                "description": "woman playing handball: medium-dark skin tone"
+              },
+              {
+                "filename": "1f93e_1f3ff_200d_2640.svg",
+                "description": "woman playing handball: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f939.svg",
+            "description": "person juggling",
+            "variants": [
+              {
+                "filename": "1f939_1f3fb.svg",
+                "description": "person juggling: light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fc.svg",
+                "description": "person juggling: medium-light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fd.svg",
+                "description": "person juggling: medium skin tone"
+              },
+              {
+                "filename": "1f939_1f3fe.svg",
+                "description": "person juggling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f939_1f3ff.svg",
+                "description": "person juggling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f939_200d_2642.svg",
+            "description": "man juggling",
+            "variants": [
+              {
+                "filename": "1f939_1f3fb_200d_2642.svg",
+                "description": "man juggling: light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fc_200d_2642.svg",
+                "description": "man juggling: medium-light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fd_200d_2642.svg",
+                "description": "man juggling: medium skin tone"
+              },
+              {
+                "filename": "1f939_1f3fe_200d_2642.svg",
+                "description": "man juggling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f939_1f3ff_200d_2642.svg",
+                "description": "man juggling: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f939_200d_2640.svg",
+            "description": "woman juggling",
+            "variants": [
+              {
+                "filename": "1f939_1f3fb_200d_2640.svg",
+                "description": "woman juggling: light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fc_200d_2640.svg",
+                "description": "woman juggling: medium-light skin tone"
+              },
+              {
+                "filename": "1f939_1f3fd_200d_2640.svg",
+                "description": "woman juggling: medium skin tone"
+              },
+              {
+                "filename": "1f939_1f3fe_200d_2640.svg",
+                "description": "woman juggling: medium-dark skin tone"
+              },
+              {
+                "filename": "1f939_1f3ff_200d_2640.svg",
+                "description": "woman juggling: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-resting",
+        "emojis": [
+          {
+            "filename": "1f9d8.svg",
+            "description": "person in lotus position",
+            "variants": [
+              {
+                "filename": "1f9d8_1f3fb.svg",
+                "description": "person in lotus position: light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fc.svg",
+                "description": "person in lotus position: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fd.svg",
+                "description": "person in lotus position: medium skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fe.svg",
+                "description": "person in lotus position: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3ff.svg",
+                "description": "person in lotus position: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d8_200d_2642.svg",
+            "description": "man in lotus position",
+            "variants": [
+              {
+                "filename": "1f9d8_1f3fb_200d_2642.svg",
+                "description": "man in lotus position: light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fc_200d_2642.svg",
+                "description": "man in lotus position: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fd_200d_2642.svg",
+                "description": "man in lotus position: medium skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fe_200d_2642.svg",
+                "description": "man in lotus position: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3ff_200d_2642.svg",
+                "description": "man in lotus position: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f9d8_200d_2640.svg",
+            "description": "woman in lotus position",
+            "variants": [
+              {
+                "filename": "1f9d8_1f3fb_200d_2640.svg",
+                "description": "woman in lotus position: light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fc_200d_2640.svg",
+                "description": "woman in lotus position: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fd_200d_2640.svg",
+                "description": "woman in lotus position: medium skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3fe_200d_2640.svg",
+                "description": "woman in lotus position: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d8_1f3ff_200d_2640.svg",
+                "description": "woman in lotus position: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6c0.svg",
+            "description": "person taking bath",
+            "variants": [
+              {
+                "filename": "1f6c0_1f3fb.svg",
+                "description": "person taking bath: light skin tone"
+              },
+              {
+                "filename": "1f6c0_1f3fc.svg",
+                "description": "person taking bath: medium-light skin tone"
+              },
+              {
+                "filename": "1f6c0_1f3fd.svg",
+                "description": "person taking bath: medium skin tone"
+              },
+              {
+                "filename": "1f6c0_1f3fe.svg",
+                "description": "person taking bath: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6c0_1f3ff.svg",
+                "description": "person taking bath: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f6cc.svg",
+            "description": "person in bed",
+            "variants": [
+              {
+                "filename": "1f6cc_1f3fb.svg",
+                "description": "person in bed: light skin tone"
+              },
+              {
+                "filename": "1f6cc_1f3fc.svg",
+                "description": "person in bed: medium-light skin tone"
+              },
+              {
+                "filename": "1f6cc_1f3fd.svg",
+                "description": "person in bed: medium skin tone"
+              },
+              {
+                "filename": "1f6cc_1f3fe.svg",
+                "description": "person in bed: medium-dark skin tone"
+              },
+              {
+                "filename": "1f6cc_1f3ff.svg",
+                "description": "person in bed: dark skin tone"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "family",
+        "emojis": [
+          {
+            "filename": "1f9d1_200d_1f91d_200d_1f9d1.svg",
+            "description": "people holding hands",
+            "variants": [
+              {
+                "filename": "1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3fb.svg",
+                "description": "people holding hands: light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3fc.svg",
+                "description": "people holding hands: light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3fd.svg",
+                "description": "people holding hands: light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3fe.svg",
+                "description": "people holding hands: light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_1f91d_200d_1f9d1_1f3ff.svg",
+                "description": "people holding hands: light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fb.svg",
+                "description": "people holding hands: medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fc.svg",
+                "description": "people holding hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fd.svg",
+                "description": "people holding hands: medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3fe.svg",
+                "description": "people holding hands: medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_1f91d_200d_1f9d1_1f3ff.svg",
+                "description": "people holding hands: medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fb.svg",
+                "description": "people holding hands: medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fc.svg",
+                "description": "people holding hands: medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fd.svg",
+                "description": "people holding hands: medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3fe.svg",
+                "description": "people holding hands: medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_1f91d_200d_1f9d1_1f3ff.svg",
+                "description": "people holding hands: medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fb.svg",
+                "description": "people holding hands: medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fc.svg",
+                "description": "people holding hands: medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fd.svg",
+                "description": "people holding hands: medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3fe.svg",
+                "description": "people holding hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_1f91d_200d_1f9d1_1f3ff.svg",
+                "description": "people holding hands: medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fb.svg",
+                "description": "people holding hands: dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fc.svg",
+                "description": "people holding hands: dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fd.svg",
+                "description": "people holding hands: dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3fe.svg",
+                "description": "people holding hands: dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_1f91d_200d_1f9d1_1f3ff.svg",
+                "description": "people holding hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46d.svg",
+            "description": "women holding hands",
+            "variants": [
+              {
+                "filename": "1f46d_1f3fb.svg",
+                "description": "women holding hands: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f469_1f3fc.svg",
+                "description": "women holding hands: light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f469_1f3fd.svg",
+                "description": "women holding hands: light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f469_1f3fe.svg",
+                "description": "women holding hands: light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f469_1f3ff.svg",
+                "description": "women holding hands: light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f469_1f3fb.svg",
+                "description": "women holding hands: medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f46d_1f3fc.svg",
+                "description": "women holding hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f469_1f3fd.svg",
+                "description": "women holding hands: medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f469_1f3fe.svg",
+                "description": "women holding hands: medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f469_1f3ff.svg",
+                "description": "women holding hands: medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f469_1f3fb.svg",
+                "description": "women holding hands: medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f469_1f3fc.svg",
+                "description": "women holding hands: medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f46d_1f3fd.svg",
+                "description": "women holding hands: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f469_1f3fe.svg",
+                "description": "women holding hands: medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f469_1f3ff.svg",
+                "description": "women holding hands: medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f469_1f3fb.svg",
+                "description": "women holding hands: medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f469_1f3fc.svg",
+                "description": "women holding hands: medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f469_1f3fd.svg",
+                "description": "women holding hands: medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f46d_1f3fe.svg",
+                "description": "women holding hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f469_1f3ff.svg",
+                "description": "women holding hands: medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f469_1f3fb.svg",
+                "description": "women holding hands: dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f469_1f3fc.svg",
+                "description": "women holding hands: dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f469_1f3fd.svg",
+                "description": "women holding hands: dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f469_1f3fe.svg",
+                "description": "women holding hands: dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f46d_1f3ff.svg",
+                "description": "women holding hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46b.svg",
+            "description": "woman and man holding hands",
+            "variants": [
+              {
+                "filename": "1f46b_1f3fb.svg",
+                "description": "woman and man holding hands: light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "woman and man holding hands: light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "woman and man holding hands: light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "woman and man holding hands: light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "woman and man holding hands: light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "woman and man holding hands: medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f46b_1f3fc.svg",
+                "description": "woman and man holding hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "woman and man holding hands: medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "woman and man holding hands: medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "woman and man holding hands: medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "woman and man holding hands: medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "woman and man holding hands: medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f46b_1f3fd.svg",
+                "description": "woman and man holding hands: medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "woman and man holding hands: medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "woman and man holding hands: medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "woman and man holding hands: medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "woman and man holding hands: medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "woman and man holding hands: medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f46b_1f3fe.svg",
+                "description": "woman and man holding hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "woman and man holding hands: medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "woman and man holding hands: dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "woman and man holding hands: dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "woman and man holding hands: dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "woman and man holding hands: dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f46b_1f3ff.svg",
+                "description": "woman and man holding hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f46c.svg",
+            "description": "men holding hands",
+            "variants": [
+              {
+                "filename": "1f46c_1f3fb.svg",
+                "description": "men holding hands: light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "men holding hands: light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "men holding hands: light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "men holding hands: light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "men holding hands: light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "men holding hands: medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f46c_1f3fc.svg",
+                "description": "men holding hands: medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "men holding hands: medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "men holding hands: medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "men holding hands: medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "men holding hands: medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "men holding hands: medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f46c_1f3fd.svg",
+                "description": "men holding hands: medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "men holding hands: medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "men holding hands: medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "men holding hands: medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "men holding hands: medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "men holding hands: medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f46c_1f3fe.svg",
+                "description": "men holding hands: medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_1f91d_200d_1f468_1f3ff.svg",
+                "description": "men holding hands: medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f91d_200d_1f468_1f3fb.svg",
+                "description": "men holding hands: dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f91d_200d_1f468_1f3fc.svg",
+                "description": "men holding hands: dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f91d_200d_1f468_1f3fd.svg",
+                "description": "men holding hands: dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_1f91d_200d_1f468_1f3fe.svg",
+                "description": "men holding hands: dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f46c_1f3ff.svg",
+                "description": "men holding hands: dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f48f.svg",
+            "description": "kiss",
+            "variants": [
+              {
+                "filename": "1f48f_1f3fb.svg",
+                "description": "kiss: light skin tone"
+              },
+              {
+                "filename": "1f48f_1f3fc.svg",
+                "description": "kiss: medium-light skin tone"
+              },
+              {
+                "filename": "1f48f_1f3fd.svg",
+                "description": "kiss: medium skin tone"
+              },
+              {
+                "filename": "1f48f_1f3fe.svg",
+                "description": "kiss: medium-dark skin tone"
+              },
+              {
+                "filename": "1f48f_1f3ff.svg",
+                "description": "kiss: dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg",
+                "description": "kiss: person, person, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg",
+                "description": "kiss: person, person, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg",
+                "description": "kiss: person, person, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg",
+                "description": "kiss: person, person, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg",
+                "description": "kiss: person, person, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg",
+                "description": "kiss: person, person, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg",
+                "description": "kiss: person, person, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg",
+                "description": "kiss: person, person, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg",
+                "description": "kiss: person, person, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg",
+                "description": "kiss: person, person, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg",
+                "description": "kiss: person, person, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg",
+                "description": "kiss: person, person, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg",
+                "description": "kiss: person, person, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg",
+                "description": "kiss: person, person, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg",
+                "description": "kiss: person, person, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f48b_200d_1f9d1_1f3ff.svg",
+                "description": "kiss: person, person, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fb.svg",
+                "description": "kiss: person, person, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fc.svg",
+                "description": "kiss: person, person, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fd.svg",
+                "description": "kiss: person, person, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f48b_200d_1f9d1_1f3fe.svg",
+                "description": "kiss: person, person, dark skin tone, medium-dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2764_200d_1f48b_200d_1f468.svg",
+            "description": "kiss: woman, man",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: woman, man, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: woman, man, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: woman, man, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: woman, man, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: woman, man, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: woman, man, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: woman, man, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: woman, man, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: woman, man, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: woman, man, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: woman, man, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: woman, man, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: woman, man, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: woman, man, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: woman, man, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: woman, man, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: woman, man, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: woman, man, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: woman, man, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: woman, man, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: woman, man, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: woman, man, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: woman, man, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: woman, man, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: woman, man, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_2764_200d_1f48b_200d_1f468.svg",
+            "description": "kiss: man, man",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: man, man, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: man, man, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: man, man, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: man, man, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: man, man, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: man, man, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: man, man, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: man, man, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: man, man, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: man, man, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: man, man, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: man, man, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: man, man, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: man, man, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: man, man, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: man, man, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: man, man, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: man, man, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: man, man, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: man, man, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fb.svg",
+                "description": "kiss: man, man, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fc.svg",
+                "description": "kiss: man, man, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fd.svg",
+                "description": "kiss: man, man, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3fe.svg",
+                "description": "kiss: man, man, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f48b_200d_1f468_1f3ff.svg",
+                "description": "kiss: man, man, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2764_200d_1f48b_200d_1f469.svg",
+            "description": "kiss: woman, woman",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg",
+                "description": "kiss: woman, woman, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg",
+                "description": "kiss: woman, woman, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg",
+                "description": "kiss: woman, woman, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg",
+                "description": "kiss: woman, woman, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg",
+                "description": "kiss: woman, woman, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg",
+                "description": "kiss: woman, woman, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg",
+                "description": "kiss: woman, woman, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg",
+                "description": "kiss: woman, woman, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg",
+                "description": "kiss: woman, woman, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg",
+                "description": "kiss: woman, woman, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg",
+                "description": "kiss: woman, woman, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg",
+                "description": "kiss: woman, woman, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg",
+                "description": "kiss: woman, woman, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg",
+                "description": "kiss: woman, woman, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg",
+                "description": "kiss: woman, woman, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg",
+                "description": "kiss: woman, woman, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg",
+                "description": "kiss: woman, woman, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg",
+                "description": "kiss: woman, woman, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg",
+                "description": "kiss: woman, woman, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg",
+                "description": "kiss: woman, woman, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fb.svg",
+                "description": "kiss: woman, woman, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fc.svg",
+                "description": "kiss: woman, woman, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fd.svg",
+                "description": "kiss: woman, woman, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3fe.svg",
+                "description": "kiss: woman, woman, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f48b_200d_1f469_1f3ff.svg",
+                "description": "kiss: woman, woman, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f491.svg",
+            "description": "couple with heart",
+            "variants": [
+              {
+                "filename": "1f491_1f3fb.svg",
+                "description": "couple with heart: light skin tone"
+              },
+              {
+                "filename": "1f491_1f3fc.svg",
+                "description": "couple with heart: medium-light skin tone"
+              },
+              {
+                "filename": "1f491_1f3fd.svg",
+                "description": "couple with heart: medium skin tone"
+              },
+              {
+                "filename": "1f491_1f3fe.svg",
+                "description": "couple with heart: medium-dark skin tone"
+              },
+              {
+                "filename": "1f491_1f3ff.svg",
+                "description": "couple with heart: dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fc.svg",
+                "description": "couple with heart: person, person, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fd.svg",
+                "description": "couple with heart: person, person, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3fe.svg",
+                "description": "couple with heart: person, person, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fb_200d_2764_200d_1f9d1_1f3ff.svg",
+                "description": "couple with heart: person, person, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fb.svg",
+                "description": "couple with heart: person, person, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fd.svg",
+                "description": "couple with heart: person, person, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3fe.svg",
+                "description": "couple with heart: person, person, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fc_200d_2764_200d_1f9d1_1f3ff.svg",
+                "description": "couple with heart: person, person, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fb.svg",
+                "description": "couple with heart: person, person, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fc.svg",
+                "description": "couple with heart: person, person, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3fe.svg",
+                "description": "couple with heart: person, person, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fd_200d_2764_200d_1f9d1_1f3ff.svg",
+                "description": "couple with heart: person, person, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fb.svg",
+                "description": "couple with heart: person, person, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fc.svg",
+                "description": "couple with heart: person, person, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3fd.svg",
+                "description": "couple with heart: person, person, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3fe_200d_2764_200d_1f9d1_1f3ff.svg",
+                "description": "couple with heart: person, person, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fb.svg",
+                "description": "couple with heart: person, person, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fc.svg",
+                "description": "couple with heart: person, person, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fd.svg",
+                "description": "couple with heart: person, person, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f9d1_1f3ff_200d_2764_200d_1f9d1_1f3fe.svg",
+                "description": "couple with heart: person, person, dark skin tone, medium-dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2764_200d_1f468.svg",
+            "description": "couple with heart: woman, man",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: woman, man, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: woman, man, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: woman, man, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: woman, man, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: woman, man, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: woman, man, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: woman, man, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: woman, man, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: woman, man, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: woman, man, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: woman, man, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: woman, man, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: woman, man, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: woman, man, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: woman, man, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: woman, man, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: woman, man, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: woman, man, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: woman, man, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: woman, man, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: woman, man, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: woman, man, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: woman, man, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: woman, man, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: woman, man, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_2764_200d_1f468.svg",
+            "description": "couple with heart: man, man",
+            "variants": [
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: man, man, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: man, man, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: man, man, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: man, man, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fb_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: man, man, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: man, man, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: man, man, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: man, man, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: man, man, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fc_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: man, man, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: man, man, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: man, man, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: man, man, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: man, man, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fd_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: man, man, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: man, man, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: man, man, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: man, man, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: man, man, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3fe_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: man, man, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f468_1f3fb.svg",
+                "description": "couple with heart: man, man, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f468_1f3fc.svg",
+                "description": "couple with heart: man, man, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f468_1f3fd.svg",
+                "description": "couple with heart: man, man, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f468_1f3fe.svg",
+                "description": "couple with heart: man, man, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f468_1f3ff_200d_2764_200d_1f468_1f3ff.svg",
+                "description": "couple with heart: man, man, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f469_200d_2764_200d_1f469.svg",
+            "description": "couple with heart: woman, woman",
+            "variants": [
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f469_1f3fb.svg",
+                "description": "couple with heart: woman, woman, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f469_1f3fc.svg",
+                "description": "couple with heart: woman, woman, light skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f469_1f3fd.svg",
+                "description": "couple with heart: woman, woman, light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f469_1f3fe.svg",
+                "description": "couple with heart: woman, woman, light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fb_200d_2764_200d_1f469_1f3ff.svg",
+                "description": "couple with heart: woman, woman, light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f469_1f3fb.svg",
+                "description": "couple with heart: woman, woman, medium-light skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f469_1f3fc.svg",
+                "description": "couple with heart: woman, woman, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f469_1f3fd.svg",
+                "description": "couple with heart: woman, woman, medium-light skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f469_1f3fe.svg",
+                "description": "couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fc_200d_2764_200d_1f469_1f3ff.svg",
+                "description": "couple with heart: woman, woman, medium-light skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f469_1f3fb.svg",
+                "description": "couple with heart: woman, woman, medium skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f469_1f3fc.svg",
+                "description": "couple with heart: woman, woman, medium skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f469_1f3fd.svg",
+                "description": "couple with heart: woman, woman, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f469_1f3fe.svg",
+                "description": "couple with heart: woman, woman, medium skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fd_200d_2764_200d_1f469_1f3ff.svg",
+                "description": "couple with heart: woman, woman, medium skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f469_1f3fb.svg",
+                "description": "couple with heart: woman, woman, medium-dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f469_1f3fc.svg",
+                "description": "couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f469_1f3fd.svg",
+                "description": "couple with heart: woman, woman, medium-dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f469_1f3fe.svg",
+                "description": "couple with heart: woman, woman, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3fe_200d_2764_200d_1f469_1f3ff.svg",
+                "description": "couple with heart: woman, woman, medium-dark skin tone, dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f469_1f3fb.svg",
+                "description": "couple with heart: woman, woman, dark skin tone, light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f469_1f3fc.svg",
+                "description": "couple with heart: woman, woman, dark skin tone, medium-light skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f469_1f3fd.svg",
+                "description": "couple with heart: woman, woman, dark skin tone, medium skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f469_1f3fe.svg",
+                "description": "couple with heart: woman, woman, dark skin tone, medium-dark skin tone"
+              },
+              {
+                "filename": "1f469_1f3ff_200d_2764_200d_1f469_1f3ff.svg",
+                "description": "couple with heart: woman, woman, dark skin tone"
+              }
+            ]
+          },
+          {
+            "filename": "1f468_200d_1f469_200d_1f466.svg",
+            "description": "family: man, woman, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f469_200d_1f467.svg",
+            "description": "family: man, woman, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f469_200d_1f467_200d_1f466.svg",
+            "description": "family: man, woman, girl, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f469_200d_1f466_200d_1f466.svg",
+            "description": "family: man, woman, boy, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f469_200d_1f467_200d_1f467.svg",
+            "description": "family: man, woman, girl, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f468_200d_1f466.svg",
+            "description": "family: man, man, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f468_200d_1f467.svg",
+            "description": "family: man, man, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f468_200d_1f467_200d_1f466.svg",
+            "description": "family: man, man, girl, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f468_200d_1f466_200d_1f466.svg",
+            "description": "family: man, man, boy, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f468_200d_1f467_200d_1f467.svg",
+            "description": "family: man, man, girl, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f469_200d_1f466.svg",
+            "description": "family: woman, woman, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f469_200d_1f467.svg",
+            "description": "family: woman, woman, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f469_200d_1f467_200d_1f466.svg",
+            "description": "family: woman, woman, girl, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f469_200d_1f466_200d_1f466.svg",
+            "description": "family: woman, woman, boy, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f469_200d_1f467_200d_1f467.svg",
+            "description": "family: woman, woman, girl, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f466.svg",
+            "description": "family: man, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f466_200d_1f466.svg",
+            "description": "family: man, boy, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f467.svg",
+            "description": "family: man, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f467_200d_1f466.svg",
+            "description": "family: man, girl, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f468_200d_1f467_200d_1f467.svg",
+            "description": "family: man, girl, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f466.svg",
+            "description": "family: woman, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f466_200d_1f466.svg",
+            "description": "family: woman, boy, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f467.svg",
+            "description": "family: woman, girl",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f467_200d_1f466.svg",
+            "description": "family: woman, girl, boy",
+            "variants": []
+          },
+          {
+            "filename": "1f469_200d_1f467_200d_1f467.svg",
+            "description": "family: woman, girl, girl",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "person-symbol",
+        "emojis": [
+          {
+            "filename": "1f5e3.svg",
+            "description": "speaking head",
+            "variants": []
+          },
+          {
+            "filename": "1f464.svg",
+            "description": "bust in silhouette",
+            "variants": []
+          },
+          {
+            "filename": "1f465.svg",
+            "description": "busts in silhouette",
+            "variants": []
+          },
+          {
+            "filename": "1fac2.svg",
+            "description": "people hugging",
+            "variants": []
+          },
+          {
+            "filename": "1f46a.svg",
+            "description": "family",
+            "variants": []
+          },
+          {
+            "filename": "1f9d1_200d_1f9d1_200d_1f9d2.svg",
+            "description": "family: adult, adult, child",
+            "variants": []
+          },
+          {
+            "filename": "1f9d1_200d_1f9d1_200d_1f9d2_200d_1f9d2.svg",
+            "description": "family: adult, adult, child, child",
+            "variants": []
+          },
+          {
+            "filename": "1f9d1_200d_1f9d2.svg",
+            "description": "family: adult, child",
+            "variants": []
+          },
+          {
+            "filename": "1f9d1_200d_1f9d2_200d_1f9d2.svg",
+            "description": "family: adult, child, child",
+            "variants": []
+          },
+          {
+            "filename": "1f463.svg",
+            "description": "footprints",
+            "variants": []
+          },
+          {
+            "filename": "1fac6.svg",
+            "description": "fingerprint",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Component",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "skin-tone",
+        "emojis": []
+      },
+      {
+        "type": "Subgroup",
+        "name": "hair-style",
+        "emojis": []
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Animals & Nature",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "animal-mammal",
+        "emojis": [
+          {
+            "filename": "1f435.svg",
+            "description": "monkey face",
+            "variants": []
+          },
+          {
+            "filename": "1f412.svg",
+            "description": "monkey",
+            "variants": []
+          },
+          {
+            "filename": "1f98d.svg",
+            "description": "gorilla",
+            "variants": []
+          },
+          {
+            "filename": "1f9a7.svg",
+            "description": "orangutan",
+            "variants": []
+          },
+          {
+            "filename": "1f436.svg",
+            "description": "dog face",
+            "variants": []
+          },
+          {
+            "filename": "1f415.svg",
+            "description": "dog",
+            "variants": []
+          },
+          {
+            "filename": "1f9ae.svg",
+            "description": "guide dog",
+            "variants": []
+          },
+          {
+            "filename": "1f415_200d_1f9ba.svg",
+            "description": "service dog",
+            "variants": []
+          },
+          {
+            "filename": "1f429.svg",
+            "description": "poodle",
+            "variants": []
+          },
+          {
+            "filename": "1f43a.svg",
+            "description": "wolf",
+            "variants": []
+          },
+          {
+            "filename": "1f98a.svg",
+            "description": "fox",
+            "variants": []
+          },
+          {
+            "filename": "1f99d.svg",
+            "description": "raccoon",
+            "variants": []
+          },
+          {
+            "filename": "1f431.svg",
+            "description": "cat face",
+            "variants": []
+          },
+          {
+            "filename": "1f408.svg",
+            "description": "cat",
+            "variants": []
+          },
+          {
+            "filename": "1f408_200d_2b1b.svg",
+            "description": "black cat",
+            "variants": []
+          },
+          {
+            "filename": "1f981.svg",
+            "description": "lion",
+            "variants": []
+          },
+          {
+            "filename": "1f42f.svg",
+            "description": "tiger face",
+            "variants": []
+          },
+          {
+            "filename": "1f405.svg",
+            "description": "tiger",
+            "variants": []
+          },
+          {
+            "filename": "1f406.svg",
+            "description": "leopard",
+            "variants": []
+          },
+          {
+            "filename": "1f434.svg",
+            "description": "horse face",
+            "variants": []
+          },
+          {
+            "filename": "1face.svg",
+            "description": "moose",
+            "variants": []
+          },
+          {
+            "filename": "1facf.svg",
+            "description": "donkey",
+            "variants": []
+          },
+          {
+            "filename": "1f40e.svg",
+            "description": "horse",
+            "variants": []
+          },
+          {
+            "filename": "1f984.svg",
+            "description": "unicorn",
+            "variants": []
+          },
+          {
+            "filename": "1f993.svg",
+            "description": "zebra",
+            "variants": []
+          },
+          {
+            "filename": "1f98c.svg",
+            "description": "deer",
+            "variants": []
+          },
+          {
+            "filename": "1f9ac.svg",
+            "description": "bison",
+            "variants": []
+          },
+          {
+            "filename": "1f42e.svg",
+            "description": "cow face",
+            "variants": []
+          },
+          {
+            "filename": "1f402.svg",
+            "description": "ox",
+            "variants": []
+          },
+          {
+            "filename": "1f403.svg",
+            "description": "water buffalo",
+            "variants": []
+          },
+          {
+            "filename": "1f404.svg",
+            "description": "cow",
+            "variants": []
+          },
+          {
+            "filename": "1f437.svg",
+            "description": "pig face",
+            "variants": []
+          },
+          {
+            "filename": "1f416.svg",
+            "description": "pig",
+            "variants": []
+          },
+          {
+            "filename": "1f417.svg",
+            "description": "boar",
+            "variants": []
+          },
+          {
+            "filename": "1f43d.svg",
+            "description": "pig nose",
+            "variants": []
+          },
+          {
+            "filename": "1f40f.svg",
+            "description": "ram",
+            "variants": []
+          },
+          {
+            "filename": "1f411.svg",
+            "description": "ewe",
+            "variants": []
+          },
+          {
+            "filename": "1f410.svg",
+            "description": "goat",
+            "variants": []
+          },
+          {
+            "filename": "1f42a.svg",
+            "description": "camel",
+            "variants": []
+          },
+          {
+            "filename": "1f42b.svg",
+            "description": "two-hump camel",
+            "variants": []
+          },
+          {
+            "filename": "1f999.svg",
+            "description": "llama",
+            "variants": []
+          },
+          {
+            "filename": "1f992.svg",
+            "description": "giraffe",
+            "variants": []
+          },
+          {
+            "filename": "1f418.svg",
+            "description": "elephant",
+            "variants": []
+          },
+          {
+            "filename": "1f9a3.svg",
+            "description": "mammoth",
+            "variants": []
+          },
+          {
+            "filename": "1f98f.svg",
+            "description": "rhinoceros",
+            "variants": []
+          },
+          {
+            "filename": "1f99b.svg",
+            "description": "hippopotamus",
+            "variants": []
+          },
+          {
+            "filename": "1f42d.svg",
+            "description": "mouse face",
+            "variants": []
+          },
+          {
+            "filename": "1f401.svg",
+            "description": "mouse",
+            "variants": []
+          },
+          {
+            "filename": "1f400.svg",
+            "description": "rat",
+            "variants": []
+          },
+          {
+            "filename": "1f439.svg",
+            "description": "hamster",
+            "variants": []
+          },
+          {
+            "filename": "1f430.svg",
+            "description": "rabbit face",
+            "variants": []
+          },
+          {
+            "filename": "1f407.svg",
+            "description": "rabbit",
+            "variants": []
+          },
+          {
+            "filename": "1f43f.svg",
+            "description": "chipmunk",
+            "variants": []
+          },
+          {
+            "filename": "1f9ab.svg",
+            "description": "beaver",
+            "variants": []
+          },
+          {
+            "filename": "1f994.svg",
+            "description": "hedgehog",
+            "variants": []
+          },
+          {
+            "filename": "1f987.svg",
+            "description": "bat",
+            "variants": []
+          },
+          {
+            "filename": "1f43b.svg",
+            "description": "bear",
+            "variants": []
+          },
+          {
+            "filename": "1f43b_200d_2744.svg",
+            "description": "polar bear",
+            "variants": []
+          },
+          {
+            "filename": "1f428.svg",
+            "description": "koala",
+            "variants": []
+          },
+          {
+            "filename": "1f43c.svg",
+            "description": "panda",
+            "variants": []
+          },
+          {
+            "filename": "1f9a5.svg",
+            "description": "sloth",
+            "variants": []
+          },
+          {
+            "filename": "1f9a6.svg",
+            "description": "otter",
+            "variants": []
+          },
+          {
+            "filename": "1f9a8.svg",
+            "description": "skunk",
+            "variants": []
+          },
+          {
+            "filename": "1f998.svg",
+            "description": "kangaroo",
+            "variants": []
+          },
+          {
+            "filename": "1f9a1.svg",
+            "description": "badger",
+            "variants": []
+          },
+          {
+            "filename": "1f43e.svg",
+            "description": "paw prints",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "animal-bird",
+        "emojis": [
+          {
+            "filename": "1f983.svg",
+            "description": "turkey",
+            "variants": []
+          },
+          {
+            "filename": "1f414.svg",
+            "description": "chicken",
+            "variants": []
+          },
+          {
+            "filename": "1f413.svg",
+            "description": "rooster",
+            "variants": []
+          },
+          {
+            "filename": "1f423.svg",
+            "description": "hatching chick",
+            "variants": []
+          },
+          {
+            "filename": "1f424.svg",
+            "description": "baby chick",
+            "variants": []
+          },
+          {
+            "filename": "1f425.svg",
+            "description": "front-facing baby chick",
+            "variants": []
+          },
+          {
+            "filename": "1f426.svg",
+            "description": "bird",
+            "variants": []
+          },
+          {
+            "filename": "1f427.svg",
+            "description": "penguin",
+            "variants": []
+          },
+          {
+            "filename": "1f54a.svg",
+            "description": "dove",
+            "variants": []
+          },
+          {
+            "filename": "1f985.svg",
+            "description": "eagle",
+            "variants": []
+          },
+          {
+            "filename": "1f986.svg",
+            "description": "duck",
+            "variants": []
+          },
+          {
+            "filename": "1f9a2.svg",
+            "description": "swan",
+            "variants": []
+          },
+          {
+            "filename": "1f989.svg",
+            "description": "owl",
+            "variants": []
+          },
+          {
+            "filename": "1f9a4.svg",
+            "description": "dodo",
+            "variants": []
+          },
+          {
+            "filename": "1fab6.svg",
+            "description": "feather",
+            "variants": []
+          },
+          {
+            "filename": "1f9a9.svg",
+            "description": "flamingo",
+            "variants": []
+          },
+          {
+            "filename": "1f99a.svg",
+            "description": "peacock",
+            "variants": []
+          },
+          {
+            "filename": "1f99c.svg",
+            "description": "parrot",
+            "variants": []
+          },
+          {
+            "filename": "1fabd.svg",
+            "description": "wing",
+            "variants": []
+          },
+          {
+            "filename": "1f426_200d_2b1b.svg",
+            "description": "black bird",
+            "variants": []
+          },
+          {
+            "filename": "1fabf.svg",
+            "description": "goose",
+            "variants": []
+          },
+          {
+            "filename": "1f426_200d_1f525.svg",
+            "description": "phoenix",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "animal-amphibian",
+        "emojis": [
+          {
+            "filename": "1f438.svg",
+            "description": "frog",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "animal-reptile",
+        "emojis": [
+          {
+            "filename": "1f40a.svg",
+            "description": "crocodile",
+            "variants": []
+          },
+          {
+            "filename": "1f422.svg",
+            "description": "turtle",
+            "variants": []
+          },
+          {
+            "filename": "1f98e.svg",
+            "description": "lizard",
+            "variants": []
+          },
+          {
+            "filename": "1f40d.svg",
+            "description": "snake",
+            "variants": []
+          },
+          {
+            "filename": "1f432.svg",
+            "description": "dragon face",
+            "variants": []
+          },
+          {
+            "filename": "1f409.svg",
+            "description": "dragon",
+            "variants": []
+          },
+          {
+            "filename": "1f995.svg",
+            "description": "sauropod",
+            "variants": []
+          },
+          {
+            "filename": "1f996.svg",
+            "description": "T-Rex",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "animal-marine",
+        "emojis": [
+          {
+            "filename": "1f433.svg",
+            "description": "spouting whale",
+            "variants": []
+          },
+          {
+            "filename": "1f40b.svg",
+            "description": "whale",
+            "variants": []
+          },
+          {
+            "filename": "1f42c.svg",
+            "description": "dolphin",
+            "variants": []
+          },
+          {
+            "filename": "1f9ad.svg",
+            "description": "seal",
+            "variants": []
+          },
+          {
+            "filename": "1f41f.svg",
+            "description": "fish",
+            "variants": []
+          },
+          {
+            "filename": "1f420.svg",
+            "description": "tropical fish",
+            "variants": []
+          },
+          {
+            "filename": "1f421.svg",
+            "description": "blowfish",
+            "variants": []
+          },
+          {
+            "filename": "1f988.svg",
+            "description": "shark",
+            "variants": []
+          },
+          {
+            "filename": "1f419.svg",
+            "description": "octopus",
+            "variants": []
+          },
+          {
+            "filename": "1f41a.svg",
+            "description": "spiral shell",
+            "variants": []
+          },
+          {
+            "filename": "1fab8.svg",
+            "description": "coral",
+            "variants": []
+          },
+          {
+            "filename": "1fabc.svg",
+            "description": "jellyfish",
+            "variants": []
+          },
+          {
+            "filename": "1f980.svg",
+            "description": "crab",
+            "variants": []
+          },
+          {
+            "filename": "1f99e.svg",
+            "description": "lobster",
+            "variants": []
+          },
+          {
+            "filename": "1f990.svg",
+            "description": "shrimp",
+            "variants": []
+          },
+          {
+            "filename": "1f991.svg",
+            "description": "squid",
+            "variants": []
+          },
+          {
+            "filename": "1f9aa.svg",
+            "description": "oyster",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "animal-bug",
+        "emojis": [
+          {
+            "filename": "1f40c.svg",
+            "description": "snail",
+            "variants": []
+          },
+          {
+            "filename": "1f98b.svg",
+            "description": "butterfly",
+            "variants": []
+          },
+          {
+            "filename": "1f41b.svg",
+            "description": "bug",
+            "variants": []
+          },
+          {
+            "filename": "1f41c.svg",
+            "description": "ant",
+            "variants": []
+          },
+          {
+            "filename": "1f41d.svg",
+            "description": "honeybee",
+            "variants": []
+          },
+          {
+            "filename": "1fab2.svg",
+            "description": "beetle",
+            "variants": []
+          },
+          {
+            "filename": "1f41e.svg",
+            "description": "lady beetle",
+            "variants": []
+          },
+          {
+            "filename": "1f997.svg",
+            "description": "cricket",
+            "variants": []
+          },
+          {
+            "filename": "1fab3.svg",
+            "description": "cockroach",
+            "variants": []
+          },
+          {
+            "filename": "1f577.svg",
+            "description": "spider",
+            "variants": []
+          },
+          {
+            "filename": "1f578.svg",
+            "description": "spider web",
+            "variants": []
+          },
+          {
+            "filename": "1f982.svg",
+            "description": "scorpion",
+            "variants": []
+          },
+          {
+            "filename": "1f99f.svg",
+            "description": "mosquito",
+            "variants": []
+          },
+          {
+            "filename": "1fab0.svg",
+            "description": "fly",
+            "variants": []
+          },
+          {
+            "filename": "1fab1.svg",
+            "description": "worm",
+            "variants": []
+          },
+          {
+            "filename": "1f9a0.svg",
+            "description": "microbe",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "plant-flower",
+        "emojis": [
+          {
+            "filename": "1f490.svg",
+            "description": "bouquet",
+            "variants": []
+          },
+          {
+            "filename": "1f338.svg",
+            "description": "cherry blossom",
+            "variants": []
+          },
+          {
+            "filename": "1f4ae.svg",
+            "description": "white flower",
+            "variants": []
+          },
+          {
+            "filename": "1fab7.svg",
+            "description": "lotus",
+            "variants": []
+          },
+          {
+            "filename": "1f3f5.svg",
+            "description": "rosette",
+            "variants": []
+          },
+          {
+            "filename": "1f339.svg",
+            "description": "rose",
+            "variants": []
+          },
+          {
+            "filename": "1f940.svg",
+            "description": "wilted flower",
+            "variants": []
+          },
+          {
+            "filename": "1f33a.svg",
+            "description": "hibiscus",
+            "variants": []
+          },
+          {
+            "filename": "1f33b.svg",
+            "description": "sunflower",
+            "variants": []
+          },
+          {
+            "filename": "1f33c.svg",
+            "description": "blossom",
+            "variants": []
+          },
+          {
+            "filename": "1f337.svg",
+            "description": "tulip",
+            "variants": []
+          },
+          {
+            "filename": "1fabb.svg",
+            "description": "hyacinth",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "plant-other",
+        "emojis": [
+          {
+            "filename": "1f331.svg",
+            "description": "seedling",
+            "variants": []
+          },
+          {
+            "filename": "1fab4.svg",
+            "description": "potted plant",
+            "variants": []
+          },
+          {
+            "filename": "1f332.svg",
+            "description": "evergreen tree",
+            "variants": []
+          },
+          {
+            "filename": "1f333.svg",
+            "description": "deciduous tree",
+            "variants": []
+          },
+          {
+            "filename": "1f334.svg",
+            "description": "palm tree",
+            "variants": []
+          },
+          {
+            "filename": "1f335.svg",
+            "description": "cactus",
+            "variants": []
+          },
+          {
+            "filename": "1f33e.svg",
+            "description": "sheaf of rice",
+            "variants": []
+          },
+          {
+            "filename": "1f33f.svg",
+            "description": "herb",
+            "variants": []
+          },
+          {
+            "filename": "2618.svg",
+            "description": "shamrock",
+            "variants": []
+          },
+          {
+            "filename": "1f340.svg",
+            "description": "four leaf clover",
+            "variants": []
+          },
+          {
+            "filename": "1f341.svg",
+            "description": "maple leaf",
+            "variants": []
+          },
+          {
+            "filename": "1f342.svg",
+            "description": "fallen leaf",
+            "variants": []
+          },
+          {
+            "filename": "1f343.svg",
+            "description": "leaf fluttering in wind",
+            "variants": []
+          },
+          {
+            "filename": "1fab9.svg",
+            "description": "empty nest",
+            "variants": []
+          },
+          {
+            "filename": "1faba.svg",
+            "description": "nest with eggs",
+            "variants": []
+          },
+          {
+            "filename": "1f344.svg",
+            "description": "mushroom",
+            "variants": []
+          },
+          {
+            "filename": "1fabe.svg",
+            "description": "leafless tree",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Food & Drink",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "food-fruit",
+        "emojis": [
+          {
+            "filename": "1f347.svg",
+            "description": "grapes",
+            "variants": []
+          },
+          {
+            "filename": "1f348.svg",
+            "description": "melon",
+            "variants": []
+          },
+          {
+            "filename": "1f349.svg",
+            "description": "watermelon",
+            "variants": []
+          },
+          {
+            "filename": "1f34a.svg",
+            "description": "tangerine",
+            "variants": []
+          },
+          {
+            "filename": "1f34b.svg",
+            "description": "lemon",
+            "variants": []
+          },
+          {
+            "filename": "1f34b_200d_1f7e9.svg",
+            "description": "lime",
+            "variants": []
+          },
+          {
+            "filename": "1f34c.svg",
+            "description": "banana",
+            "variants": []
+          },
+          {
+            "filename": "1f34d.svg",
+            "description": "pineapple",
+            "variants": []
+          },
+          {
+            "filename": "1f96d.svg",
+            "description": "mango",
+            "variants": []
+          },
+          {
+            "filename": "1f34e.svg",
+            "description": "red apple",
+            "variants": []
+          },
+          {
+            "filename": "1f34f.svg",
+            "description": "green apple",
+            "variants": []
+          },
+          {
+            "filename": "1f350.svg",
+            "description": "pear",
+            "variants": []
+          },
+          {
+            "filename": "1f351.svg",
+            "description": "peach",
+            "variants": []
+          },
+          {
+            "filename": "1f352.svg",
+            "description": "cherries",
+            "variants": []
+          },
+          {
+            "filename": "1f353.svg",
+            "description": "strawberry",
+            "variants": []
+          },
+          {
+            "filename": "1fad0.svg",
+            "description": "blueberries",
+            "variants": []
+          },
+          {
+            "filename": "1f95d.svg",
+            "description": "kiwi fruit",
+            "variants": []
+          },
+          {
+            "filename": "1f345.svg",
+            "description": "tomato",
+            "variants": []
+          },
+          {
+            "filename": "1fad2.svg",
+            "description": "olive",
+            "variants": []
+          },
+          {
+            "filename": "1f965.svg",
+            "description": "coconut",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "food-vegetable",
+        "emojis": [
+          {
+            "filename": "1f951.svg",
+            "description": "avocado",
+            "variants": []
+          },
+          {
+            "filename": "1f346.svg",
+            "description": "eggplant",
+            "variants": []
+          },
+          {
+            "filename": "1f954.svg",
+            "description": "potato",
+            "variants": []
+          },
+          {
+            "filename": "1f955.svg",
+            "description": "carrot",
+            "variants": []
+          },
+          {
+            "filename": "1f33d.svg",
+            "description": "ear of corn",
+            "variants": []
+          },
+          {
+            "filename": "1f336.svg",
+            "description": "hot pepper",
+            "variants": []
+          },
+          {
+            "filename": "1fad1.svg",
+            "description": "bell pepper",
+            "variants": []
+          },
+          {
+            "filename": "1f952.svg",
+            "description": "cucumber",
+            "variants": []
+          },
+          {
+            "filename": "1f96c.svg",
+            "description": "leafy green",
+            "variants": []
+          },
+          {
+            "filename": "1f966.svg",
+            "description": "broccoli",
+            "variants": []
+          },
+          {
+            "filename": "1f9c4.svg",
+            "description": "garlic",
+            "variants": []
+          },
+          {
+            "filename": "1f9c5.svg",
+            "description": "onion",
+            "variants": []
+          },
+          {
+            "filename": "1f95c.svg",
+            "description": "peanuts",
+            "variants": []
+          },
+          {
+            "filename": "1fad8.svg",
+            "description": "beans",
+            "variants": []
+          },
+          {
+            "filename": "1f330.svg",
+            "description": "chestnut",
+            "variants": []
+          },
+          {
+            "filename": "1fada.svg",
+            "description": "ginger root",
+            "variants": []
+          },
+          {
+            "filename": "1fadb.svg",
+            "description": "pea pod",
+            "variants": []
+          },
+          {
+            "filename": "1f344_200d_1f7eb.svg",
+            "description": "brown mushroom",
+            "variants": []
+          },
+          {
+            "filename": "1fadc.svg",
+            "description": "root vegetable",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "food-prepared",
+        "emojis": [
+          {
+            "filename": "1f35e.svg",
+            "description": "bread",
+            "variants": []
+          },
+          {
+            "filename": "1f950.svg",
+            "description": "croissant",
+            "variants": []
+          },
+          {
+            "filename": "1f956.svg",
+            "description": "baguette bread",
+            "variants": []
+          },
+          {
+            "filename": "1fad3.svg",
+            "description": "flatbread",
+            "variants": []
+          },
+          {
+            "filename": "1f968.svg",
+            "description": "pretzel",
+            "variants": []
+          },
+          {
+            "filename": "1f96f.svg",
+            "description": "bagel",
+            "variants": []
+          },
+          {
+            "filename": "1f95e.svg",
+            "description": "pancakes",
+            "variants": []
+          },
+          {
+            "filename": "1f9c7.svg",
+            "description": "waffle",
+            "variants": []
+          },
+          {
+            "filename": "1f9c0.svg",
+            "description": "cheese wedge",
+            "variants": []
+          },
+          {
+            "filename": "1f356.svg",
+            "description": "meat on bone",
+            "variants": []
+          },
+          {
+            "filename": "1f357.svg",
+            "description": "poultry leg",
+            "variants": []
+          },
+          {
+            "filename": "1f969.svg",
+            "description": "cut of meat",
+            "variants": []
+          },
+          {
+            "filename": "1f953.svg",
+            "description": "bacon",
+            "variants": []
+          },
+          {
+            "filename": "1f354.svg",
+            "description": "hamburger",
+            "variants": []
+          },
+          {
+            "filename": "1f35f.svg",
+            "description": "french fries",
+            "variants": []
+          },
+          {
+            "filename": "1f355.svg",
+            "description": "pizza",
+            "variants": []
+          },
+          {
+            "filename": "1f32d.svg",
+            "description": "hot dog",
+            "variants": []
+          },
+          {
+            "filename": "1f96a.svg",
+            "description": "sandwich",
+            "variants": []
+          },
+          {
+            "filename": "1f32e.svg",
+            "description": "taco",
+            "variants": []
+          },
+          {
+            "filename": "1f32f.svg",
+            "description": "burrito",
+            "variants": []
+          },
+          {
+            "filename": "1fad4.svg",
+            "description": "tamale",
+            "variants": []
+          },
+          {
+            "filename": "1f959.svg",
+            "description": "stuffed flatbread",
+            "variants": []
+          },
+          {
+            "filename": "1f9c6.svg",
+            "description": "falafel",
+            "variants": []
+          },
+          {
+            "filename": "1f95a.svg",
+            "description": "egg",
+            "variants": []
+          },
+          {
+            "filename": "1f373.svg",
+            "description": "cooking",
+            "variants": []
+          },
+          {
+            "filename": "1f958.svg",
+            "description": "shallow pan of food",
+            "variants": []
+          },
+          {
+            "filename": "1f372.svg",
+            "description": "pot of food",
+            "variants": []
+          },
+          {
+            "filename": "1fad5.svg",
+            "description": "fondue",
+            "variants": []
+          },
+          {
+            "filename": "1f963.svg",
+            "description": "bowl with spoon",
+            "variants": []
+          },
+          {
+            "filename": "1f957.svg",
+            "description": "green salad",
+            "variants": []
+          },
+          {
+            "filename": "1f37f.svg",
+            "description": "popcorn",
+            "variants": []
+          },
+          {
+            "filename": "1f9c8.svg",
+            "description": "butter",
+            "variants": []
+          },
+          {
+            "filename": "1f9c2.svg",
+            "description": "salt",
+            "variants": []
+          },
+          {
+            "filename": "1f96b.svg",
+            "description": "canned food",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "food-asian",
+        "emojis": [
+          {
+            "filename": "1f371.svg",
+            "description": "bento box",
+            "variants": []
+          },
+          {
+            "filename": "1f358.svg",
+            "description": "rice cracker",
+            "variants": []
+          },
+          {
+            "filename": "1f359.svg",
+            "description": "rice ball",
+            "variants": []
+          },
+          {
+            "filename": "1f35a.svg",
+            "description": "cooked rice",
+            "variants": []
+          },
+          {
+            "filename": "1f35b.svg",
+            "description": "curry rice",
+            "variants": []
+          },
+          {
+            "filename": "1f35c.svg",
+            "description": "steaming bowl",
+            "variants": []
+          },
+          {
+            "filename": "1f35d.svg",
+            "description": "spaghetti",
+            "variants": []
+          },
+          {
+            "filename": "1f360.svg",
+            "description": "roasted sweet potato",
+            "variants": []
+          },
+          {
+            "filename": "1f362.svg",
+            "description": "oden",
+            "variants": []
+          },
+          {
+            "filename": "1f363.svg",
+            "description": "sushi",
+            "variants": []
+          },
+          {
+            "filename": "1f364.svg",
+            "description": "fried shrimp",
+            "variants": []
+          },
+          {
+            "filename": "1f365.svg",
+            "description": "fish cake with swirl",
+            "variants": []
+          },
+          {
+            "filename": "1f96e.svg",
+            "description": "moon cake",
+            "variants": []
+          },
+          {
+            "filename": "1f361.svg",
+            "description": "dango",
+            "variants": []
+          },
+          {
+            "filename": "1f95f.svg",
+            "description": "dumpling",
+            "variants": []
+          },
+          {
+            "filename": "1f960.svg",
+            "description": "fortune cookie",
+            "variants": []
+          },
+          {
+            "filename": "1f961.svg",
+            "description": "takeout box",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "food-sweet",
+        "emojis": [
+          {
+            "filename": "1f366.svg",
+            "description": "soft ice cream",
+            "variants": []
+          },
+          {
+            "filename": "1f367.svg",
+            "description": "shaved ice",
+            "variants": []
+          },
+          {
+            "filename": "1f368.svg",
+            "description": "ice cream",
+            "variants": []
+          },
+          {
+            "filename": "1f369.svg",
+            "description": "doughnut",
+            "variants": []
+          },
+          {
+            "filename": "1f36a.svg",
+            "description": "cookie",
+            "variants": []
+          },
+          {
+            "filename": "1f382.svg",
+            "description": "birthday cake",
+            "variants": []
+          },
+          {
+            "filename": "1f370.svg",
+            "description": "shortcake",
+            "variants": []
+          },
+          {
+            "filename": "1f9c1.svg",
+            "description": "cupcake",
+            "variants": []
+          },
+          {
+            "filename": "1f967.svg",
+            "description": "pie",
+            "variants": []
+          },
+          {
+            "filename": "1f36b.svg",
+            "description": "chocolate bar",
+            "variants": []
+          },
+          {
+            "filename": "1f36c.svg",
+            "description": "candy",
+            "variants": []
+          },
+          {
+            "filename": "1f36d.svg",
+            "description": "lollipop",
+            "variants": []
+          },
+          {
+            "filename": "1f36e.svg",
+            "description": "custard",
+            "variants": []
+          },
+          {
+            "filename": "1f36f.svg",
+            "description": "honey pot",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "drink",
+        "emojis": [
+          {
+            "filename": "1f37c.svg",
+            "description": "baby bottle",
+            "variants": []
+          },
+          {
+            "filename": "1f95b.svg",
+            "description": "glass of milk",
+            "variants": []
+          },
+          {
+            "filename": "2615.svg",
+            "description": "hot beverage",
+            "variants": []
+          },
+          {
+            "filename": "1fad6.svg",
+            "description": "teapot",
+            "variants": []
+          },
+          {
+            "filename": "1f375.svg",
+            "description": "teacup without handle",
+            "variants": []
+          },
+          {
+            "filename": "1f376.svg",
+            "description": "sake",
+            "variants": []
+          },
+          {
+            "filename": "1f37e.svg",
+            "description": "bottle with popping cork",
+            "variants": []
+          },
+          {
+            "filename": "1f377.svg",
+            "description": "wine glass",
+            "variants": []
+          },
+          {
+            "filename": "1f378.svg",
+            "description": "cocktail glass",
+            "variants": []
+          },
+          {
+            "filename": "1f379.svg",
+            "description": "tropical drink",
+            "variants": []
+          },
+          {
+            "filename": "1f37a.svg",
+            "description": "beer mug",
+            "variants": []
+          },
+          {
+            "filename": "1f37b.svg",
+            "description": "clinking beer mugs",
+            "variants": []
+          },
+          {
+            "filename": "1f942.svg",
+            "description": "clinking glasses",
+            "variants": []
+          },
+          {
+            "filename": "1f943.svg",
+            "description": "tumbler glass",
+            "variants": []
+          },
+          {
+            "filename": "1fad7.svg",
+            "description": "pouring liquid",
+            "variants": []
+          },
+          {
+            "filename": "1f964.svg",
+            "description": "cup with straw",
+            "variants": []
+          },
+          {
+            "filename": "1f9cb.svg",
+            "description": "bubble tea",
+            "variants": []
+          },
+          {
+            "filename": "1f9c3.svg",
+            "description": "beverage box",
+            "variants": []
+          },
+          {
+            "filename": "1f9c9.svg",
+            "description": "mate",
+            "variants": []
+          },
+          {
+            "filename": "1f9ca.svg",
+            "description": "ice",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "dishware",
+        "emojis": [
+          {
+            "filename": "1f962.svg",
+            "description": "chopsticks",
+            "variants": []
+          },
+          {
+            "filename": "1f37d.svg",
+            "description": "fork and knife with plate",
+            "variants": []
+          },
+          {
+            "filename": "1f374.svg",
+            "description": "fork and knife",
+            "variants": []
+          },
+          {
+            "filename": "1f944.svg",
+            "description": "spoon",
+            "variants": []
+          },
+          {
+            "filename": "1f52a.svg",
+            "description": "kitchen knife",
+            "variants": []
+          },
+          {
+            "filename": "1fad9.svg",
+            "description": "jar",
+            "variants": []
+          },
+          {
+            "filename": "1f3fa.svg",
+            "description": "amphora",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Travel & Places",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "place-map",
+        "emojis": [
+          {
+            "filename": "1f30d.svg",
+            "description": "globe showing Europe-Africa",
+            "variants": []
+          },
+          {
+            "filename": "1f30e.svg",
+            "description": "globe showing Americas",
+            "variants": []
+          },
+          {
+            "filename": "1f30f.svg",
+            "description": "globe showing Asia-Australia",
+            "variants": []
+          },
+          {
+            "filename": "1f310.svg",
+            "description": "globe with meridians",
+            "variants": []
+          },
+          {
+            "filename": "1f5fa.svg",
+            "description": "world map",
+            "variants": []
+          },
+          {
+            "filename": "1f5fe.svg",
+            "description": "map of Japan",
+            "variants": []
+          },
+          {
+            "filename": "1f9ed.svg",
+            "description": "compass",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "place-geographic",
+        "emojis": [
+          {
+            "filename": "1f3d4.svg",
+            "description": "snow-capped mountain",
+            "variants": []
+          },
+          {
+            "filename": "26f0.svg",
+            "description": "mountain",
+            "variants": []
+          },
+          {
+            "filename": "1f30b.svg",
+            "description": "volcano",
+            "variants": []
+          },
+          {
+            "filename": "1f5fb.svg",
+            "description": "mount fuji",
+            "variants": []
+          },
+          {
+            "filename": "1f3d5.svg",
+            "description": "camping",
+            "variants": []
+          },
+          {
+            "filename": "1f3d6.svg",
+            "description": "beach with umbrella",
+            "variants": []
+          },
+          {
+            "filename": "1f3dc.svg",
+            "description": "desert",
+            "variants": []
+          },
+          {
+            "filename": "1f3dd.svg",
+            "description": "desert island",
+            "variants": []
+          },
+          {
+            "filename": "1f3de.svg",
+            "description": "national park",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "place-building",
+        "emojis": [
+          {
+            "filename": "1f3df.svg",
+            "description": "stadium",
+            "variants": []
+          },
+          {
+            "filename": "1f3db.svg",
+            "description": "classical building",
+            "variants": []
+          },
+          {
+            "filename": "1f3d7.svg",
+            "description": "building construction",
+            "variants": []
+          },
+          {
+            "filename": "1f9f1.svg",
+            "description": "brick",
+            "variants": []
+          },
+          {
+            "filename": "1faa8.svg",
+            "description": "rock",
+            "variants": []
+          },
+          {
+            "filename": "1fab5.svg",
+            "description": "wood",
+            "variants": []
+          },
+          {
+            "filename": "1f6d6.svg",
+            "description": "hut",
+            "variants": []
+          },
+          {
+            "filename": "1f3d8.svg",
+            "description": "houses",
+            "variants": []
+          },
+          {
+            "filename": "1f3da.svg",
+            "description": "derelict house",
+            "variants": []
+          },
+          {
+            "filename": "1f3e0.svg",
+            "description": "house",
+            "variants": []
+          },
+          {
+            "filename": "1f3e1.svg",
+            "description": "house with garden",
+            "variants": []
+          },
+          {
+            "filename": "1f3e2.svg",
+            "description": "office building",
+            "variants": []
+          },
+          {
+            "filename": "1f3e3.svg",
+            "description": "Japanese post office",
+            "variants": []
+          },
+          {
+            "filename": "1f3e4.svg",
+            "description": "post office",
+            "variants": []
+          },
+          {
+            "filename": "1f3e5.svg",
+            "description": "hospital",
+            "variants": []
+          },
+          {
+            "filename": "1f3e6.svg",
+            "description": "bank",
+            "variants": []
+          },
+          {
+            "filename": "1f3e8.svg",
+            "description": "hotel",
+            "variants": []
+          },
+          {
+            "filename": "1f3e9.svg",
+            "description": "love hotel",
+            "variants": []
+          },
+          {
+            "filename": "1f3ea.svg",
+            "description": "convenience store",
+            "variants": []
+          },
+          {
+            "filename": "1f3eb.svg",
+            "description": "school",
+            "variants": []
+          },
+          {
+            "filename": "1f3ec.svg",
+            "description": "department store",
+            "variants": []
+          },
+          {
+            "filename": "1f3ed.svg",
+            "description": "factory",
+            "variants": []
+          },
+          {
+            "filename": "1f3ef.svg",
+            "description": "Japanese castle",
+            "variants": []
+          },
+          {
+            "filename": "1f3f0.svg",
+            "description": "castle",
+            "variants": []
+          },
+          {
+            "filename": "1f492.svg",
+            "description": "wedding",
+            "variants": []
+          },
+          {
+            "filename": "1f5fc.svg",
+            "description": "Tokyo tower",
+            "variants": []
+          },
+          {
+            "filename": "1f5fd.svg",
+            "description": "Statue of Liberty",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "place-religious",
+        "emojis": [
+          {
+            "filename": "26ea.svg",
+            "description": "church",
+            "variants": []
+          },
+          {
+            "filename": "1f54c.svg",
+            "description": "mosque",
+            "variants": []
+          },
+          {
+            "filename": "1f6d5.svg",
+            "description": "hindu temple",
+            "variants": []
+          },
+          {
+            "filename": "1f54d.svg",
+            "description": "synagogue",
+            "variants": []
+          },
+          {
+            "filename": "26e9.svg",
+            "description": "shinto shrine",
+            "variants": []
+          },
+          {
+            "filename": "1f54b.svg",
+            "description": "kaaba",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "place-other",
+        "emojis": [
+          {
+            "filename": "26f2.svg",
+            "description": "fountain",
+            "variants": []
+          },
+          {
+            "filename": "26fa.svg",
+            "description": "tent",
+            "variants": []
+          },
+          {
+            "filename": "1f301.svg",
+            "description": "foggy",
+            "variants": []
+          },
+          {
+            "filename": "1f303.svg",
+            "description": "night with stars",
+            "variants": []
+          },
+          {
+            "filename": "1f3d9.svg",
+            "description": "cityscape",
+            "variants": []
+          },
+          {
+            "filename": "1f304.svg",
+            "description": "sunrise over mountains",
+            "variants": []
+          },
+          {
+            "filename": "1f305.svg",
+            "description": "sunrise",
+            "variants": []
+          },
+          {
+            "filename": "1f306.svg",
+            "description": "cityscape at dusk",
+            "variants": []
+          },
+          {
+            "filename": "1f307.svg",
+            "description": "sunset",
+            "variants": []
+          },
+          {
+            "filename": "1f309.svg",
+            "description": "bridge at night",
+            "variants": []
+          },
+          {
+            "filename": "2668.svg",
+            "description": "hot springs",
+            "variants": []
+          },
+          {
+            "filename": "1f3a0.svg",
+            "description": "carousel horse",
+            "variants": []
+          },
+          {
+            "filename": "1f6dd.svg",
+            "description": "playground slide",
+            "variants": []
+          },
+          {
+            "filename": "1f3a1.svg",
+            "description": "ferris wheel",
+            "variants": []
+          },
+          {
+            "filename": "1f3a2.svg",
+            "description": "roller coaster",
+            "variants": []
+          },
+          {
+            "filename": "1f488.svg",
+            "description": "barber pole",
+            "variants": []
+          },
+          {
+            "filename": "1f3aa.svg",
+            "description": "circus tent",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "transport-ground",
+        "emojis": [
+          {
+            "filename": "1f682.svg",
+            "description": "locomotive",
+            "variants": []
+          },
+          {
+            "filename": "1f683.svg",
+            "description": "railway car",
+            "variants": []
+          },
+          {
+            "filename": "1f684.svg",
+            "description": "high-speed train",
+            "variants": []
+          },
+          {
+            "filename": "1f685.svg",
+            "description": "bullet train",
+            "variants": []
+          },
+          {
+            "filename": "1f686.svg",
+            "description": "train",
+            "variants": []
+          },
+          {
+            "filename": "1f687.svg",
+            "description": "metro",
+            "variants": []
+          },
+          {
+            "filename": "1f688.svg",
+            "description": "light rail",
+            "variants": []
+          },
+          {
+            "filename": "1f689.svg",
+            "description": "station",
+            "variants": []
+          },
+          {
+            "filename": "1f68a.svg",
+            "description": "tram",
+            "variants": []
+          },
+          {
+            "filename": "1f69d.svg",
+            "description": "monorail",
+            "variants": []
+          },
+          {
+            "filename": "1f69e.svg",
+            "description": "mountain railway",
+            "variants": []
+          },
+          {
+            "filename": "1f68b.svg",
+            "description": "tram car",
+            "variants": []
+          },
+          {
+            "filename": "1f68c.svg",
+            "description": "bus",
+            "variants": []
+          },
+          {
+            "filename": "1f68d.svg",
+            "description": "oncoming bus",
+            "variants": []
+          },
+          {
+            "filename": "1f68e.svg",
+            "description": "trolleybus",
+            "variants": []
+          },
+          {
+            "filename": "1f690.svg",
+            "description": "minibus",
+            "variants": []
+          },
+          {
+            "filename": "1f691.svg",
+            "description": "ambulance",
+            "variants": []
+          },
+          {
+            "filename": "1f692.svg",
+            "description": "fire engine",
+            "variants": []
+          },
+          {
+            "filename": "1f693.svg",
+            "description": "police car",
+            "variants": []
+          },
+          {
+            "filename": "1f694.svg",
+            "description": "oncoming police car",
+            "variants": []
+          },
+          {
+            "filename": "1f695.svg",
+            "description": "taxi",
+            "variants": []
+          },
+          {
+            "filename": "1f696.svg",
+            "description": "oncoming taxi",
+            "variants": []
+          },
+          {
+            "filename": "1f697.svg",
+            "description": "automobile",
+            "variants": []
+          },
+          {
+            "filename": "1f698.svg",
+            "description": "oncoming automobile",
+            "variants": []
+          },
+          {
+            "filename": "1f699.svg",
+            "description": "sport utility vehicle",
+            "variants": []
+          },
+          {
+            "filename": "1f6fb.svg",
+            "description": "pickup truck",
+            "variants": []
+          },
+          {
+            "filename": "1f69a.svg",
+            "description": "delivery truck",
+            "variants": []
+          },
+          {
+            "filename": "1f69b.svg",
+            "description": "articulated lorry",
+            "variants": []
+          },
+          {
+            "filename": "1f69c.svg",
+            "description": "tractor",
+            "variants": []
+          },
+          {
+            "filename": "1f3ce.svg",
+            "description": "racing car",
+            "variants": []
+          },
+          {
+            "filename": "1f3cd.svg",
+            "description": "motorcycle",
+            "variants": []
+          },
+          {
+            "filename": "1f6f5.svg",
+            "description": "motor scooter",
+            "variants": []
+          },
+          {
+            "filename": "1f9bd.svg",
+            "description": "manual wheelchair",
+            "variants": []
+          },
+          {
+            "filename": "1f9bc.svg",
+            "description": "motorized wheelchair",
+            "variants": []
+          },
+          {
+            "filename": "1f6fa.svg",
+            "description": "auto rickshaw",
+            "variants": []
+          },
+          {
+            "filename": "1f6b2.svg",
+            "description": "bicycle",
+            "variants": []
+          },
+          {
+            "filename": "1f6f4.svg",
+            "description": "kick scooter",
+            "variants": []
+          },
+          {
+            "filename": "1f6f9.svg",
+            "description": "skateboard",
+            "variants": []
+          },
+          {
+            "filename": "1f6fc.svg",
+            "description": "roller skate",
+            "variants": []
+          },
+          {
+            "filename": "1f68f.svg",
+            "description": "bus stop",
+            "variants": []
+          },
+          {
+            "filename": "1f6e3.svg",
+            "description": "motorway",
+            "variants": []
+          },
+          {
+            "filename": "1f6e4.svg",
+            "description": "railway track",
+            "variants": []
+          },
+          {
+            "filename": "1f6e2.svg",
+            "description": "oil drum",
+            "variants": []
+          },
+          {
+            "filename": "26fd.svg",
+            "description": "fuel pump",
+            "variants": []
+          },
+          {
+            "filename": "1f6de.svg",
+            "description": "wheel",
+            "variants": []
+          },
+          {
+            "filename": "1f6a8.svg",
+            "description": "police car light",
+            "variants": []
+          },
+          {
+            "filename": "1f6a5.svg",
+            "description": "horizontal traffic light",
+            "variants": []
+          },
+          {
+            "filename": "1f6a6.svg",
+            "description": "vertical traffic light",
+            "variants": []
+          },
+          {
+            "filename": "1f6d1.svg",
+            "description": "stop sign",
+            "variants": []
+          },
+          {
+            "filename": "1f6a7.svg",
+            "description": "construction",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "transport-water",
+        "emojis": [
+          {
+            "filename": "2693.svg",
+            "description": "anchor",
+            "variants": []
+          },
+          {
+            "filename": "1f6df.svg",
+            "description": "ring buoy",
+            "variants": []
+          },
+          {
+            "filename": "26f5.svg",
+            "description": "sailboat",
+            "variants": []
+          },
+          {
+            "filename": "1f6f6.svg",
+            "description": "canoe",
+            "variants": []
+          },
+          {
+            "filename": "1f6a4.svg",
+            "description": "speedboat",
+            "variants": []
+          },
+          {
+            "filename": "1f6f3.svg",
+            "description": "passenger ship",
+            "variants": []
+          },
+          {
+            "filename": "26f4.svg",
+            "description": "ferry",
+            "variants": []
+          },
+          {
+            "filename": "1f6e5.svg",
+            "description": "motor boat",
+            "variants": []
+          },
+          {
+            "filename": "1f6a2.svg",
+            "description": "ship",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "transport-air",
+        "emojis": [
+          {
+            "filename": "2708.svg",
+            "description": "airplane",
+            "variants": []
+          },
+          {
+            "filename": "1f6e9.svg",
+            "description": "small airplane",
+            "variants": []
+          },
+          {
+            "filename": "1f6eb.svg",
+            "description": "airplane departure",
+            "variants": []
+          },
+          {
+            "filename": "1f6ec.svg",
+            "description": "airplane arrival",
+            "variants": []
+          },
+          {
+            "filename": "1fa82.svg",
+            "description": "parachute",
+            "variants": []
+          },
+          {
+            "filename": "1f4ba.svg",
+            "description": "seat",
+            "variants": []
+          },
+          {
+            "filename": "1f681.svg",
+            "description": "helicopter",
+            "variants": []
+          },
+          {
+            "filename": "1f69f.svg",
+            "description": "suspension railway",
+            "variants": []
+          },
+          {
+            "filename": "1f6a0.svg",
+            "description": "mountain cableway",
+            "variants": []
+          },
+          {
+            "filename": "1f6a1.svg",
+            "description": "aerial tramway",
+            "variants": []
+          },
+          {
+            "filename": "1f6f0.svg",
+            "description": "satellite",
+            "variants": []
+          },
+          {
+            "filename": "1f680.svg",
+            "description": "rocket",
+            "variants": []
+          },
+          {
+            "filename": "1f6f8.svg",
+            "description": "flying saucer",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "hotel",
+        "emojis": [
+          {
+            "filename": "1f6ce.svg",
+            "description": "bellhop bell",
+            "variants": []
+          },
+          {
+            "filename": "1f9f3.svg",
+            "description": "luggage",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "time",
+        "emojis": [
+          {
+            "filename": "231b.svg",
+            "description": "hourglass done",
+            "variants": []
+          },
+          {
+            "filename": "23f3.svg",
+            "description": "hourglass not done",
+            "variants": []
+          },
+          {
+            "filename": "231a.svg",
+            "description": "watch",
+            "variants": []
+          },
+          {
+            "filename": "23f0.svg",
+            "description": "alarm clock",
+            "variants": []
+          },
+          {
+            "filename": "23f1.svg",
+            "description": "stopwatch",
+            "variants": []
+          },
+          {
+            "filename": "23f2.svg",
+            "description": "timer clock",
+            "variants": []
+          },
+          {
+            "filename": "1f570.svg",
+            "description": "mantelpiece clock",
+            "variants": []
+          },
+          {
+            "filename": "1f55b.svg",
+            "description": "twelve o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f567.svg",
+            "description": "twelve-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f550.svg",
+            "description": "one o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f55c.svg",
+            "description": "one-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f551.svg",
+            "description": "two o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f55d.svg",
+            "description": "two-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f552.svg",
+            "description": "three o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f55e.svg",
+            "description": "three-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f553.svg",
+            "description": "four o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f55f.svg",
+            "description": "four-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f554.svg",
+            "description": "five o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f560.svg",
+            "description": "five-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f555.svg",
+            "description": "six o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f561.svg",
+            "description": "six-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f556.svg",
+            "description": "seven o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f562.svg",
+            "description": "seven-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f557.svg",
+            "description": "eight o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f563.svg",
+            "description": "eight-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f558.svg",
+            "description": "nine o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f564.svg",
+            "description": "nine-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f559.svg",
+            "description": "ten o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f565.svg",
+            "description": "ten-thirty",
+            "variants": []
+          },
+          {
+            "filename": "1f55a.svg",
+            "description": "eleven o’clock",
+            "variants": []
+          },
+          {
+            "filename": "1f566.svg",
+            "description": "eleven-thirty",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "sky & weather",
+        "emojis": [
+          {
+            "filename": "1f311.svg",
+            "description": "new moon",
+            "variants": []
+          },
+          {
+            "filename": "1f312.svg",
+            "description": "waxing crescent moon",
+            "variants": []
+          },
+          {
+            "filename": "1f313.svg",
+            "description": "first quarter moon",
+            "variants": []
+          },
+          {
+            "filename": "1f314.svg",
+            "description": "waxing gibbous moon",
+            "variants": []
+          },
+          {
+            "filename": "1f315.svg",
+            "description": "full moon",
+            "variants": []
+          },
+          {
+            "filename": "1f316.svg",
+            "description": "waning gibbous moon",
+            "variants": []
+          },
+          {
+            "filename": "1f317.svg",
+            "description": "last quarter moon",
+            "variants": []
+          },
+          {
+            "filename": "1f318.svg",
+            "description": "waning crescent moon",
+            "variants": []
+          },
+          {
+            "filename": "1f319.svg",
+            "description": "crescent moon",
+            "variants": []
+          },
+          {
+            "filename": "1f31a.svg",
+            "description": "new moon face",
+            "variants": []
+          },
+          {
+            "filename": "1f31b.svg",
+            "description": "first quarter moon face",
+            "variants": []
+          },
+          {
+            "filename": "1f31c.svg",
+            "description": "last quarter moon face",
+            "variants": []
+          },
+          {
+            "filename": "1f321.svg",
+            "description": "thermometer",
+            "variants": []
+          },
+          {
+            "filename": "2600.svg",
+            "description": "sun",
+            "variants": []
+          },
+          {
+            "filename": "1f31d.svg",
+            "description": "full moon face",
+            "variants": []
+          },
+          {
+            "filename": "1f31e.svg",
+            "description": "sun with face",
+            "variants": []
+          },
+          {
+            "filename": "1fa90.svg",
+            "description": "ringed planet",
+            "variants": []
+          },
+          {
+            "filename": "2b50.svg",
+            "description": "star",
+            "variants": []
+          },
+          {
+            "filename": "1f31f.svg",
+            "description": "glowing star",
+            "variants": []
+          },
+          {
+            "filename": "1f320.svg",
+            "description": "shooting star",
+            "variants": []
+          },
+          {
+            "filename": "1f30c.svg",
+            "description": "milky way",
+            "variants": []
+          },
+          {
+            "filename": "2601.svg",
+            "description": "cloud",
+            "variants": []
+          },
+          {
+            "filename": "26c5.svg",
+            "description": "sun behind cloud",
+            "variants": []
+          },
+          {
+            "filename": "26c8.svg",
+            "description": "cloud with lightning and rain",
+            "variants": []
+          },
+          {
+            "filename": "1f324.svg",
+            "description": "sun behind small cloud",
+            "variants": []
+          },
+          {
+            "filename": "1f325.svg",
+            "description": "sun behind large cloud",
+            "variants": []
+          },
+          {
+            "filename": "1f326.svg",
+            "description": "sun behind rain cloud",
+            "variants": []
+          },
+          {
+            "filename": "1f327.svg",
+            "description": "cloud with rain",
+            "variants": []
+          },
+          {
+            "filename": "1f328.svg",
+            "description": "cloud with snow",
+            "variants": []
+          },
+          {
+            "filename": "1f329.svg",
+            "description": "cloud with lightning",
+            "variants": []
+          },
+          {
+            "filename": "1f32a.svg",
+            "description": "tornado",
+            "variants": []
+          },
+          {
+            "filename": "1f32b.svg",
+            "description": "fog",
+            "variants": []
+          },
+          {
+            "filename": "1f32c.svg",
+            "description": "wind face",
+            "variants": []
+          },
+          {
+            "filename": "1f300.svg",
+            "description": "cyclone",
+            "variants": []
+          },
+          {
+            "filename": "1f308.svg",
+            "description": "rainbow",
+            "variants": []
+          },
+          {
+            "filename": "1f302.svg",
+            "description": "closed umbrella",
+            "variants": []
+          },
+          {
+            "filename": "2602.svg",
+            "description": "umbrella",
+            "variants": []
+          },
+          {
+            "filename": "2614.svg",
+            "description": "umbrella with rain drops",
+            "variants": []
+          },
+          {
+            "filename": "26f1.svg",
+            "description": "umbrella on ground",
+            "variants": []
+          },
+          {
+            "filename": "26a1.svg",
+            "description": "high voltage",
+            "variants": []
+          },
+          {
+            "filename": "2744.svg",
+            "description": "snowflake",
+            "variants": []
+          },
+          {
+            "filename": "2603.svg",
+            "description": "snowman",
+            "variants": []
+          },
+          {
+            "filename": "26c4.svg",
+            "description": "snowman without snow",
+            "variants": []
+          },
+          {
+            "filename": "2604.svg",
+            "description": "comet",
+            "variants": []
+          },
+          {
+            "filename": "1f525.svg",
+            "description": "fire",
+            "variants": []
+          },
+          {
+            "filename": "1f4a7.svg",
+            "description": "droplet",
+            "variants": []
+          },
+          {
+            "filename": "1f30a.svg",
+            "description": "water wave",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Activities",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "event",
+        "emojis": [
+          {
+            "filename": "1f383.svg",
+            "description": "jack-o-lantern",
+            "variants": []
+          },
+          {
+            "filename": "1f384.svg",
+            "description": "Christmas tree",
+            "variants": []
+          },
+          {
+            "filename": "1f386.svg",
+            "description": "fireworks",
+            "variants": []
+          },
+          {
+            "filename": "1f387.svg",
+            "description": "sparkler",
+            "variants": []
+          },
+          {
+            "filename": "1f9e8.svg",
+            "description": "firecracker",
+            "variants": []
+          },
+          {
+            "filename": "2728.svg",
+            "description": "sparkles",
+            "variants": []
+          },
+          {
+            "filename": "1f388.svg",
+            "description": "balloon",
+            "variants": []
+          },
+          {
+            "filename": "1f389.svg",
+            "description": "party popper",
+            "variants": []
+          },
+          {
+            "filename": "1f38a.svg",
+            "description": "confetti ball",
+            "variants": []
+          },
+          {
+            "filename": "1f38b.svg",
+            "description": "tanabata tree",
+            "variants": []
+          },
+          {
+            "filename": "1f38d.svg",
+            "description": "pine decoration",
+            "variants": []
+          },
+          {
+            "filename": "1f38e.svg",
+            "description": "Japanese dolls",
+            "variants": []
+          },
+          {
+            "filename": "1f38f.svg",
+            "description": "carp streamer",
+            "variants": []
+          },
+          {
+            "filename": "1f390.svg",
+            "description": "wind chime",
+            "variants": []
+          },
+          {
+            "filename": "1f391.svg",
+            "description": "moon viewing ceremony",
+            "variants": []
+          },
+          {
+            "filename": "1f9e7.svg",
+            "description": "red envelope",
+            "variants": []
+          },
+          {
+            "filename": "1f380.svg",
+            "description": "ribbon",
+            "variants": []
+          },
+          {
+            "filename": "1f381.svg",
+            "description": "wrapped gift",
+            "variants": []
+          },
+          {
+            "filename": "1f397.svg",
+            "description": "reminder ribbon",
+            "variants": []
+          },
+          {
+            "filename": "1f39f.svg",
+            "description": "admission tickets",
+            "variants": []
+          },
+          {
+            "filename": "1f3ab.svg",
+            "description": "ticket",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "award-medal",
+        "emojis": [
+          {
+            "filename": "1f396.svg",
+            "description": "military medal",
+            "variants": []
+          },
+          {
+            "filename": "1f3c6.svg",
+            "description": "trophy",
+            "variants": []
+          },
+          {
+            "filename": "1f3c5.svg",
+            "description": "sports medal",
+            "variants": []
+          },
+          {
+            "filename": "1f947.svg",
+            "description": "1st place medal",
+            "variants": []
+          },
+          {
+            "filename": "1f948.svg",
+            "description": "2nd place medal",
+            "variants": []
+          },
+          {
+            "filename": "1f949.svg",
+            "description": "3rd place medal",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "sport",
+        "emojis": [
+          {
+            "filename": "26bd.svg",
+            "description": "soccer ball",
+            "variants": []
+          },
+          {
+            "filename": "26be.svg",
+            "description": "baseball",
+            "variants": []
+          },
+          {
+            "filename": "1f94e.svg",
+            "description": "softball",
+            "variants": []
+          },
+          {
+            "filename": "1f3c0.svg",
+            "description": "basketball",
+            "variants": []
+          },
+          {
+            "filename": "1f3d0.svg",
+            "description": "volleyball",
+            "variants": []
+          },
+          {
+            "filename": "1f3c8.svg",
+            "description": "american football",
+            "variants": []
+          },
+          {
+            "filename": "1f3c9.svg",
+            "description": "rugby football",
+            "variants": []
+          },
+          {
+            "filename": "1f3be.svg",
+            "description": "tennis",
+            "variants": []
+          },
+          {
+            "filename": "1f94f.svg",
+            "description": "flying disc",
+            "variants": []
+          },
+          {
+            "filename": "1f3b3.svg",
+            "description": "bowling",
+            "variants": []
+          },
+          {
+            "filename": "1f3cf.svg",
+            "description": "cricket game",
+            "variants": []
+          },
+          {
+            "filename": "1f3d1.svg",
+            "description": "field hockey",
+            "variants": []
+          },
+          {
+            "filename": "1f3d2.svg",
+            "description": "ice hockey",
+            "variants": []
+          },
+          {
+            "filename": "1f94d.svg",
+            "description": "lacrosse",
+            "variants": []
+          },
+          {
+            "filename": "1f3d3.svg",
+            "description": "ping pong",
+            "variants": []
+          },
+          {
+            "filename": "1f3f8.svg",
+            "description": "badminton",
+            "variants": []
+          },
+          {
+            "filename": "1f94a.svg",
+            "description": "boxing glove",
+            "variants": []
+          },
+          {
+            "filename": "1f94b.svg",
+            "description": "martial arts uniform",
+            "variants": []
+          },
+          {
+            "filename": "1f945.svg",
+            "description": "goal net",
+            "variants": []
+          },
+          {
+            "filename": "26f3.svg",
+            "description": "flag in hole",
+            "variants": []
+          },
+          {
+            "filename": "26f8.svg",
+            "description": "ice skate",
+            "variants": []
+          },
+          {
+            "filename": "1f3a3.svg",
+            "description": "fishing pole",
+            "variants": []
+          },
+          {
+            "filename": "1f93f.svg",
+            "description": "diving mask",
+            "variants": []
+          },
+          {
+            "filename": "1f3bd.svg",
+            "description": "running shirt",
+            "variants": []
+          },
+          {
+            "filename": "1f3bf.svg",
+            "description": "skis",
+            "variants": []
+          },
+          {
+            "filename": "1f6f7.svg",
+            "description": "sled",
+            "variants": []
+          },
+          {
+            "filename": "1f94c.svg",
+            "description": "curling stone",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "game",
+        "emojis": [
+          {
+            "filename": "1f3af.svg",
+            "description": "bullseye",
+            "variants": []
+          },
+          {
+            "filename": "1fa80.svg",
+            "description": "yo-yo",
+            "variants": []
+          },
+          {
+            "filename": "1fa81.svg",
+            "description": "kite",
+            "variants": []
+          },
+          {
+            "filename": "1f52b.svg",
+            "description": "water pistol",
+            "variants": []
+          },
+          {
+            "filename": "1f3b1.svg",
+            "description": "pool 8 ball",
+            "variants": []
+          },
+          {
+            "filename": "1f52e.svg",
+            "description": "crystal ball",
+            "variants": []
+          },
+          {
+            "filename": "1fa84.svg",
+            "description": "magic wand",
+            "variants": []
+          },
+          {
+            "filename": "1f3ae.svg",
+            "description": "video game",
+            "variants": []
+          },
+          {
+            "filename": "1f579.svg",
+            "description": "joystick",
+            "variants": []
+          },
+          {
+            "filename": "1f3b0.svg",
+            "description": "slot machine",
+            "variants": []
+          },
+          {
+            "filename": "1f3b2.svg",
+            "description": "game die",
+            "variants": []
+          },
+          {
+            "filename": "1f9e9.svg",
+            "description": "puzzle piece",
+            "variants": []
+          },
+          {
+            "filename": "1f9f8.svg",
+            "description": "teddy bear",
+            "variants": []
+          },
+          {
+            "filename": "1fa85.svg",
+            "description": "piñata",
+            "variants": []
+          },
+          {
+            "filename": "1faa9.svg",
+            "description": "mirror ball",
+            "variants": []
+          },
+          {
+            "filename": "1fa86.svg",
+            "description": "nesting dolls",
+            "variants": []
+          },
+          {
+            "filename": "2660.svg",
+            "description": "spade suit",
+            "variants": []
+          },
+          {
+            "filename": "2665.svg",
+            "description": "heart suit",
+            "variants": []
+          },
+          {
+            "filename": "2666.svg",
+            "description": "diamond suit",
+            "variants": []
+          },
+          {
+            "filename": "2663.svg",
+            "description": "club suit",
+            "variants": []
+          },
+          {
+            "filename": "265f.svg",
+            "description": "chess pawn",
+            "variants": []
+          },
+          {
+            "filename": "1f0cf.svg",
+            "description": "joker",
+            "variants": []
+          },
+          {
+            "filename": "1f004.svg",
+            "description": "mahjong red dragon",
+            "variants": []
+          },
+          {
+            "filename": "1f3b4.svg",
+            "description": "flower playing cards",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "arts & crafts",
+        "emojis": [
+          {
+            "filename": "1f3ad.svg",
+            "description": "performing arts",
+            "variants": []
+          },
+          {
+            "filename": "1f5bc.svg",
+            "description": "framed picture",
+            "variants": []
+          },
+          {
+            "filename": "1f3a8.svg",
+            "description": "artist palette",
+            "variants": []
+          },
+          {
+            "filename": "1f9f5.svg",
+            "description": "thread",
+            "variants": []
+          },
+          {
+            "filename": "1faa1.svg",
+            "description": "sewing needle",
+            "variants": []
+          },
+          {
+            "filename": "1f9f6.svg",
+            "description": "yarn",
+            "variants": []
+          },
+          {
+            "filename": "1faa2.svg",
+            "description": "knot",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Objects",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "clothing",
+        "emojis": [
+          {
+            "filename": "1f453.svg",
+            "description": "glasses",
+            "variants": []
+          },
+          {
+            "filename": "1f576.svg",
+            "description": "sunglasses",
+            "variants": []
+          },
+          {
+            "filename": "1f97d.svg",
+            "description": "goggles",
+            "variants": []
+          },
+          {
+            "filename": "1f97c.svg",
+            "description": "lab coat",
+            "variants": []
+          },
+          {
+            "filename": "1f9ba.svg",
+            "description": "safety vest",
+            "variants": []
+          },
+          {
+            "filename": "1f454.svg",
+            "description": "necktie",
+            "variants": []
+          },
+          {
+            "filename": "1f455.svg",
+            "description": "t-shirt",
+            "variants": []
+          },
+          {
+            "filename": "1f456.svg",
+            "description": "jeans",
+            "variants": []
+          },
+          {
+            "filename": "1f9e3.svg",
+            "description": "scarf",
+            "variants": []
+          },
+          {
+            "filename": "1f9e4.svg",
+            "description": "gloves",
+            "variants": []
+          },
+          {
+            "filename": "1f9e5.svg",
+            "description": "coat",
+            "variants": []
+          },
+          {
+            "filename": "1f9e6.svg",
+            "description": "socks",
+            "variants": []
+          },
+          {
+            "filename": "1f457.svg",
+            "description": "dress",
+            "variants": []
+          },
+          {
+            "filename": "1f458.svg",
+            "description": "kimono",
+            "variants": []
+          },
+          {
+            "filename": "1f97b.svg",
+            "description": "sari",
+            "variants": []
+          },
+          {
+            "filename": "1fa71.svg",
+            "description": "one-piece swimsuit",
+            "variants": []
+          },
+          {
+            "filename": "1fa72.svg",
+            "description": "briefs",
+            "variants": []
+          },
+          {
+            "filename": "1fa73.svg",
+            "description": "shorts",
+            "variants": []
+          },
+          {
+            "filename": "1f459.svg",
+            "description": "bikini",
+            "variants": []
+          },
+          {
+            "filename": "1f45a.svg",
+            "description": "woman’s clothes",
+            "variants": []
+          },
+          {
+            "filename": "1faad.svg",
+            "description": "folding hand fan",
+            "variants": []
+          },
+          {
+            "filename": "1f45b.svg",
+            "description": "purse",
+            "variants": []
+          },
+          {
+            "filename": "1f45c.svg",
+            "description": "handbag",
+            "variants": []
+          },
+          {
+            "filename": "1f45d.svg",
+            "description": "clutch bag",
+            "variants": []
+          },
+          {
+            "filename": "1f6cd.svg",
+            "description": "shopping bags",
+            "variants": []
+          },
+          {
+            "filename": "1f392.svg",
+            "description": "backpack",
+            "variants": []
+          },
+          {
+            "filename": "1fa74.svg",
+            "description": "thong sandal",
+            "variants": []
+          },
+          {
+            "filename": "1f45e.svg",
+            "description": "man’s shoe",
+            "variants": []
+          },
+          {
+            "filename": "1f45f.svg",
+            "description": "running shoe",
+            "variants": []
+          },
+          {
+            "filename": "1f97e.svg",
+            "description": "hiking boot",
+            "variants": []
+          },
+          {
+            "filename": "1f97f.svg",
+            "description": "flat shoe",
+            "variants": []
+          },
+          {
+            "filename": "1f460.svg",
+            "description": "high-heeled shoe",
+            "variants": []
+          },
+          {
+            "filename": "1f461.svg",
+            "description": "woman’s sandal",
+            "variants": []
+          },
+          {
+            "filename": "1fa70.svg",
+            "description": "ballet shoes",
+            "variants": []
+          },
+          {
+            "filename": "1f462.svg",
+            "description": "woman’s boot",
+            "variants": []
+          },
+          {
+            "filename": "1faae.svg",
+            "description": "hair pick",
+            "variants": []
+          },
+          {
+            "filename": "1f451.svg",
+            "description": "crown",
+            "variants": []
+          },
+          {
+            "filename": "1f452.svg",
+            "description": "woman’s hat",
+            "variants": []
+          },
+          {
+            "filename": "1f3a9.svg",
+            "description": "top hat",
+            "variants": []
+          },
+          {
+            "filename": "1f393.svg",
+            "description": "graduation cap",
+            "variants": []
+          },
+          {
+            "filename": "1f9e2.svg",
+            "description": "billed cap",
+            "variants": []
+          },
+          {
+            "filename": "1fa96.svg",
+            "description": "military helmet",
+            "variants": []
+          },
+          {
+            "filename": "26d1.svg",
+            "description": "rescue worker’s helmet",
+            "variants": []
+          },
+          {
+            "filename": "1f4ff.svg",
+            "description": "prayer beads",
+            "variants": []
+          },
+          {
+            "filename": "1f484.svg",
+            "description": "lipstick",
+            "variants": []
+          },
+          {
+            "filename": "1f48d.svg",
+            "description": "ring",
+            "variants": []
+          },
+          {
+            "filename": "1f48e.svg",
+            "description": "gem stone",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "sound",
+        "emojis": [
+          {
+            "filename": "1f507.svg",
+            "description": "muted speaker",
+            "variants": []
+          },
+          {
+            "filename": "1f508.svg",
+            "description": "speaker low volume",
+            "variants": []
+          },
+          {
+            "filename": "1f509.svg",
+            "description": "speaker medium volume",
+            "variants": []
+          },
+          {
+            "filename": "1f50a.svg",
+            "description": "speaker high volume",
+            "variants": []
+          },
+          {
+            "filename": "1f4e2.svg",
+            "description": "loudspeaker",
+            "variants": []
+          },
+          {
+            "filename": "1f4e3.svg",
+            "description": "megaphone",
+            "variants": []
+          },
+          {
+            "filename": "1f4ef.svg",
+            "description": "postal horn",
+            "variants": []
+          },
+          {
+            "filename": "1f514.svg",
+            "description": "bell",
+            "variants": []
+          },
+          {
+            "filename": "1f515.svg",
+            "description": "bell with slash",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "music",
+        "emojis": [
+          {
+            "filename": "1f3bc.svg",
+            "description": "musical score",
+            "variants": []
+          },
+          {
+            "filename": "1f3b5.svg",
+            "description": "musical note",
+            "variants": []
+          },
+          {
+            "filename": "1f3b6.svg",
+            "description": "musical notes",
+            "variants": []
+          },
+          {
+            "filename": "1f399.svg",
+            "description": "studio microphone",
+            "variants": []
+          },
+          {
+            "filename": "1f39a.svg",
+            "description": "level slider",
+            "variants": []
+          },
+          {
+            "filename": "1f39b.svg",
+            "description": "control knobs",
+            "variants": []
+          },
+          {
+            "filename": "1f3a4.svg",
+            "description": "microphone",
+            "variants": []
+          },
+          {
+            "filename": "1f3a7.svg",
+            "description": "headphone",
+            "variants": []
+          },
+          {
+            "filename": "1f4fb.svg",
+            "description": "radio",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "musical-instrument",
+        "emojis": [
+          {
+            "filename": "1f3b7.svg",
+            "description": "saxophone",
+            "variants": []
+          },
+          {
+            "filename": "1fa97.svg",
+            "description": "accordion",
+            "variants": []
+          },
+          {
+            "filename": "1f3b8.svg",
+            "description": "guitar",
+            "variants": []
+          },
+          {
+            "filename": "1f3b9.svg",
+            "description": "musical keyboard",
+            "variants": []
+          },
+          {
+            "filename": "1f3ba.svg",
+            "description": "trumpet",
+            "variants": []
+          },
+          {
+            "filename": "1f3bb.svg",
+            "description": "violin",
+            "variants": []
+          },
+          {
+            "filename": "1fa95.svg",
+            "description": "banjo",
+            "variants": []
+          },
+          {
+            "filename": "1f941.svg",
+            "description": "drum",
+            "variants": []
+          },
+          {
+            "filename": "1fa98.svg",
+            "description": "long drum",
+            "variants": []
+          },
+          {
+            "filename": "1fa87.svg",
+            "description": "maracas",
+            "variants": []
+          },
+          {
+            "filename": "1fa88.svg",
+            "description": "flute",
+            "variants": []
+          },
+          {
+            "filename": "1fa89.svg",
+            "description": "harp",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "phone",
+        "emojis": [
+          {
+            "filename": "1f4f1.svg",
+            "description": "mobile phone",
+            "variants": []
+          },
+          {
+            "filename": "1f4f2.svg",
+            "description": "mobile phone with arrow",
+            "variants": []
+          },
+          {
+            "filename": "260e.svg",
+            "description": "telephone",
+            "variants": []
+          },
+          {
+            "filename": "1f4de.svg",
+            "description": "telephone receiver",
+            "variants": []
+          },
+          {
+            "filename": "1f4df.svg",
+            "description": "pager",
+            "variants": []
+          },
+          {
+            "filename": "1f4e0.svg",
+            "description": "fax machine",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "computer",
+        "emojis": [
+          {
+            "filename": "1f50b.svg",
+            "description": "battery",
+            "variants": []
+          },
+          {
+            "filename": "1faab.svg",
+            "description": "low battery",
+            "variants": []
+          },
+          {
+            "filename": "1f50c.svg",
+            "description": "electric plug",
+            "variants": []
+          },
+          {
+            "filename": "1f4bb.svg",
+            "description": "laptop",
+            "variants": []
+          },
+          {
+            "filename": "1f5a5.svg",
+            "description": "desktop computer",
+            "variants": []
+          },
+          {
+            "filename": "1f5a8.svg",
+            "description": "printer",
+            "variants": []
+          },
+          {
+            "filename": "2328.svg",
+            "description": "keyboard",
+            "variants": []
+          },
+          {
+            "filename": "1f5b1.svg",
+            "description": "computer mouse",
+            "variants": []
+          },
+          {
+            "filename": "1f5b2.svg",
+            "description": "trackball",
+            "variants": []
+          },
+          {
+            "filename": "1f4bd.svg",
+            "description": "computer disk",
+            "variants": []
+          },
+          {
+            "filename": "1f4be.svg",
+            "description": "floppy disk",
+            "variants": []
+          },
+          {
+            "filename": "1f4bf.svg",
+            "description": "optical disk",
+            "variants": []
+          },
+          {
+            "filename": "1f4c0.svg",
+            "description": "dvd",
+            "variants": []
+          },
+          {
+            "filename": "1f9ee.svg",
+            "description": "abacus",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "light & video",
+        "emojis": [
+          {
+            "filename": "1f3a5.svg",
+            "description": "movie camera",
+            "variants": []
+          },
+          {
+            "filename": "1f39e.svg",
+            "description": "film frames",
+            "variants": []
+          },
+          {
+            "filename": "1f4fd.svg",
+            "description": "film projector",
+            "variants": []
+          },
+          {
+            "filename": "1f3ac.svg",
+            "description": "clapper board",
+            "variants": []
+          },
+          {
+            "filename": "1f4fa.svg",
+            "description": "television",
+            "variants": []
+          },
+          {
+            "filename": "1f4f7.svg",
+            "description": "camera",
+            "variants": []
+          },
+          {
+            "filename": "1f4f8.svg",
+            "description": "camera with flash",
+            "variants": []
+          },
+          {
+            "filename": "1f4f9.svg",
+            "description": "video camera",
+            "variants": []
+          },
+          {
+            "filename": "1f4fc.svg",
+            "description": "videocassette",
+            "variants": []
+          },
+          {
+            "filename": "1f50d.svg",
+            "description": "magnifying glass tilted left",
+            "variants": []
+          },
+          {
+            "filename": "1f50e.svg",
+            "description": "magnifying glass tilted right",
+            "variants": []
+          },
+          {
+            "filename": "1f56f.svg",
+            "description": "candle",
+            "variants": []
+          },
+          {
+            "filename": "1f4a1.svg",
+            "description": "light bulb",
+            "variants": []
+          },
+          {
+            "filename": "1f526.svg",
+            "description": "flashlight",
+            "variants": []
+          },
+          {
+            "filename": "1f3ee.svg",
+            "description": "red paper lantern",
+            "variants": []
+          },
+          {
+            "filename": "1fa94.svg",
+            "description": "diya lamp",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "book-paper",
+        "emojis": [
+          {
+            "filename": "1f4d4.svg",
+            "description": "notebook with decorative cover",
+            "variants": []
+          },
+          {
+            "filename": "1f4d5.svg",
+            "description": "closed book",
+            "variants": []
+          },
+          {
+            "filename": "1f4d6.svg",
+            "description": "open book",
+            "variants": []
+          },
+          {
+            "filename": "1f4d7.svg",
+            "description": "green book",
+            "variants": []
+          },
+          {
+            "filename": "1f4d8.svg",
+            "description": "blue book",
+            "variants": []
+          },
+          {
+            "filename": "1f4d9.svg",
+            "description": "orange book",
+            "variants": []
+          },
+          {
+            "filename": "1f4da.svg",
+            "description": "books",
+            "variants": []
+          },
+          {
+            "filename": "1f4d3.svg",
+            "description": "notebook",
+            "variants": []
+          },
+          {
+            "filename": "1f4d2.svg",
+            "description": "ledger",
+            "variants": []
+          },
+          {
+            "filename": "1f4c3.svg",
+            "description": "page with curl",
+            "variants": []
+          },
+          {
+            "filename": "1f4dc.svg",
+            "description": "scroll",
+            "variants": []
+          },
+          {
+            "filename": "1f4c4.svg",
+            "description": "page facing up",
+            "variants": []
+          },
+          {
+            "filename": "1f4f0.svg",
+            "description": "newspaper",
+            "variants": []
+          },
+          {
+            "filename": "1f5de.svg",
+            "description": "rolled-up newspaper",
+            "variants": []
+          },
+          {
+            "filename": "1f4d1.svg",
+            "description": "bookmark tabs",
+            "variants": []
+          },
+          {
+            "filename": "1f516.svg",
+            "description": "bookmark",
+            "variants": []
+          },
+          {
+            "filename": "1f3f7.svg",
+            "description": "label",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "money",
+        "emojis": [
+          {
+            "filename": "1f4b0.svg",
+            "description": "money bag",
+            "variants": []
+          },
+          {
+            "filename": "1fa99.svg",
+            "description": "coin",
+            "variants": []
+          },
+          {
+            "filename": "1f4b4.svg",
+            "description": "yen banknote",
+            "variants": []
+          },
+          {
+            "filename": "1f4b5.svg",
+            "description": "dollar banknote",
+            "variants": []
+          },
+          {
+            "filename": "1f4b6.svg",
+            "description": "euro banknote",
+            "variants": []
+          },
+          {
+            "filename": "1f4b7.svg",
+            "description": "pound banknote",
+            "variants": []
+          },
+          {
+            "filename": "1f4b8.svg",
+            "description": "money with wings",
+            "variants": []
+          },
+          {
+            "filename": "1f4b3.svg",
+            "description": "credit card",
+            "variants": []
+          },
+          {
+            "filename": "1f9fe.svg",
+            "description": "receipt",
+            "variants": []
+          },
+          {
+            "filename": "1f4b9.svg",
+            "description": "chart increasing with yen",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "mail",
+        "emojis": [
+          {
+            "filename": "2709.svg",
+            "description": "envelope",
+            "variants": []
+          },
+          {
+            "filename": "1f4e7.svg",
+            "description": "e-mail",
+            "variants": []
+          },
+          {
+            "filename": "1f4e8.svg",
+            "description": "incoming envelope",
+            "variants": []
+          },
+          {
+            "filename": "1f4e9.svg",
+            "description": "envelope with arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f4e4.svg",
+            "description": "outbox tray",
+            "variants": []
+          },
+          {
+            "filename": "1f4e5.svg",
+            "description": "inbox tray",
+            "variants": []
+          },
+          {
+            "filename": "1f4e6.svg",
+            "description": "package",
+            "variants": []
+          },
+          {
+            "filename": "1f4eb.svg",
+            "description": "closed mailbox with raised flag",
+            "variants": []
+          },
+          {
+            "filename": "1f4ea.svg",
+            "description": "closed mailbox with lowered flag",
+            "variants": []
+          },
+          {
+            "filename": "1f4ec.svg",
+            "description": "open mailbox with raised flag",
+            "variants": []
+          },
+          {
+            "filename": "1f4ed.svg",
+            "description": "open mailbox with lowered flag",
+            "variants": []
+          },
+          {
+            "filename": "1f4ee.svg",
+            "description": "postbox",
+            "variants": []
+          },
+          {
+            "filename": "1f5f3.svg",
+            "description": "ballot box with ballot",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "writing",
+        "emojis": [
+          {
+            "filename": "270f.svg",
+            "description": "pencil",
+            "variants": []
+          },
+          {
+            "filename": "2712.svg",
+            "description": "black nib",
+            "variants": []
+          },
+          {
+            "filename": "1f58b.svg",
+            "description": "fountain pen",
+            "variants": []
+          },
+          {
+            "filename": "1f58a.svg",
+            "description": "pen",
+            "variants": []
+          },
+          {
+            "filename": "1f58c.svg",
+            "description": "paintbrush",
+            "variants": []
+          },
+          {
+            "filename": "1f58d.svg",
+            "description": "crayon",
+            "variants": []
+          },
+          {
+            "filename": "1f4dd.svg",
+            "description": "memo",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "office",
+        "emojis": [
+          {
+            "filename": "1f4bc.svg",
+            "description": "briefcase",
+            "variants": []
+          },
+          {
+            "filename": "1f4c1.svg",
+            "description": "file folder",
+            "variants": []
+          },
+          {
+            "filename": "1f4c2.svg",
+            "description": "open file folder",
+            "variants": []
+          },
+          {
+            "filename": "1f5c2.svg",
+            "description": "card index dividers",
+            "variants": []
+          },
+          {
+            "filename": "1f4c5.svg",
+            "description": "calendar",
+            "variants": []
+          },
+          {
+            "filename": "1f4c6.svg",
+            "description": "tear-off calendar",
+            "variants": []
+          },
+          {
+            "filename": "1f5d2.svg",
+            "description": "spiral notepad",
+            "variants": []
+          },
+          {
+            "filename": "1f5d3.svg",
+            "description": "spiral calendar",
+            "variants": []
+          },
+          {
+            "filename": "1f4c7.svg",
+            "description": "card index",
+            "variants": []
+          },
+          {
+            "filename": "1f4c8.svg",
+            "description": "chart increasing",
+            "variants": []
+          },
+          {
+            "filename": "1f4c9.svg",
+            "description": "chart decreasing",
+            "variants": []
+          },
+          {
+            "filename": "1f4ca.svg",
+            "description": "bar chart",
+            "variants": []
+          },
+          {
+            "filename": "1f4cb.svg",
+            "description": "clipboard",
+            "variants": []
+          },
+          {
+            "filename": "1f4cc.svg",
+            "description": "pushpin",
+            "variants": []
+          },
+          {
+            "filename": "1f4cd.svg",
+            "description": "round pushpin",
+            "variants": []
+          },
+          {
+            "filename": "1f4ce.svg",
+            "description": "paperclip",
+            "variants": []
+          },
+          {
+            "filename": "1f587.svg",
+            "description": "linked paperclips",
+            "variants": []
+          },
+          {
+            "filename": "1f4cf.svg",
+            "description": "straight ruler",
+            "variants": []
+          },
+          {
+            "filename": "1f4d0.svg",
+            "description": "triangular ruler",
+            "variants": []
+          },
+          {
+            "filename": "2702.svg",
+            "description": "scissors",
+            "variants": []
+          },
+          {
+            "filename": "1f5c3.svg",
+            "description": "card file box",
+            "variants": []
+          },
+          {
+            "filename": "1f5c4.svg",
+            "description": "file cabinet",
+            "variants": []
+          },
+          {
+            "filename": "1f5d1.svg",
+            "description": "wastebasket",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "lock",
+        "emojis": [
+          {
+            "filename": "1f512.svg",
+            "description": "locked",
+            "variants": []
+          },
+          {
+            "filename": "1f513.svg",
+            "description": "unlocked",
+            "variants": []
+          },
+          {
+            "filename": "1f50f.svg",
+            "description": "locked with pen",
+            "variants": []
+          },
+          {
+            "filename": "1f510.svg",
+            "description": "locked with key",
+            "variants": []
+          },
+          {
+            "filename": "1f511.svg",
+            "description": "key",
+            "variants": []
+          },
+          {
+            "filename": "1f5dd.svg",
+            "description": "old key",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "tool",
+        "emojis": [
+          {
+            "filename": "1f528.svg",
+            "description": "hammer",
+            "variants": []
+          },
+          {
+            "filename": "1fa93.svg",
+            "description": "axe",
+            "variants": []
+          },
+          {
+            "filename": "26cf.svg",
+            "description": "pick",
+            "variants": []
+          },
+          {
+            "filename": "2692.svg",
+            "description": "hammer and pick",
+            "variants": []
+          },
+          {
+            "filename": "1f6e0.svg",
+            "description": "hammer and wrench",
+            "variants": []
+          },
+          {
+            "filename": "1f5e1.svg",
+            "description": "dagger",
+            "variants": []
+          },
+          {
+            "filename": "2694.svg",
+            "description": "crossed swords",
+            "variants": []
+          },
+          {
+            "filename": "1f4a3.svg",
+            "description": "bomb",
+            "variants": []
+          },
+          {
+            "filename": "1fa83.svg",
+            "description": "boomerang",
+            "variants": []
+          },
+          {
+            "filename": "1f3f9.svg",
+            "description": "bow and arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f6e1.svg",
+            "description": "shield",
+            "variants": []
+          },
+          {
+            "filename": "1fa9a.svg",
+            "description": "carpentry saw",
+            "variants": []
+          },
+          {
+            "filename": "1f527.svg",
+            "description": "wrench",
+            "variants": []
+          },
+          {
+            "filename": "1fa9b.svg",
+            "description": "screwdriver",
+            "variants": []
+          },
+          {
+            "filename": "1f529.svg",
+            "description": "nut and bolt",
+            "variants": []
+          },
+          {
+            "filename": "2699.svg",
+            "description": "gear",
+            "variants": []
+          },
+          {
+            "filename": "1f5dc.svg",
+            "description": "clamp",
+            "variants": []
+          },
+          {
+            "filename": "2696.svg",
+            "description": "balance scale",
+            "variants": []
+          },
+          {
+            "filename": "1f9af.svg",
+            "description": "white cane",
+            "variants": []
+          },
+          {
+            "filename": "1f517.svg",
+            "description": "link",
+            "variants": []
+          },
+          {
+            "filename": "26d3_200d_1f4a5.svg",
+            "description": "broken chain",
+            "variants": []
+          },
+          {
+            "filename": "26d3.svg",
+            "description": "chains",
+            "variants": []
+          },
+          {
+            "filename": "1fa9d.svg",
+            "description": "hook",
+            "variants": []
+          },
+          {
+            "filename": "1f9f0.svg",
+            "description": "toolbox",
+            "variants": []
+          },
+          {
+            "filename": "1f9f2.svg",
+            "description": "magnet",
+            "variants": []
+          },
+          {
+            "filename": "1fa9c.svg",
+            "description": "ladder",
+            "variants": []
+          },
+          {
+            "filename": "1fa8f.svg",
+            "description": "shovel",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "science",
+        "emojis": [
+          {
+            "filename": "2697.svg",
+            "description": "alembic",
+            "variants": []
+          },
+          {
+            "filename": "1f9ea.svg",
+            "description": "test tube",
+            "variants": []
+          },
+          {
+            "filename": "1f9eb.svg",
+            "description": "petri dish",
+            "variants": []
+          },
+          {
+            "filename": "1f9ec.svg",
+            "description": "dna",
+            "variants": []
+          },
+          {
+            "filename": "1f52c.svg",
+            "description": "microscope",
+            "variants": []
+          },
+          {
+            "filename": "1f52d.svg",
+            "description": "telescope",
+            "variants": []
+          },
+          {
+            "filename": "1f4e1.svg",
+            "description": "satellite antenna",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "medical",
+        "emojis": [
+          {
+            "filename": "1f489.svg",
+            "description": "syringe",
+            "variants": []
+          },
+          {
+            "filename": "1fa78.svg",
+            "description": "drop of blood",
+            "variants": []
+          },
+          {
+            "filename": "1f48a.svg",
+            "description": "pill",
+            "variants": []
+          },
+          {
+            "filename": "1fa79.svg",
+            "description": "adhesive bandage",
+            "variants": []
+          },
+          {
+            "filename": "1fa7c.svg",
+            "description": "crutch",
+            "variants": []
+          },
+          {
+            "filename": "1fa7a.svg",
+            "description": "stethoscope",
+            "variants": []
+          },
+          {
+            "filename": "1fa7b.svg",
+            "description": "x-ray",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "household",
+        "emojis": [
+          {
+            "filename": "1f6aa.svg",
+            "description": "door",
+            "variants": []
+          },
+          {
+            "filename": "1f6d7.svg",
+            "description": "elevator",
+            "variants": []
+          },
+          {
+            "filename": "1fa9e.svg",
+            "description": "mirror",
+            "variants": []
+          },
+          {
+            "filename": "1fa9f.svg",
+            "description": "window",
+            "variants": []
+          },
+          {
+            "filename": "1f6cf.svg",
+            "description": "bed",
+            "variants": []
+          },
+          {
+            "filename": "1f6cb.svg",
+            "description": "couch and lamp",
+            "variants": []
+          },
+          {
+            "filename": "1fa91.svg",
+            "description": "chair",
+            "variants": []
+          },
+          {
+            "filename": "1f6bd.svg",
+            "description": "toilet",
+            "variants": []
+          },
+          {
+            "filename": "1faa0.svg",
+            "description": "plunger",
+            "variants": []
+          },
+          {
+            "filename": "1f6bf.svg",
+            "description": "shower",
+            "variants": []
+          },
+          {
+            "filename": "1f6c1.svg",
+            "description": "bathtub",
+            "variants": []
+          },
+          {
+            "filename": "1faa4.svg",
+            "description": "mouse trap",
+            "variants": []
+          },
+          {
+            "filename": "1fa92.svg",
+            "description": "razor",
+            "variants": []
+          },
+          {
+            "filename": "1f9f4.svg",
+            "description": "lotion bottle",
+            "variants": []
+          },
+          {
+            "filename": "1f9f7.svg",
+            "description": "safety pin",
+            "variants": []
+          },
+          {
+            "filename": "1f9f9.svg",
+            "description": "broom",
+            "variants": []
+          },
+          {
+            "filename": "1f9fa.svg",
+            "description": "basket",
+            "variants": []
+          },
+          {
+            "filename": "1f9fb.svg",
+            "description": "roll of paper",
+            "variants": []
+          },
+          {
+            "filename": "1faa3.svg",
+            "description": "bucket",
+            "variants": []
+          },
+          {
+            "filename": "1f9fc.svg",
+            "description": "soap",
+            "variants": []
+          },
+          {
+            "filename": "1fae7.svg",
+            "description": "bubbles",
+            "variants": []
+          },
+          {
+            "filename": "1faa5.svg",
+            "description": "toothbrush",
+            "variants": []
+          },
+          {
+            "filename": "1f9fd.svg",
+            "description": "sponge",
+            "variants": []
+          },
+          {
+            "filename": "1f9ef.svg",
+            "description": "fire extinguisher",
+            "variants": []
+          },
+          {
+            "filename": "1f6d2.svg",
+            "description": "shopping cart",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "other-object",
+        "emojis": [
+          {
+            "filename": "1f6ac.svg",
+            "description": "cigarette",
+            "variants": []
+          },
+          {
+            "filename": "26b0.svg",
+            "description": "coffin",
+            "variants": []
+          },
+          {
+            "filename": "1faa6.svg",
+            "description": "headstone",
+            "variants": []
+          },
+          {
+            "filename": "26b1.svg",
+            "description": "funeral urn",
+            "variants": []
+          },
+          {
+            "filename": "1f9ff.svg",
+            "description": "nazar amulet",
+            "variants": []
+          },
+          {
+            "filename": "1faac.svg",
+            "description": "hamsa",
+            "variants": []
+          },
+          {
+            "filename": "1f5ff.svg",
+            "description": "moai",
+            "variants": []
+          },
+          {
+            "filename": "1faa7.svg",
+            "description": "placard",
+            "variants": []
+          },
+          {
+            "filename": "1faaa.svg",
+            "description": "identification card",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Symbols",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "transport-sign",
+        "emojis": [
+          {
+            "filename": "1f3e7.svg",
+            "description": "ATM sign",
+            "variants": []
+          },
+          {
+            "filename": "1f6ae.svg",
+            "description": "litter in bin sign",
+            "variants": []
+          },
+          {
+            "filename": "1f6b0.svg",
+            "description": "potable water",
+            "variants": []
+          },
+          {
+            "filename": "267f.svg",
+            "description": "wheelchair symbol",
+            "variants": []
+          },
+          {
+            "filename": "1f6b9.svg",
+            "description": "men’s room",
+            "variants": []
+          },
+          {
+            "filename": "1f6ba.svg",
+            "description": "women’s room",
+            "variants": []
+          },
+          {
+            "filename": "1f6bb.svg",
+            "description": "restroom",
+            "variants": []
+          },
+          {
+            "filename": "1f6bc.svg",
+            "description": "baby symbol",
+            "variants": []
+          },
+          {
+            "filename": "1f6be.svg",
+            "description": "water closet",
+            "variants": []
+          },
+          {
+            "filename": "1f6c2.svg",
+            "description": "passport control",
+            "variants": []
+          },
+          {
+            "filename": "1f6c3.svg",
+            "description": "customs",
+            "variants": []
+          },
+          {
+            "filename": "1f6c4.svg",
+            "description": "baggage claim",
+            "variants": []
+          },
+          {
+            "filename": "1f6c5.svg",
+            "description": "left luggage",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "warning",
+        "emojis": [
+          {
+            "filename": "26a0.svg",
+            "description": "warning",
+            "variants": []
+          },
+          {
+            "filename": "1f6b8.svg",
+            "description": "children crossing",
+            "variants": []
+          },
+          {
+            "filename": "26d4.svg",
+            "description": "no entry",
+            "variants": []
+          },
+          {
+            "filename": "1f6ab.svg",
+            "description": "prohibited",
+            "variants": []
+          },
+          {
+            "filename": "1f6b3.svg",
+            "description": "no bicycles",
+            "variants": []
+          },
+          {
+            "filename": "1f6ad.svg",
+            "description": "no smoking",
+            "variants": []
+          },
+          {
+            "filename": "1f6af.svg",
+            "description": "no littering",
+            "variants": []
+          },
+          {
+            "filename": "1f6b1.svg",
+            "description": "non-potable water",
+            "variants": []
+          },
+          {
+            "filename": "1f6b7.svg",
+            "description": "no pedestrians",
+            "variants": []
+          },
+          {
+            "filename": "1f4f5.svg",
+            "description": "no mobile phones",
+            "variants": []
+          },
+          {
+            "filename": "1f51e.svg",
+            "description": "no one under eighteen",
+            "variants": []
+          },
+          {
+            "filename": "2622.svg",
+            "description": "radioactive",
+            "variants": []
+          },
+          {
+            "filename": "2623.svg",
+            "description": "biohazard",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "arrow",
+        "emojis": [
+          {
+            "filename": "2b06.svg",
+            "description": "up arrow",
+            "variants": []
+          },
+          {
+            "filename": "2197.svg",
+            "description": "up-right arrow",
+            "variants": []
+          },
+          {
+            "filename": "27a1.svg",
+            "description": "right arrow",
+            "variants": []
+          },
+          {
+            "filename": "2198.svg",
+            "description": "down-right arrow",
+            "variants": []
+          },
+          {
+            "filename": "2b07.svg",
+            "description": "down arrow",
+            "variants": []
+          },
+          {
+            "filename": "2199.svg",
+            "description": "down-left arrow",
+            "variants": []
+          },
+          {
+            "filename": "2b05.svg",
+            "description": "left arrow",
+            "variants": []
+          },
+          {
+            "filename": "2196.svg",
+            "description": "up-left arrow",
+            "variants": []
+          },
+          {
+            "filename": "2195.svg",
+            "description": "up-down arrow",
+            "variants": []
+          },
+          {
+            "filename": "2194.svg",
+            "description": "left-right arrow",
+            "variants": []
+          },
+          {
+            "filename": "21a9.svg",
+            "description": "right arrow curving left",
+            "variants": []
+          },
+          {
+            "filename": "21aa.svg",
+            "description": "left arrow curving right",
+            "variants": []
+          },
+          {
+            "filename": "2934.svg",
+            "description": "right arrow curving up",
+            "variants": []
+          },
+          {
+            "filename": "2935.svg",
+            "description": "right arrow curving down",
+            "variants": []
+          },
+          {
+            "filename": "1f503.svg",
+            "description": "clockwise vertical arrows",
+            "variants": []
+          },
+          {
+            "filename": "1f504.svg",
+            "description": "counterclockwise arrows button",
+            "variants": []
+          },
+          {
+            "filename": "1f519.svg",
+            "description": "BACK arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f51a.svg",
+            "description": "END arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f51b.svg",
+            "description": "ON! arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f51c.svg",
+            "description": "SOON arrow",
+            "variants": []
+          },
+          {
+            "filename": "1f51d.svg",
+            "description": "TOP arrow",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "religion",
+        "emojis": [
+          {
+            "filename": "1f6d0.svg",
+            "description": "place of worship",
+            "variants": []
+          },
+          {
+            "filename": "269b.svg",
+            "description": "atom symbol",
+            "variants": []
+          },
+          {
+            "filename": "1f549.svg",
+            "description": "om",
+            "variants": []
+          },
+          {
+            "filename": "2721.svg",
+            "description": "star of David",
+            "variants": []
+          },
+          {
+            "filename": "2638.svg",
+            "description": "wheel of dharma",
+            "variants": []
+          },
+          {
+            "filename": "262f.svg",
+            "description": "yin yang",
+            "variants": []
+          },
+          {
+            "filename": "271d.svg",
+            "description": "latin cross",
+            "variants": []
+          },
+          {
+            "filename": "2626.svg",
+            "description": "orthodox cross",
+            "variants": []
+          },
+          {
+            "filename": "262a.svg",
+            "description": "star and crescent",
+            "variants": []
+          },
+          {
+            "filename": "262e.svg",
+            "description": "peace symbol",
+            "variants": []
+          },
+          {
+            "filename": "1f54e.svg",
+            "description": "menorah",
+            "variants": []
+          },
+          {
+            "filename": "1f52f.svg",
+            "description": "dotted six-pointed star",
+            "variants": []
+          },
+          {
+            "filename": "1faaf.svg",
+            "description": "khanda",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "zodiac",
+        "emojis": [
+          {
+            "filename": "2648.svg",
+            "description": "Aries",
+            "variants": []
+          },
+          {
+            "filename": "2649.svg",
+            "description": "Taurus",
+            "variants": []
+          },
+          {
+            "filename": "264a.svg",
+            "description": "Gemini",
+            "variants": []
+          },
+          {
+            "filename": "264b.svg",
+            "description": "Cancer",
+            "variants": []
+          },
+          {
+            "filename": "264c.svg",
+            "description": "Leo",
+            "variants": []
+          },
+          {
+            "filename": "264d.svg",
+            "description": "Virgo",
+            "variants": []
+          },
+          {
+            "filename": "264e.svg",
+            "description": "Libra",
+            "variants": []
+          },
+          {
+            "filename": "264f.svg",
+            "description": "Scorpio",
+            "variants": []
+          },
+          {
+            "filename": "2650.svg",
+            "description": "Sagittarius",
+            "variants": []
+          },
+          {
+            "filename": "2651.svg",
+            "description": "Capricorn",
+            "variants": []
+          },
+          {
+            "filename": "2652.svg",
+            "description": "Aquarius",
+            "variants": []
+          },
+          {
+            "filename": "2653.svg",
+            "description": "Pisces",
+            "variants": []
+          },
+          {
+            "filename": "26ce.svg",
+            "description": "Ophiuchus",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "av-symbol",
+        "emojis": [
+          {
+            "filename": "1f500.svg",
+            "description": "shuffle tracks button",
+            "variants": []
+          },
+          {
+            "filename": "1f501.svg",
+            "description": "repeat button",
+            "variants": []
+          },
+          {
+            "filename": "1f502.svg",
+            "description": "repeat single button",
+            "variants": []
+          },
+          {
+            "filename": "25b6.svg",
+            "description": "play button",
+            "variants": []
+          },
+          {
+            "filename": "23e9.svg",
+            "description": "fast-forward button",
+            "variants": []
+          },
+          {
+            "filename": "23ed.svg",
+            "description": "next track button",
+            "variants": []
+          },
+          {
+            "filename": "23ef.svg",
+            "description": "play or pause button",
+            "variants": []
+          },
+          {
+            "filename": "25c0.svg",
+            "description": "reverse button",
+            "variants": []
+          },
+          {
+            "filename": "23ea.svg",
+            "description": "fast reverse button",
+            "variants": []
+          },
+          {
+            "filename": "23ee.svg",
+            "description": "last track button",
+            "variants": []
+          },
+          {
+            "filename": "1f53c.svg",
+            "description": "upwards button",
+            "variants": []
+          },
+          {
+            "filename": "23eb.svg",
+            "description": "fast up button",
+            "variants": []
+          },
+          {
+            "filename": "1f53d.svg",
+            "description": "downwards button",
+            "variants": []
+          },
+          {
+            "filename": "23ec.svg",
+            "description": "fast down button",
+            "variants": []
+          },
+          {
+            "filename": "23f8.svg",
+            "description": "pause button",
+            "variants": []
+          },
+          {
+            "filename": "23f9.svg",
+            "description": "stop button",
+            "variants": []
+          },
+          {
+            "filename": "23fa.svg",
+            "description": "record button",
+            "variants": []
+          },
+          {
+            "filename": "23cf.svg",
+            "description": "eject button",
+            "variants": []
+          },
+          {
+            "filename": "1f3a6.svg",
+            "description": "cinema",
+            "variants": []
+          },
+          {
+            "filename": "1f505.svg",
+            "description": "dim button",
+            "variants": []
+          },
+          {
+            "filename": "1f506.svg",
+            "description": "bright button",
+            "variants": []
+          },
+          {
+            "filename": "1f4f6.svg",
+            "description": "antenna bars",
+            "variants": []
+          },
+          {
+            "filename": "1f6dc.svg",
+            "description": "wireless",
+            "variants": []
+          },
+          {
+            "filename": "1f4f3.svg",
+            "description": "vibration mode",
+            "variants": []
+          },
+          {
+            "filename": "1f4f4.svg",
+            "description": "mobile phone off",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "gender",
+        "emojis": [
+          {
+            "filename": "2640.svg",
+            "description": "female sign",
+            "variants": []
+          },
+          {
+            "filename": "2642.svg",
+            "description": "male sign",
+            "variants": []
+          },
+          {
+            "filename": "26a7.svg",
+            "description": "transgender symbol",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "math",
+        "emojis": [
+          {
+            "filename": "2716.svg",
+            "description": "multiply",
+            "variants": []
+          },
+          {
+            "filename": "2795.svg",
+            "description": "plus",
+            "variants": []
+          },
+          {
+            "filename": "2796.svg",
+            "description": "minus",
+            "variants": []
+          },
+          {
+            "filename": "2797.svg",
+            "description": "divide",
+            "variants": []
+          },
+          {
+            "filename": "1f7f0.svg",
+            "description": "heavy equals sign",
+            "variants": []
+          },
+          {
+            "filename": "267e.svg",
+            "description": "infinity",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "punctuation",
+        "emojis": [
+          {
+            "filename": "203c.svg",
+            "description": "double exclamation mark",
+            "variants": []
+          },
+          {
+            "filename": "2049.svg",
+            "description": "exclamation question mark",
+            "variants": []
+          },
+          {
+            "filename": "2753.svg",
+            "description": "red question mark",
+            "variants": []
+          },
+          {
+            "filename": "2754.svg",
+            "description": "white question mark",
+            "variants": []
+          },
+          {
+            "filename": "2755.svg",
+            "description": "white exclamation mark",
+            "variants": []
+          },
+          {
+            "filename": "2757.svg",
+            "description": "red exclamation mark",
+            "variants": []
+          },
+          {
+            "filename": "3030.svg",
+            "description": "wavy dash",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "currency",
+        "emojis": [
+          {
+            "filename": "1f4b1.svg",
+            "description": "currency exchange",
+            "variants": []
+          },
+          {
+            "filename": "1f4b2.svg",
+            "description": "heavy dollar sign",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "other-symbol",
+        "emojis": [
+          {
+            "filename": "2695.svg",
+            "description": "medical symbol",
+            "variants": []
+          },
+          {
+            "filename": "267b.svg",
+            "description": "recycling symbol",
+            "variants": []
+          },
+          {
+            "filename": "269c.svg",
+            "description": "fleur-de-lis",
+            "variants": []
+          },
+          {
+            "filename": "1f531.svg",
+            "description": "trident emblem",
+            "variants": []
+          },
+          {
+            "filename": "1f4db.svg",
+            "description": "name badge",
+            "variants": []
+          },
+          {
+            "filename": "1f530.svg",
+            "description": "Japanese symbol for beginner",
+            "variants": []
+          },
+          {
+            "filename": "2b55.svg",
+            "description": "hollow red circle",
+            "variants": []
+          },
+          {
+            "filename": "2705.svg",
+            "description": "check mark button",
+            "variants": []
+          },
+          {
+            "filename": "2611.svg",
+            "description": "check box with check",
+            "variants": []
+          },
+          {
+            "filename": "2714.svg",
+            "description": "check mark",
+            "variants": []
+          },
+          {
+            "filename": "274c.svg",
+            "description": "cross mark",
+            "variants": []
+          },
+          {
+            "filename": "274e.svg",
+            "description": "cross mark button",
+            "variants": []
+          },
+          {
+            "filename": "27b0.svg",
+            "description": "curly loop",
+            "variants": []
+          },
+          {
+            "filename": "27bf.svg",
+            "description": "double curly loop",
+            "variants": []
+          },
+          {
+            "filename": "303d.svg",
+            "description": "part alternation mark",
+            "variants": []
+          },
+          {
+            "filename": "2733.svg",
+            "description": "eight-spoked asterisk",
+            "variants": []
+          },
+          {
+            "filename": "2734.svg",
+            "description": "eight-pointed star",
+            "variants": []
+          },
+          {
+            "filename": "2747.svg",
+            "description": "sparkle",
+            "variants": []
+          },
+          {
+            "filename": "00a9.svg",
+            "description": "copyright",
+            "variants": []
+          },
+          {
+            "filename": "00ae.svg",
+            "description": "registered",
+            "variants": []
+          },
+          {
+            "filename": "2122.svg",
+            "description": "trade mark",
+            "variants": []
+          },
+          {
+            "filename": "1fadf.svg",
+            "description": "splatter",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "keycap",
+        "emojis": [
+          {
+            "filename": "0023_20e3.svg",
+            "description": "",
+            "variants": []
+          },
+          {
+            "filename": "002a_20e3.svg",
+            "description": "keycap: *",
+            "variants": []
+          },
+          {
+            "filename": "0030_20e3.svg",
+            "description": "keycap: 0",
+            "variants": []
+          },
+          {
+            "filename": "0031_20e3.svg",
+            "description": "keycap: 1",
+            "variants": []
+          },
+          {
+            "filename": "0032_20e3.svg",
+            "description": "keycap: 2",
+            "variants": []
+          },
+          {
+            "filename": "0033_20e3.svg",
+            "description": "keycap: 3",
+            "variants": []
+          },
+          {
+            "filename": "0034_20e3.svg",
+            "description": "keycap: 4",
+            "variants": []
+          },
+          {
+            "filename": "0035_20e3.svg",
+            "description": "keycap: 5",
+            "variants": []
+          },
+          {
+            "filename": "0036_20e3.svg",
+            "description": "keycap: 6",
+            "variants": []
+          },
+          {
+            "filename": "0037_20e3.svg",
+            "description": "keycap: 7",
+            "variants": []
+          },
+          {
+            "filename": "0038_20e3.svg",
+            "description": "keycap: 8",
+            "variants": []
+          },
+          {
+            "filename": "0039_20e3.svg",
+            "description": "keycap: 9",
+            "variants": []
+          },
+          {
+            "filename": "1f51f.svg",
+            "description": "keycap: 10",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "alphanum",
+        "emojis": [
+          {
+            "filename": "1f520.svg",
+            "description": "input latin uppercase",
+            "variants": []
+          },
+          {
+            "filename": "1f521.svg",
+            "description": "input latin lowercase",
+            "variants": []
+          },
+          {
+            "filename": "1f522.svg",
+            "description": "input numbers",
+            "variants": []
+          },
+          {
+            "filename": "1f523.svg",
+            "description": "input symbols",
+            "variants": []
+          },
+          {
+            "filename": "1f524.svg",
+            "description": "input latin letters",
+            "variants": []
+          },
+          {
+            "filename": "1f170.svg",
+            "description": "A button (blood type)",
+            "variants": []
+          },
+          {
+            "filename": "1f18e.svg",
+            "description": "AB button (blood type)",
+            "variants": []
+          },
+          {
+            "filename": "1f171.svg",
+            "description": "B button (blood type)",
+            "variants": []
+          },
+          {
+            "filename": "1f191.svg",
+            "description": "CL button",
+            "variants": []
+          },
+          {
+            "filename": "1f192.svg",
+            "description": "COOL button",
+            "variants": []
+          },
+          {
+            "filename": "1f193.svg",
+            "description": "FREE button",
+            "variants": []
+          },
+          {
+            "filename": "2139.svg",
+            "description": "information",
+            "variants": []
+          },
+          {
+            "filename": "1f194.svg",
+            "description": "ID button",
+            "variants": []
+          },
+          {
+            "filename": "24c2.svg",
+            "description": "circled M",
+            "variants": []
+          },
+          {
+            "filename": "1f195.svg",
+            "description": "NEW button",
+            "variants": []
+          },
+          {
+            "filename": "1f196.svg",
+            "description": "NG button",
+            "variants": []
+          },
+          {
+            "filename": "1f17e.svg",
+            "description": "O button (blood type)",
+            "variants": []
+          },
+          {
+            "filename": "1f197.svg",
+            "description": "OK button",
+            "variants": []
+          },
+          {
+            "filename": "1f17f.svg",
+            "description": "P button",
+            "variants": []
+          },
+          {
+            "filename": "1f198.svg",
+            "description": "SOS button",
+            "variants": []
+          },
+          {
+            "filename": "1f199.svg",
+            "description": "UP! button",
+            "variants": []
+          },
+          {
+            "filename": "1f19a.svg",
+            "description": "VS button",
+            "variants": []
+          },
+          {
+            "filename": "1f201.svg",
+            "description": "Japanese “here” button",
+            "variants": []
+          },
+          {
+            "filename": "1f202.svg",
+            "description": "Japanese “service charge” button",
+            "variants": []
+          },
+          {
+            "filename": "1f237.svg",
+            "description": "Japanese “monthly amount” button",
+            "variants": []
+          },
+          {
+            "filename": "1f236.svg",
+            "description": "Japanese “not free of charge” button",
+            "variants": []
+          },
+          {
+            "filename": "1f22f.svg",
+            "description": "Japanese “reserved” button",
+            "variants": []
+          },
+          {
+            "filename": "1f250.svg",
+            "description": "Japanese “bargain” button",
+            "variants": []
+          },
+          {
+            "filename": "1f239.svg",
+            "description": "Japanese “discount” button",
+            "variants": []
+          },
+          {
+            "filename": "1f21a.svg",
+            "description": "Japanese “free of charge” button",
+            "variants": []
+          },
+          {
+            "filename": "1f232.svg",
+            "description": "Japanese “prohibited” button",
+            "variants": []
+          },
+          {
+            "filename": "1f251.svg",
+            "description": "Japanese “acceptable” button",
+            "variants": []
+          },
+          {
+            "filename": "1f238.svg",
+            "description": "Japanese “application” button",
+            "variants": []
+          },
+          {
+            "filename": "1f234.svg",
+            "description": "Japanese “passing grade” button",
+            "variants": []
+          },
+          {
+            "filename": "1f233.svg",
+            "description": "Japanese “vacancy” button",
+            "variants": []
+          },
+          {
+            "filename": "3297.svg",
+            "description": "Japanese “congratulations” button",
+            "variants": []
+          },
+          {
+            "filename": "3299.svg",
+            "description": "Japanese “secret” button",
+            "variants": []
+          },
+          {
+            "filename": "1f23a.svg",
+            "description": "Japanese “open for business” button",
+            "variants": []
+          },
+          {
+            "filename": "1f235.svg",
+            "description": "Japanese “no vacancy” button",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "geometric",
+        "emojis": [
+          {
+            "filename": "1f534.svg",
+            "description": "red circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e0.svg",
+            "description": "orange circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e1.svg",
+            "description": "yellow circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e2.svg",
+            "description": "green circle",
+            "variants": []
+          },
+          {
+            "filename": "1f535.svg",
+            "description": "blue circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e3.svg",
+            "description": "purple circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e4.svg",
+            "description": "brown circle",
+            "variants": []
+          },
+          {
+            "filename": "26ab.svg",
+            "description": "black circle",
+            "variants": []
+          },
+          {
+            "filename": "26aa.svg",
+            "description": "white circle",
+            "variants": []
+          },
+          {
+            "filename": "1f7e5.svg",
+            "description": "red square",
+            "variants": []
+          },
+          {
+            "filename": "1f7e7.svg",
+            "description": "orange square",
+            "variants": []
+          },
+          {
+            "filename": "1f7e8.svg",
+            "description": "yellow square",
+            "variants": []
+          },
+          {
+            "filename": "1f7e9.svg",
+            "description": "green square",
+            "variants": []
+          },
+          {
+            "filename": "1f7e6.svg",
+            "description": "blue square",
+            "variants": []
+          },
+          {
+            "filename": "1f7ea.svg",
+            "description": "purple square",
+            "variants": []
+          },
+          {
+            "filename": "1f7eb.svg",
+            "description": "brown square",
+            "variants": []
+          },
+          {
+            "filename": "2b1b.svg",
+            "description": "black large square",
+            "variants": []
+          },
+          {
+            "filename": "2b1c.svg",
+            "description": "white large square",
+            "variants": []
+          },
+          {
+            "filename": "25fc.svg",
+            "description": "black medium square",
+            "variants": []
+          },
+          {
+            "filename": "25fb.svg",
+            "description": "white medium square",
+            "variants": []
+          },
+          {
+            "filename": "25fe.svg",
+            "description": "black medium-small square",
+            "variants": []
+          },
+          {
+            "filename": "25fd.svg",
+            "description": "white medium-small square",
+            "variants": []
+          },
+          {
+            "filename": "25aa.svg",
+            "description": "black small square",
+            "variants": []
+          },
+          {
+            "filename": "25ab.svg",
+            "description": "white small square",
+            "variants": []
+          },
+          {
+            "filename": "1f536.svg",
+            "description": "large orange diamond",
+            "variants": []
+          },
+          {
+            "filename": "1f537.svg",
+            "description": "large blue diamond",
+            "variants": []
+          },
+          {
+            "filename": "1f538.svg",
+            "description": "small orange diamond",
+            "variants": []
+          },
+          {
+            "filename": "1f539.svg",
+            "description": "small blue diamond",
+            "variants": []
+          },
+          {
+            "filename": "1f53a.svg",
+            "description": "red triangle pointed up",
+            "variants": []
+          },
+          {
+            "filename": "1f53b.svg",
+            "description": "red triangle pointed down",
+            "variants": []
+          },
+          {
+            "filename": "1f4a0.svg",
+            "description": "diamond with a dot",
+            "variants": []
+          },
+          {
+            "filename": "1f518.svg",
+            "description": "radio button",
+            "variants": []
+          },
+          {
+            "filename": "1f533.svg",
+            "description": "white square button",
+            "variants": []
+          },
+          {
+            "filename": "1f532.svg",
+            "description": "black square button",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Group",
+    "name": "Flags",
+    "subgroups": [
+      {
+        "type": "Subgroup",
+        "name": "flag",
+        "emojis": [
+          {
+            "filename": "1f3c1.svg",
+            "description": "chequered flag",
+            "variants": []
+          },
+          {
+            "filename": "1f6a9.svg",
+            "description": "triangular flag",
+            "variants": []
+          },
+          {
+            "filename": "1f38c.svg",
+            "description": "crossed flags",
+            "variants": []
+          },
+          {
+            "filename": "1f3f4.svg",
+            "description": "black flag",
+            "variants": []
+          },
+          {
+            "filename": "1f3f3.svg",
+            "description": "white flag",
+            "variants": []
+          },
+          {
+            "filename": "1f3f3_200d_1f308.svg",
+            "description": "rainbow flag",
+            "variants": []
+          },
+          {
+            "filename": "1f3f3_200d_26a7.svg",
+            "description": "transgender flag",
+            "variants": []
+          },
+          {
+            "filename": "1f3f4_200d_2620.svg",
+            "description": "pirate flag",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "country-flag",
+        "emojis": [
+          {
+            "filename": "1f1e6_1f1e8.svg",
+            "description": "flag: Ascension Island",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1e9.svg",
+            "description": "flag: Andorra",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1ea.svg",
+            "description": "flag: United Arab Emirates",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1eb.svg",
+            "description": "flag: Afghanistan",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1ec.svg",
+            "description": "flag: Antigua & Barbuda",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1ee.svg",
+            "description": "flag: Anguilla",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f1.svg",
+            "description": "flag: Albania",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f2.svg",
+            "description": "flag: Armenia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f4.svg",
+            "description": "flag: Angola",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f6.svg",
+            "description": "flag: Antarctica",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f7.svg",
+            "description": "flag: Argentina",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f8.svg",
+            "description": "flag: American Samoa",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1f9.svg",
+            "description": "flag: Austria",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1fa.svg",
+            "description": "flag: Australia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1fc.svg",
+            "description": "flag: Aruba",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1fd.svg",
+            "description": "flag: Åland Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1e6_1f1ff.svg",
+            "description": "flag: Azerbaijan",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1e6.svg",
+            "description": "flag: Bosnia & Herzegovina",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1e7.svg",
+            "description": "flag: Barbados",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1e9.svg",
+            "description": "flag: Bangladesh",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ea.svg",
+            "description": "flag: Belgium",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1eb.svg",
+            "description": "flag: Burkina Faso",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ec.svg",
+            "description": "flag: Bulgaria",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ed.svg",
+            "description": "flag: Bahrain",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ee.svg",
+            "description": "flag: Burundi",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ef.svg",
+            "description": "flag: Benin",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f1.svg",
+            "description": "flag: St. Barthélemy",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f2.svg",
+            "description": "flag: Bermuda",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f3.svg",
+            "description": "flag: Brunei",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f4.svg",
+            "description": "flag: Bolivia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f6.svg",
+            "description": "flag: Caribbean Netherlands",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f7.svg",
+            "description": "flag: Brazil",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f8.svg",
+            "description": "flag: Bahamas",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1f9.svg",
+            "description": "flag: Bhutan",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1fb.svg",
+            "description": "flag: Bouvet Island",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1fc.svg",
+            "description": "flag: Botswana",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1fe.svg",
+            "description": "flag: Belarus",
+            "variants": []
+          },
+          {
+            "filename": "1f1e7_1f1ff.svg",
+            "description": "flag: Belize",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1e6.svg",
+            "description": "flag: Canada",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1e8.svg",
+            "description": "flag: Cocos (Keeling) Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1e9.svg",
+            "description": "flag: Congo - Kinshasa",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1eb.svg",
+            "description": "flag: Central African Republic",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1ec.svg",
+            "description": "flag: Congo - Brazzaville",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1ed.svg",
+            "description": "flag: Switzerland",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1ee.svg",
+            "description": "flag: Côte d’Ivoire",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f0.svg",
+            "description": "flag: Cook Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f1.svg",
+            "description": "flag: Chile",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f2.svg",
+            "description": "flag: Cameroon",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f3.svg",
+            "description": "flag: China",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f4.svg",
+            "description": "flag: Colombia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f5.svg",
+            "description": "flag: Clipperton Island",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f6.svg",
+            "description": "flag: Sark",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1f7.svg",
+            "description": "flag: Costa Rica",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1fa.svg",
+            "description": "flag: Cuba",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1fb.svg",
+            "description": "flag: Cape Verde",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1fc.svg",
+            "description": "flag: Curaçao",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1fd.svg",
+            "description": "flag: Christmas Island",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1fe.svg",
+            "description": "flag: Cyprus",
+            "variants": []
+          },
+          {
+            "filename": "1f1e8_1f1ff.svg",
+            "description": "flag: Czechia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1ea.svg",
+            "description": "flag: Germany",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1ec.svg",
+            "description": "flag: Diego Garcia",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1ef.svg",
+            "description": "flag: Djibouti",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1f0.svg",
+            "description": "flag: Denmark",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1f2.svg",
+            "description": "flag: Dominica",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1f4.svg",
+            "description": "flag: Dominican Republic",
+            "variants": []
+          },
+          {
+            "filename": "1f1e9_1f1ff.svg",
+            "description": "flag: Algeria",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1e6.svg",
+            "description": "flag: Ceuta & Melilla",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1e8.svg",
+            "description": "flag: Ecuador",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1ea.svg",
+            "description": "flag: Estonia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1ec.svg",
+            "description": "flag: Egypt",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1ed.svg",
+            "description": "flag: Western Sahara",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1f7.svg",
+            "description": "flag: Eritrea",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1f8.svg",
+            "description": "flag: Spain",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1f9.svg",
+            "description": "flag: Ethiopia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ea_1f1fa.svg",
+            "description": "flag: European Union",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1ee.svg",
+            "description": "flag: Finland",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1ef.svg",
+            "description": "flag: Fiji",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1f0.svg",
+            "description": "flag: Falkland Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1f2.svg",
+            "description": "flag: Micronesia",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1f4.svg",
+            "description": "flag: Faroe Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1eb_1f1f7.svg",
+            "description": "flag: France",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1e6.svg",
+            "description": "flag: Gabon",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1e7.svg",
+            "description": "flag: United Kingdom",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1e9.svg",
+            "description": "flag: Grenada",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1ea.svg",
+            "description": "flag: Georgia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1eb.svg",
+            "description": "flag: French Guiana",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1ec.svg",
+            "description": "flag: Guernsey",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1ed.svg",
+            "description": "flag: Ghana",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1ee.svg",
+            "description": "flag: Gibraltar",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f1.svg",
+            "description": "flag: Greenland",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f2.svg",
+            "description": "flag: Gambia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f3.svg",
+            "description": "flag: Guinea",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f5.svg",
+            "description": "flag: Guadeloupe",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f6.svg",
+            "description": "flag: Equatorial Guinea",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f7.svg",
+            "description": "flag: Greece",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f8.svg",
+            "description": "flag: South Georgia & South Sandwich Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1f9.svg",
+            "description": "flag: Guatemala",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1fa.svg",
+            "description": "flag: Guam",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1fc.svg",
+            "description": "flag: Guinea-Bissau",
+            "variants": []
+          },
+          {
+            "filename": "1f1ec_1f1fe.svg",
+            "description": "flag: Guyana",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1f0.svg",
+            "description": "flag: Hong Kong SAR China",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1f2.svg",
+            "description": "flag: Heard & McDonald Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1f3.svg",
+            "description": "flag: Honduras",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1f7.svg",
+            "description": "flag: Croatia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1f9.svg",
+            "description": "flag: Haiti",
+            "variants": []
+          },
+          {
+            "filename": "1f1ed_1f1fa.svg",
+            "description": "flag: Hungary",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1e8.svg",
+            "description": "flag: Canary Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1e9.svg",
+            "description": "flag: Indonesia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1ea.svg",
+            "description": "flag: Ireland",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f1.svg",
+            "description": "flag: Israel",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f2.svg",
+            "description": "flag: Isle of Man",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f3.svg",
+            "description": "flag: India",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f4.svg",
+            "description": "flag: British Indian Ocean Territory",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f6.svg",
+            "description": "flag: Iraq",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f7.svg",
+            "description": "flag: Iran",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f8.svg",
+            "description": "flag: Iceland",
+            "variants": []
+          },
+          {
+            "filename": "1f1ee_1f1f9.svg",
+            "description": "flag: Italy",
+            "variants": []
+          },
+          {
+            "filename": "1f1ef_1f1ea.svg",
+            "description": "flag: Jersey",
+            "variants": []
+          },
+          {
+            "filename": "1f1ef_1f1f2.svg",
+            "description": "flag: Jamaica",
+            "variants": []
+          },
+          {
+            "filename": "1f1ef_1f1f4.svg",
+            "description": "flag: Jordan",
+            "variants": []
+          },
+          {
+            "filename": "1f1ef_1f1f5.svg",
+            "description": "flag: Japan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1ea.svg",
+            "description": "flag: Kenya",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1ec.svg",
+            "description": "flag: Kyrgyzstan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1ed.svg",
+            "description": "flag: Cambodia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1ee.svg",
+            "description": "flag: Kiribati",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1f2.svg",
+            "description": "flag: Comoros",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1f3.svg",
+            "description": "flag: St. Kitts & Nevis",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1f5.svg",
+            "description": "flag: North Korea",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1f7.svg",
+            "description": "flag: South Korea",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1fc.svg",
+            "description": "flag: Kuwait",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1fe.svg",
+            "description": "flag: Cayman Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f0_1f1ff.svg",
+            "description": "flag: Kazakhstan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1e6.svg",
+            "description": "flag: Laos",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1e7.svg",
+            "description": "flag: Lebanon",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1e8.svg",
+            "description": "flag: St. Lucia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1ee.svg",
+            "description": "flag: Liechtenstein",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1f0.svg",
+            "description": "flag: Sri Lanka",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1f7.svg",
+            "description": "flag: Liberia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1f8.svg",
+            "description": "flag: Lesotho",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1f9.svg",
+            "description": "flag: Lithuania",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1fa.svg",
+            "description": "flag: Luxembourg",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1fb.svg",
+            "description": "flag: Latvia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f1_1f1fe.svg",
+            "description": "flag: Libya",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1e6.svg",
+            "description": "flag: Morocco",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1e8.svg",
+            "description": "flag: Monaco",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1e9.svg",
+            "description": "flag: Moldova",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1ea.svg",
+            "description": "flag: Montenegro",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1eb.svg",
+            "description": "flag: St. Martin",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1ec.svg",
+            "description": "flag: Madagascar",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1ed.svg",
+            "description": "flag: Marshall Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f0.svg",
+            "description": "flag: North Macedonia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f1.svg",
+            "description": "flag: Mali",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f2.svg",
+            "description": "flag: Myanmar (Burma)",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f3.svg",
+            "description": "flag: Mongolia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f4.svg",
+            "description": "flag: Macao SAR China",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f5.svg",
+            "description": "flag: Northern Mariana Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f6.svg",
+            "description": "flag: Martinique",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f7.svg",
+            "description": "flag: Mauritania",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f8.svg",
+            "description": "flag: Montserrat",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1f9.svg",
+            "description": "flag: Malta",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1fa.svg",
+            "description": "flag: Mauritius",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1fb.svg",
+            "description": "flag: Maldives",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1fc.svg",
+            "description": "flag: Malawi",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1fd.svg",
+            "description": "flag: Mexico",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1fe.svg",
+            "description": "flag: Malaysia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f2_1f1ff.svg",
+            "description": "flag: Mozambique",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1e6.svg",
+            "description": "flag: Namibia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1e8.svg",
+            "description": "flag: New Caledonia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1ea.svg",
+            "description": "flag: Niger",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1eb.svg",
+            "description": "flag: Norfolk Island",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1ec.svg",
+            "description": "flag: Nigeria",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1ee.svg",
+            "description": "flag: Nicaragua",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1f1.svg",
+            "description": "flag: Netherlands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1f4.svg",
+            "description": "flag: Norway",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1f5.svg",
+            "description": "flag: Nepal",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1f7.svg",
+            "description": "flag: Nauru",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1fa.svg",
+            "description": "flag: Niue",
+            "variants": []
+          },
+          {
+            "filename": "1f1f3_1f1ff.svg",
+            "description": "flag: New Zealand",
+            "variants": []
+          },
+          {
+            "filename": "1f1f4_1f1f2.svg",
+            "description": "flag: Oman",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1e6.svg",
+            "description": "flag: Panama",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1ea.svg",
+            "description": "flag: Peru",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1eb.svg",
+            "description": "flag: French Polynesia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1ec.svg",
+            "description": "flag: Papua New Guinea",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1ed.svg",
+            "description": "flag: Philippines",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f0.svg",
+            "description": "flag: Pakistan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f1.svg",
+            "description": "flag: Poland",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f2.svg",
+            "description": "flag: St. Pierre & Miquelon",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f3.svg",
+            "description": "flag: Pitcairn Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f7.svg",
+            "description": "flag: Puerto Rico",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f8.svg",
+            "description": "flag: Palestinian Territories",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1f9.svg",
+            "description": "flag: Portugal",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1fc.svg",
+            "description": "flag: Palau",
+            "variants": []
+          },
+          {
+            "filename": "1f1f5_1f1fe.svg",
+            "description": "flag: Paraguay",
+            "variants": []
+          },
+          {
+            "filename": "1f1f6_1f1e6.svg",
+            "description": "flag: Qatar",
+            "variants": []
+          },
+          {
+            "filename": "1f1f7_1f1ea.svg",
+            "description": "flag: Réunion",
+            "variants": []
+          },
+          {
+            "filename": "1f1f7_1f1f4.svg",
+            "description": "flag: Romania",
+            "variants": []
+          },
+          {
+            "filename": "1f1f7_1f1f8.svg",
+            "description": "flag: Serbia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f7_1f1fa.svg",
+            "description": "flag: Russia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f7_1f1fc.svg",
+            "description": "flag: Rwanda",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1e6.svg",
+            "description": "flag: Saudi Arabia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1e7.svg",
+            "description": "flag: Solomon Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1e8.svg",
+            "description": "flag: Seychelles",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1e9.svg",
+            "description": "flag: Sudan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ea.svg",
+            "description": "flag: Sweden",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ec.svg",
+            "description": "flag: Singapore",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ed.svg",
+            "description": "flag: St. Helena",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ee.svg",
+            "description": "flag: Slovenia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ef.svg",
+            "description": "flag: Svalbard & Jan Mayen",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f0.svg",
+            "description": "flag: Slovakia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f1.svg",
+            "description": "flag: Sierra Leone",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f2.svg",
+            "description": "flag: San Marino",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f3.svg",
+            "description": "flag: Senegal",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f4.svg",
+            "description": "flag: Somalia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f7.svg",
+            "description": "flag: Suriname",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f8.svg",
+            "description": "flag: South Sudan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1f9.svg",
+            "description": "flag: São Tomé & Príncipe",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1fb.svg",
+            "description": "flag: El Salvador",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1fd.svg",
+            "description": "flag: Sint Maarten",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1fe.svg",
+            "description": "flag: Syria",
+            "variants": []
+          },
+          {
+            "filename": "1f1f8_1f1ff.svg",
+            "description": "flag: Eswatini",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1e6.svg",
+            "description": "flag: Tristan da Cunha",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1e8.svg",
+            "description": "flag: Turks & Caicos Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1e9.svg",
+            "description": "flag: Chad",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1eb.svg",
+            "description": "flag: French Southern Territories",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1ec.svg",
+            "description": "flag: Togo",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1ed.svg",
+            "description": "flag: Thailand",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1ef.svg",
+            "description": "flag: Tajikistan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f0.svg",
+            "description": "flag: Tokelau",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f1.svg",
+            "description": "flag: Timor-Leste",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f2.svg",
+            "description": "flag: Turkmenistan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f3.svg",
+            "description": "flag: Tunisia",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f4.svg",
+            "description": "flag: Tonga",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f7.svg",
+            "description": "flag: Türkiye",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1f9.svg",
+            "description": "flag: Trinidad & Tobago",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1fb.svg",
+            "description": "flag: Tuvalu",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1fc.svg",
+            "description": "flag: Taiwan",
+            "variants": []
+          },
+          {
+            "filename": "1f1f9_1f1ff.svg",
+            "description": "flag: Tanzania",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1e6.svg",
+            "description": "flag: Ukraine",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1ec.svg",
+            "description": "flag: Uganda",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1f2.svg",
+            "description": "flag: U.S. Outlying Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1f3.svg",
+            "description": "flag: United Nations",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1f8.svg",
+            "description": "flag: United States",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1fe.svg",
+            "description": "flag: Uruguay",
+            "variants": []
+          },
+          {
+            "filename": "1f1fa_1f1ff.svg",
+            "description": "flag: Uzbekistan",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1e6.svg",
+            "description": "flag: Vatican City",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1e8.svg",
+            "description": "flag: St. Vincent & Grenadines",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1ea.svg",
+            "description": "flag: Venezuela",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1ec.svg",
+            "description": "flag: British Virgin Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1ee.svg",
+            "description": "flag: U.S. Virgin Islands",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1f3.svg",
+            "description": "flag: Vietnam",
+            "variants": []
+          },
+          {
+            "filename": "1f1fb_1f1fa.svg",
+            "description": "flag: Vanuatu",
+            "variants": []
+          },
+          {
+            "filename": "1f1fc_1f1eb.svg",
+            "description": "flag: Wallis & Futuna",
+            "variants": []
+          },
+          {
+            "filename": "1f1fc_1f1f8.svg",
+            "description": "flag: Samoa",
+            "variants": []
+          },
+          {
+            "filename": "1f1fd_1f1f0.svg",
+            "description": "flag: Kosovo",
+            "variants": []
+          },
+          {
+            "filename": "1f1fe_1f1ea.svg",
+            "description": "flag: Yemen",
+            "variants": []
+          },
+          {
+            "filename": "1f1fe_1f1f9.svg",
+            "description": "flag: Mayotte",
+            "variants": []
+          },
+          {
+            "filename": "1f1ff_1f1e6.svg",
+            "description": "flag: South Africa",
+            "variants": []
+          },
+          {
+            "filename": "1f1ff_1f1f2.svg",
+            "description": "flag: Zambia",
+            "variants": []
+          },
+          {
+            "filename": "1f1ff_1f1fc.svg",
+            "description": "flag: Zimbabwe",
+            "variants": []
+          }
+        ]
+      },
+      {
+        "type": "Subgroup",
+        "name": "subdivision-flag",
+        "emojis": [
+          {
+            "filename": "1f3f4_e0067_e0062_e0065_e006e_e0067_e007f.svg",
+            "description": "flag: England",
+            "variants": []
+          },
+          {
+            "filename": "1f3f4_e0067_e0062_e0073_e0063_e0074_e007f.svg",
+            "description": "flag: Scotland",
+            "variants": []
+          },
+          {
+            "filename": "1f3f4_e0067_e0062_e0077_e006c_e0073_e007f.svg",
+            "description": "flag: Wales",
+            "variants": []
+          }
+        ]
+      }
+    ]
+  }
+]

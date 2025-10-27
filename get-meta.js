@@ -85,7 +85,10 @@ for (const line of lines) {
     }
   }
 }
-
+writeFile(
+  "dist/meta.js",
+  `const emojiGroups = ${JSON.stringify(results, null, 2)}`
+);
 writeFile("dist/meta.json", JSON.stringify(results, null, 2));
 
 const emojiCodes = {};
