@@ -10779,22 +10779,6 @@ const emojiGroups = [
   },
   {
     "type": "Group",
-    "name": "Component",
-    "subgroups": [
-      {
-        "type": "Subgroup",
-        "name": "skin-tone",
-        "emojis": []
-      },
-      {
-        "type": "Subgroup",
-        "name": "hair-style",
-        "emojis": []
-      }
-    ]
-  },
-  {
-    "type": "Group",
     "name": "Animals & Nature",
     "subgroups": [
       {

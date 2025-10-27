@@ -38,9 +38,15 @@ for (const line of lines) {
   if (line[0] === "#") {
     if (line.startsWith("# group")) {
       group = line.split(": ")[1];
+      if (group === "Component") {
+        continue;
+      }
       results.push({ type: "Group", name: group, subgroups: [] });
     } else if (line.startsWith("# subgroup")) {
       subgroup = line.split(": ")[1];
+      if (group === "Component") {
+        continue;
+      }
       results[results.length - 1].subgroups.push({
         type: "Subgroup",
         name: subgroup,
