@@ -5605,18 +5605,25 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
   };
   function nomoji(txt, prefix, noSanitation) {
     var results = "";
-    var replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(function (lookup, _char) {
-      lookup[_char] = true;
-      return lookup;
-    }, {});
+    var replaceChars = {
+      "<": 1,
+      ">": 1,
+      "?": 1,
+      "&": 1,
+      "=": 1,
+      ";": 1,
+      ":": 1,
+      '"': 1,
+      "'": 1
+    };
     var chars = [];
     var _iterator = _createForOfIteratorHelper(txt),
       _step;
     try {
       for (_iterator.s(); !(_step = _iterator.n()).done;) {
-        var _char4 = _step.value;
-        var _codePoint2 = _char4.codePointAt(0).toString(16);
-        chars.push([_char4, _codePoint2]);
+        var _char3 = _step.value;
+        var _codePoint2 = _char3.codePointAt(0).toString(16);
+        chars.push([_char3, _codePoint2]);
       }
     } catch (err) {
       _iterator.e(err);
@@ -5626,13 +5633,13 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
     for (var i = 0; i < chars.length; i++) {
       var emoji = emojis;
       var _chars$i = _slicedToArray(chars[i], 2),
-        _char2 = _chars$i[0],
+        _char = _chars$i[0],
         codePoint = _chars$i[1];
       var result = [];
       while (emoji[(_chars$i2 = chars[i]) === null || _chars$i2 === void 0 ? void 0 : _chars$i2[1]]) {
         var _chars$i2;
         var _chars$i3 = _slicedToArray(chars[i++], 2),
-          _char3 = _chars$i3[0],
+          _char2 = _chars$i3[0],
           _codePoint = _chars$i3[1];
         result.push(_codePoint);
         emoji = emoji[_codePoint];
@@ -5641,10 +5648,10 @@ function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length)
         results += "<img draggable=\"false\" class=\"emoji\" src=\"".concat(prefix, "svg/").concat(result.join("_").toLowerCase(), ".svg\">");
         i--;
       } else {
-        if (!noSanitation && replaceChars[_char2]) {
-          results += "&#".concat(_char2.charCodeAt(0), ";");
+        if (!noSanitation && replaceChars[_char]) {
+          results += "&#".concat(_char.charCodeAt(0), ";");
         } else {
-          results += _char2;
+          results += _char;
         }
       }
     }
