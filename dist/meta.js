@@ -1,4 +1,4 @@
-[
+const emojiGroups = [
   {
     "type": "Group",
     "name": "Smileys & Emotion",

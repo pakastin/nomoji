@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile } from "fs/promises";
+import emojiCodes from "./emojicodes.js";
 
 const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
   (lookup, char) => {
@@ -7,25 +7,8 @@ const replaceChars = ["<", ">", "?", "&", "=", ";", ":", '"', "'"].reduce(
   },
   {}
 );
-const results = {};
 
-const files = await readdir("dist/svg");
-
-for (const file of files) {
-  if (!file.includes(".svg")) {
-    continue;
-  }
-  const codes = file.split(".")[0].split("_");
-
-  let traverse = results;
-
-  for (const code of codes) {
-    traverse[code] || (traverse[code] = {});
-    traverse = traverse[code];
-  }
-}
-
-function nomoji(txt, prefix, noSanitation) {
+export default function nomoji(txt = "", prefix = "", noSanitation = false) {
   let results = "";
 
   const replaceChars = {
@@ -48,7 +31,7 @@ function nomoji(txt, prefix, noSanitation) {
   }
 
   for (let i = 0; i < chars.length; i++) {
-    let emoji = emojis;
+    let emoji = emojiCodes;
     const [char, codePoint] = chars[i];
 
     const result = [];
@@ -75,26 +58,3 @@ function nomoji(txt, prefix, noSanitation) {
 
   return results;
 }
-
-const codeES = `const emojis = ${JSON.stringify(results)};
-
-export default ${nomoji.toString()}
-`;
-
-const codeJS = `((self) => {
-  const emojis = ${JSON.stringify(results)};
-
-  ${nomoji.toString()}
-
-  self.nomoji = nomoji;
-})(window || globalThis);
-`;
-
-const codeCJS = `const emojis = ${JSON.stringify(results)};
-
-module.exports = ${nomoji.toString()}
-`;
-
-writeFile("nomoji.js", codeES, "utf8");
-writeFile("nomoji.cjs", codeCJS, "utf8");
-writeFile("dist/nomoji.js", codeJS, "utf8");

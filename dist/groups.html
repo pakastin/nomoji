@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+          segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto,
+          noto, helvetica, arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Emoji groups</h1>
+    <p>
+      <a href="./">Back to testing Nomoji</a>
+    </p>
+    <a id="variants-link" href="?variants"
+      >Show variants (skin tone, hair style)</a
+    >
+    <script src="meta.js"></script>
+    <script>
+      const variantsLink = document.querySelector("#variants-link");
+      const url = new URL(location.href);
+      const showVariants = url.searchParams.get("variants") != null;
+
+      if (showVariants) {
+        variantsLink.href = "?";
+        variantsLink.textContent = "Hide variants";
+      }
+
+      for (const group of emojiGroups) {
+        const title = document.createElement("h2");
+        title.textContent = group.name;
+        document.body.appendChild(title);
+
+        for (const subgroup of group.subgroups) {
+          const title = document.createElement("h3");
+          title.textContent = subgroup.name;
+          document.body.appendChild(title);
+
+          const emojis = subgroup.emojis;
+
+          for (const emoji of emojis) {
+            const img = document.createElement("img");
+            img.src = `svg/${emoji.filename}`;
+            img.style.width = "3rem";
+            img.style.height = "3rem";
+            img.title = emoji.description;
+            document.body.appendChild(img);
+
+            if (showVariants) {
+              for (const variant of emoji.variants) {
+                const img = document.createElement("img");
+                img.src = `svg/${variant.filename}`;
+                img.style.width = "3rem";
+                img.style.height = "3rem";
+                img.title = variant.description;
+                document.body.appendChild(img);
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
