@@ -51,6 +51,15 @@ Hello <b>HTML</b>
 <img draggable="false" class="emoji" src="dist/svg/1f929.svg" />!
 ```
 
+You can customize the style in CSS with `.emoji` selector:
+```css
+.emoji {
+  width: 1em;
+  height: 1em;
+}
+```
+
+
 ## license
 
 Code is licensed with MIT license, graphics (Noto Emoji) are licensed with Apache license, version 2.0 -license
