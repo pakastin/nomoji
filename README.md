@@ -1,6 +1,6 @@
 # nomoji
 
-Replace emojis in text with SVG images (https://openmoji.org)
+Replace emojis in text with SVG images ([https://github.com/googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji))
 
 ## installation
 
@@ -50,6 +50,15 @@ nomoji("Hello <b>HTML</b> 🤩!", null, true);
 Hello <b>HTML</b>
 <img draggable="false" class="emoji" src="dist/svg/1f929.svg" />!
 ```
+
+You can customize the style in CSS with `.emoji` selector:
+```css
+.emoji {
+  width: 1em;
+  height: 1em;
+}
+```
+
 
 ## license
 
